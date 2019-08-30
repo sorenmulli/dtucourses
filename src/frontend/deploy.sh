@@ -8,11 +8,10 @@ cd "$(dirname "$0")"
 rm -rf node_modules/.cache
 
 # Pusher til master
-cd ../../docs
+rm -rf ../../docs
+mkdir ../../docs
 # rm -rf !(.git|.gitignore|src|docs)
-rm -rf .
 
-cd ../src/frontend
 ng build --prod
 yes | cp -rf dist/frontend/* ../../docs
 
