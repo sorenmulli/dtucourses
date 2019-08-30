@@ -6,7 +6,7 @@ chdir(realpath(dirname(__file__)) + "/../../..")
 
 import json
 
-
+from scipy.stats import percentileofscore
 '''
 My job: I receive the course data downloaded from the DTU website and create meaningful metrics for all courses.
 '''
@@ -14,10 +14,14 @@ My job: I receive the course data downloaded from the DTU website and create mea
 newest_file = '2019-08-25T201957complete_raw_data.json'
 
 
+def getpercentiles(scorelist):
+	sorted_list = sorted(scorelist)
+	return [percentileofscore(sorted_list, i) for i in scorelist]
+
 
 def course_compare(file):
 	#Scores corresponding to different answer possibilities
-	scores = np.array([4, 3, 2, 1, 0])
+	scores = np.array([5, 4, 3, 2, 1])
 
 	#Load raw data
 	with open('src/backend/data/' + file, 'r+') as fp:
@@ -96,10 +100,13 @@ def course_compare(file):
 			grade_course_numbers.append(course_no)
 			current_grade_avgs.append(newest_grades["exam_avg"])
 
-		finished_database[course_no] = course_information
+		finished_database[course_no] = course_information	
 
-	with open('src/backend/data/finished.json', 'w+') as fp:
+	
+	#Serialize new db
+	with open('src/frontend/src/assets/db.json', 'w+') as fp:
 		json.dump(finished_database, fp, indent=4)
+
 
 if __name__ == "__main__":
 	course_compare(newest_file)
