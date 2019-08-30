@@ -8,13 +8,13 @@ cd "$(dirname "$0")"
 rm -rf node_modules/.cache
 
 # Pusher til master
-cd ../..
-rm -rf !(.git|.gitignore|src|docs)
+cd ../../docs
+# rm -rf !(.git|.gitignore|src|docs)
+rm -rf .
 
-cd src/frontend
+cd ../src/frontend
 ng build --prod
-yes | cp -rf dist/frontend/* ../..
-rm -rf dist
+yes | cp -rf dist/frontend/* ../../docs
 
 git add -A
 git commit -m"${1:-Nyt build}"
