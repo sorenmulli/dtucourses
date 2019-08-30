@@ -23,7 +23,9 @@ def course_compare(file):
 	with open('src/backend/data/' + file, 'r+') as fp:
 		data = json.load(fp)
 	
-	course_dict = data["courses"]
+	raw_courses_dict = data["courses"]
+
+	finished_database = {"time": data["time"]}
 
 	#Lists of all course values in convenient list format for ranking
 
@@ -35,24 +37,24 @@ def course_compare(file):
 	grade_course_numbers = list()
 	current_grade_avgs = list()
 	
-	i = 0
-	for course_no, course_dict in course_dict.items():
-		i += 1
-		if i > 10: raise ValueError 
+#	i = 0
+	for course_no, course_dict in raw_courses_dict.items():
+#		i += 1
+#		if i > 10: raise ValueError 
 		print(course_no)
 		
 		#Dict for all neded info for output JSON file
 		course_information = dict()
 		course_information["info"] = course_dict["info"]
 
-		#Rearrange evals into lists
-		course_information["evals"] = [
-		{"time": eval_time, **old_eval_dict} for eval_time, old_eval_dict in course_dict["evals"].items()
-		][::-1]
+	
+		if "evals" in course_dict and len(course_dict["evals"]) > 0:
+			#Rearrange evals into lists
+			course_information["evals"] = [
+			{"time": eval_time, **old_eval_dict} for eval_time, old_eval_dict in course_dict["evals"].items()
+			][::-1]
 		
-		eval_points = list()
-
-		if len(course_information["evals"]) > 0:
+			eval_points = list()	
 
 			#Translate each evaluation into points
 			for eval_dict in course_information["evals"]:
@@ -62,35 +64,42 @@ def course_compare(file):
 				worklevel_points = scores @ eval_dict["worklevel_answers"] / N
 				good_points = scores @ eval_dict["good_answers"] / N
 				
-				eval_points = {
+				points = {
 					"time": eval_dict["time"],
 					"learning": learning_points,
 					"worklevel": worklevel_points,
 					"good": good_points,
 					"N": N,
 					}
-
-				course_information["eval_points"] = eval_points
+				eval_points.append(points)
+		
+			course_information["eval_points"] = eval_points
 		
 			#Save points in list formats
 			point_course_numbers.append(course_no)
 
-			current_learning_points.append(course_information["evals"]["learning"][0])
-			current_worklevel_points.append(course_information["evals"]["worklevel"][0])
-			current_good_points.append(course_information["evals"]["good"][0])
+			current_learning_points.append(eval_points[0]["learning"])
+			current_worklevel_points.append(eval_points[0]["worklevel"])
+			current_good_points.append(eval_points[0]["good"])
 		
 		
-		#Rearrange grades into list
-		course_information["grades"] = [
-		{"time": grade_time, **old_grade_dict} for grade_time, old_grade_dict in course_dict["grades"].items()
-		][::-1]
 		
-		if len(course_information["grades"]) > 0:
+		
+		if len(course_dict["grades"]) > 0:
+			#Rearrange grades into list
+			course_information["grades"] = [
+			{"time": grade_time, **old_grade_dict} for grade_time, old_grade_dict in course_dict["grades"].items()
+			][::-1]
+
 			newest_grades = course_information["grades"][0]
 
 			grade_course_numbers.append(course_no)
 			current_grade_avgs.append(newest_grades["exam_avg"])
 
+		finished_database[course_no] = course_information
+
+	with open('src/backend/data/finished.json', 'w+') as fp:
+		json.dump(finished_database, fp, indent=4)
 
 if __name__ == "__main__":
 	course_compare(newest_file)
