@@ -24,6 +24,7 @@ export class CourseInfoComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(this.getGrades);
   }
 
 }

@@ -1,21 +1,48 @@
-<h5>Kernetal for {{course.info.course_no}} {{course.info.name}}</h5>
-<div class="table--responsive-scroll" style="max-width: 50%">
-	<table class="table">
-		<thead>
-			<tr>
-				<th></th>
-				<th>Værdi</th>
-				<th>Percentil</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<th>Karaktergennemsnit</th>
-				<td style="text-align: right">{{getGrades(course).exam_avg}}</td>
-				<td style="text-align: right">{{getGrades(course).exam_avg}}</td>
-			</tr>
-		</tbody>
-	</table>
+<h3>{{course.info.course_no}} {{course.info.name}}</h3>
+
+<div class="row">
+	<div class="col-12 col-md-6">
+		<table class="table data-table" stl>
+			<thead><th colspan="2">Kursusinformation</th></thead>
+			<tbody>
+				<tr>
+					<th>ECTS</th>
+					<td>{{course.info.ECTS}}</td>
+				</tr>
+				<tr>
+					<th>Sprog</th>
+					<td>{{course.info.language}}</td>
+				</tr>
+				<tr>
+					<th>Skemaplacering</th>
+					<td>{{course.info.time}}</td>
+				</tr>
+				<tr>
+					<th>Niveau</th>
+					<td>{{course.info.level}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
+	<div class="col-12 col-md-6">
+		<table class="table data-table">
+			<thead>
+				<tr>
+					<th>Kernetal</th>
+					<th>Værdi</th>
+					<th>Percentil</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Karaktergennemsnit</th>
+					<td style="text-align: right">{{getGrades(course).exam_avg | number}}</td>
+					<td style="text-align: right">{{getGrades(course).exam_avg | number}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 </div>
 
 <!-- Studieplanlæggeren -->

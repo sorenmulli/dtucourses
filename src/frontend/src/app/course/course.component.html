@@ -16,7 +16,7 @@
 	<div class="col-xs-12 col-md-6">
 		<div  style="text-align: right">
 			<h5>Senest opdateret</h5>
-			{{courseService.time | date}}
+			{{courseService.time | date:"longDate"}}
 		</div>
 	</div>
 </div>
@@ -33,19 +33,17 @@
 				<th>Navn</th>
 				<th>ECTS</th>
 				<th>Sprog</th>
-				<th>Skemaplacering</th>
 				<th>Niveau</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr *ngFor="let courseNo of courseService.getNFirst(searchResults, showAll ? 0 : 10) | keys">
 				<td>
-					<a [routerLink]="['/course', courseNo]">{{courseNo}}</a>
+					<a href="javascript:void(0)" (click)="setCourse(courseNo)">{{courseNo}}</a>
 				</td>
 				<td>{{courseService.courses[courseNo].info.name}}</td>
-				<td><div style="text-align: right">{{(courseService.courses[courseNo].info.ECTS | number:"1.0-1").replace(".", ",")}}</div></td>
+				<td><div style="text-align: right">{{courseService.courses[courseNo].info.ECTS | number:"1.0-1"}}</div></td>
 				<td>{{courseService.courses[courseNo].info.language}}</td>
-				<td>{{courseService.courses[courseNo].info.time}}</td>
 				<td>{{courseService.courses[courseNo].info.level}}</td>
 			</tr>
 			<tr>

@@ -1,0 +1,25 @@
+iframe.studieplan {
+	width: 1150px;
+	height: 600px;
+	margin-left:-10%;
+}
+
+table.data-table {
+	margin: 0px;
+}
+
+@media only screen and (max-width: 1200px) {
+	iframe.studieplan {
+		width: 100%;
+		max-width: 995px;
+		height: 500px;
+		margin-left: 0%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	table.data-table {
+		padding-top: 100px;
+	}
+}
+

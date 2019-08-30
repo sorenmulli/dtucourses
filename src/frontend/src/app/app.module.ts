@@ -4,7 +4,7 @@ import { NgModule, LOCALE_ID } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MatFormFieldModule, MatInputModule } from "@angular/material";
-
+import localeDA from "@angular/common/locales/da";
 import { CourseComponent } from './course/course.component';
 import { CourseInfoComponent } from "./course/course-info.component";
 import { StatisticsComponent } from './statistics/statistics.component';
@@ -14,6 +14,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { PlotlyComponent } from './plotly/plotly.component';
 import { CourseService } from './course/course.service';
 import { KeysPipe, SafePipe } from './course/course.pipe';
+import { registerLocaleData } from '@angular/common';
+
+registerLocaleData(localeDA);
 
 @NgModule({
   declarations: [
@@ -37,7 +40,7 @@ import { KeysPipe, SafePipe } from './course/course.pipe';
   ],
   providers: [
     CourseService,
-    // {provide: LOCALE_ID, useValue: "da-DK"}
+    {provide: LOCALE_ID, useValue: "da-DK"}
   ],
   bootstrap: [AppComponent]
 })
