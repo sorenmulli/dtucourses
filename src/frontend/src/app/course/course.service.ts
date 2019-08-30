@@ -1,7 +1,7 @@
 import { Injectable, OnInit, OnDestroy } from '@angular/core';
 
-import { ICourse, ICourses } from "./course";
-import data from "../../assets/complete_raw_data.json";
+import { ICourse } from "./course";
+import data from "../../assets/db.json";
 
 export function getGrades(course: ICourse, time: string | number = -1) {
   // Hvis timer en string, bruges det som key
@@ -61,6 +61,7 @@ export class CourseService {
     if (this.courses) return;
     this.time = new Date(data.time);
     this.courses = data.courses;
+    console.log(this.courses);
     this.courseNos = Object.keys(this.courses);
     for (let courseNo of this.courseNos) {
       this.courseNames.push(this.courses[courseNo].info.name.toLowerCase());
@@ -84,7 +85,7 @@ export class CourseService {
     }
     let i = 0;
     let newObject = {};
-    for(let key of Object.keys(object)) {
+    for(let key of Object.keys(object).sort()) {
       newObject[key] = object[key];
       i ++;
       if (i >= n) {

@@ -4,7 +4,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 @Pipe({ name: 'keys',  pure: false })
 export class KeysPipe implements PipeTransform {
     transform(value: any, args: any[] = null): any {
-        return Object.keys(value)
+        return Object.keys(value).sort()
     }
 }
 

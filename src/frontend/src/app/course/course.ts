@@ -15,25 +15,31 @@ export interface ICourse {
 		level: string
 	},
 	grades?: {
-		[key: string]: {
-			N_exam: number,
-			N_passed: number,
-			exam_avg: number,  // 0: Værdi, 1: Percentil
-			grade_dist?: number[],
-		}
-	},
+		time: string,
+		N_exam: number,
+		N_passed: number,
+		exam_avg: number,
+		grade_dist?: number[],
+	}[],
 	evals?: {
-		[key: string]: {
-			N_responses: number,
-			learning_answers: number[],
-			participation_answers: number[],
-			material_answers: number[],
-			clear_answers: number[],
-			connection_answers: number[],
-			worklevel_answers: number[],
-			good_answers: number[],
-		}
-	}
+		time: string,
+		N_responses: number,
+		learning_answers: number[],
+		participation_answers: number[],
+		material_answers: number[],
+		clear_answers: number[],
+		connection_answers: number[],
+		worklevel_answers: number[],
+		prerequisite_answers: number[],
+		good_answers: number[],
+	}[],
+	eval_points?: {
+		time: string,
+		learning: number,
+		worklevel: number,
+		good: number,
+		N: number,
+	}[]
 }
 
 

@@ -32,13 +32,17 @@ export class CourseComponent implements OnInit {
     })
   }
 
+  setCourse(courseNo: string) {
+    this.router.navigate([""]).then(
+      () => this.router.navigate(["course", courseNo])
+    );
+  }
+
   setTopCourse() {
     // Tager kurset øverst i søgningen
     const courseNo = Object.keys(this.searchResults)[0];
     // Sikrer, at siden genindlæses, selv hvis kurset, og dermed url'en, er den samme
-    this.router.navigate([""]).then(
-      () => this.router.navigate(["course", courseNo])
-    );
+    this.setCourse(courseNo);
   }
 
   updateSearchResults(queue: string, change: string) {
