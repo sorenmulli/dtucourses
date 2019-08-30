@@ -1,0 +1,60 @@
+<!-- Søgefunktionalitet -->
+<div class="row">
+	<div class="col-xs-12 col-md-6">
+		<label for="course-search"><h5>Søg efter kurser:</h5></label>
+		<mat-form-field>
+			<form (ngSubmit)="setTopCourse()"
+				[formGroup]="courseSearchForm">
+				<input id="course-search"
+						matInput
+						formControlName="searchBar"
+						(input)="updateSearchResults($event.target.value, $event.data)"
+						placeholder="Kursusnr. eller -navn">
+			</form>
+		</mat-form-field>
+	</div>
+	<div class="col-xs-12 col-md-6">
+		<div  style="text-align: right">
+			<h5>Senest opdateret</h5>
+			{{courseService.time | date}}
+		</div>
+	</div>
+</div>
+
+<!-- Viser kursusinfo -->
+<course-info [course]="courseService.currentCourse" *ngIf="courseService.currentCourse"></course-info>
+
+<!-- Viser søgeresultater -->
+<div *ngIf="!courseService.currentCourse" class="table--responsive-scroll">
+	<table class="table table--zebra">
+		<thead>
+			<tr>
+				<th>Nummer</th>
+				<th>Navn</th>
+				<th>ECTS</th>
+				<th>Sprog</th>
+				<th>Skemaplacering</th>
+				<th>Niveau</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr *ngFor="let courseNo of courseService.getNFirst(searchResults, showAll ? 0 : 10) | keys">
+				<td>
+					<a [routerLink]="['/course', courseNo]">{{courseNo}}</a>
+				</td>
+				<td>{{courseService.courses[courseNo].info.name}}</td>
+				<td><div style="text-align: right">{{(courseService.courses[courseNo].info.ECTS | number:"1.0-1").replace(".", ",")}}</div></td>
+				<td>{{courseService.courses[courseNo].info.language}}</td>
+				<td>{{courseService.courses[courseNo].info.time}}</td>
+				<td>{{courseService.courses[courseNo].info.level}}</td>
+			</tr>
+			<tr>
+				<td colspan="6"><a (click)="showAll=!showAll">Vis {{showAll ? "færre" : "alle"}} søgeresultater</a></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+  
+
+
+
