@@ -1,5 +1,5 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
-@import "../node_modules/dkfds/dist/css/dkfds-virkdk.css";
+/* @import "../node_modules/dkfds/dist/css/dkfds-virkdk.css"; */
 
 .content {
 	max-width: 960px;

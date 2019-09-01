@@ -37,14 +37,33 @@
 			<tbody>
 				<tr>
 					<th>Karaktergennemsnit</th>
-					<td style="text-align: right">{{getGrades(course).exam_avg | number}}</td>
-					<td style="text-align: right">{{getGrades(course).exam_avg | number}}</td>
+					<td style="text-align: right">{{course.grades[0].exam_avg | number:"1.0-1"}}</td>
+					<td style="text-align: right">PERCENTIL</td>
+				</tr>
+				<tr>
+					<th>
+						Indlæring
+						<a href="javascript:void(0)" class="js-tooltip" title="hello there">
+								<svg class="icon-svg" focusable="false" aria-hidden="true" ><use xlink:href="#help-circle-outline"></use></svg>
+						</a>
+					</th>
+					<td style="text-align: right">{{course.eval_points[0].learning | number:"1.0-1"}} / 5</td>
+					<td style="text-align: right">PERCENTIL</td>
+				</tr>
+				<tr>
+					<th>
+						Arbejde
+					</th>
+					<td style="text-align: right">{{course.eval_points[0].worklevel | number:"1.0-1"}} / 5</td>
+					<td style="text-align: right">PERCENTIL</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 </div>
 
+	
+	
 <!-- Studieplanlæggeren -->
 <p><a (click)="showCourseDescription=!showCourseDescription">
 	{{showCourseDescription ? "Luk" : "Vis"}} kursusbeskrivelse
@@ -56,3 +75,4 @@
 	{{showStudieplan ? "Luk" : "Åbn"}} din studieplan
 </a></p>
 <iframe *ngIf="showStudieplan" class="studieplan" src="https://studieplan.dtu.dk"></iframe>
+<svg class="icon-svg" aria-hidden="true" focusable="false"><use xlink:href="#printer"></use></svg>
