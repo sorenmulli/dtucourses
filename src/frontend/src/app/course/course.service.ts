@@ -37,7 +37,7 @@ export class CourseService {
     // Henter data, hvis ikke allerede hentet
     if (this.courses && !force) return;
     this.httpClient
-      .get<ICourses>("../../assets/db.json")
+      .get<ICourses>("https://raw.githubusercontent.com/sorenmulli/dtucourses/master/src/backend/data/db.json")
       .toPromise()
       .then(value => {
         console.log(value);
