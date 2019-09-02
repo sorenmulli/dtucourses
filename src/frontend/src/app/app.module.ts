@@ -15,6 +15,7 @@ import { PlotlyComponent } from './plotly/plotly.component';
 import { CourseService } from './course/course.service';
 import { KeysPipe, SafePipe } from './course/course.pipe';
 import { registerLocaleData } from '@angular/common';
+import { HttpClientModule } from "@angular/common/http";
 
 registerLocaleData(localeDA);
 
@@ -37,6 +38,7 @@ registerLocaleData(localeDA);
     BrowserAnimationsModule,
     MatFormFieldModule,
     MatInputModule,
+    HttpClientModule,
   ],
   providers: [
     CourseService,

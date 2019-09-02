@@ -1,6 +1,7 @@
 import { Injectable, OnInit, OnDestroy } from '@angular/core';
 
-import { ICourse } from "./course";
+import { ICourse, ICourses } from "./course";
+import { HttpClient } from '@angular/common/http';
 
 // export function getGrades(course: ICourse, time: string | number = -1) {
 //   // Hvis timer en string, bruges det som key
@@ -46,7 +47,7 @@ export class CourseService {
   public courseNames: string[] = [];
   public currentCourse: ICourse | null;
 
-  constructor() { }
+  constructor(private httpClient: HttpClient) { }
 
   get(courseNo: string) {
     return this.courses[courseNo];
@@ -63,21 +64,31 @@ export class CourseService {
   loadData(force=false): void {
     // Henter data, hvis ikke allerede hentet
     if (this.courses && !force) return;
-    const request = new XMLHttpRequest();
-    request.onload = parseData;
-    request.open("get", "../../assets/db.json", true);
-    request.send();
-    console.log(request.response);
-    request.onreadystatechange = function() {
-      console.log(request.responseText);
-    }
-    this.time = new Date();
+    // console.log(1);
+    this.httpClient
+      .get<ICourses>("https://raw.githubusercontent.com/sorenmulli/dtucourses/master/src/backend/data/db.json")
+      .toPromise()
+      .then(value => {
+        console.log(value);
+        this.time = value.time;
+        this.courses = value.courses;
+        console.log(111);
+        console.log(this.courses);
+        this.courseNos = Object.keys(this.courses);
+        for (let courseNo of this.courseNos) {
+          this.courseNames.push(this.courses[courseNo].info.name.toLowerCase());
+        }
+      }).catch(reason => console.log(reason));
+    // const request = new XMLHttpRequest();
+    // request.onload = parseData;
+    // request.open("get", "https://raw.githubusercontent.com/sorenmulli/dtucourses/master/src/backend/data/db.json", true);
+    // request.send();
+    // console.log(request.response);
+    // request.onreadystatechange = function() {
+    //   console.log(request.responseText);
+    // }
+    // this.time = new Date();
     // this.courses = data.courses;
-    console.log(this.courses);
-    this.courseNos = Object.keys(this.courses);
-    for (let courseNo of this.courseNos) {
-      this.courseNames.push(this.courses[courseNo].info.name.toLowerCase());
-    }
   }
 
   search(queue: string, useCourseNo: boolean): {[key: string]: ICourse} {

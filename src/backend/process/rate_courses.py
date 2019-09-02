@@ -174,7 +174,7 @@ def course_compare(file):
 	finished_database = {"time": data["time"], "courses": courses}
 
 	#Serialize new db
-	with open('src/frontend/src/assets/db.json', 'w+') as fp:
+	with open('src/backend/data/db.json', 'w+') as fp:
 		json.dump(finished_database, fp, indent=4)
 
 
