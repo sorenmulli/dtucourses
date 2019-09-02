@@ -30,6 +30,8 @@ export class CourseComponent implements OnInit {
     this.route.params.subscribe(params => {
       this.courseService.set(params.id);
     })
+
+
   }
 
   setCourse(courseNo: string) {

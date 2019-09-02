@@ -1,7 +1,6 @@
 import { Injectable, OnInit, OnDestroy } from '@angular/core';
 
 import { ICourse } from "./course";
-import data from "../../assets/db.json";
 
 // export function getGrades(course: ICourse, time: string | number = -1) {
 //   // Hvis timer en string, bruges det som key
@@ -31,6 +30,11 @@ import data from "../../assets/db.json";
 //   }
 // }
 
+function parseData() {
+  console.log(JSON.parse(this.responseText));
+  return JSON.parse(this.responseText);
+}
+
 @Injectable({
   providedIn: 'root'
 })
@@ -58,9 +62,17 @@ export class CourseService {
 
   loadData(force=false): void {
     // Henter data, hvis ikke allerede hentet
-    if (this.courses) return;
-    this.time = new Date(data.time);
-    this.courses = data.courses;
+    if (this.courses && !force) return;
+    const request = new XMLHttpRequest();
+    request.onload = parseData;
+    request.open("get", "../../assets/db.json", true);
+    request.send();
+    console.log(request.response);
+    request.onreadystatechange = function() {
+      console.log(request.responseText);
+    }
+    this.time = new Date();
+    // this.courses = data.courses;
     console.log(this.courses);
     this.courseNos = Object.keys(this.courses);
     for (let courseNo of this.courseNos) {

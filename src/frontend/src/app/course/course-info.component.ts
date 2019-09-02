@@ -1,9 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 import { ICourse } from './course';
-// import { getGrades, getEvals } from "./course.service";
-
-// TODO: Locale
 
 
 @Component({
