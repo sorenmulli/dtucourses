@@ -3,34 +3,6 @@ import { Injectable, OnInit, OnDestroy } from '@angular/core';
 import { ICourse, ICourses } from "./course";
 import { HttpClient } from '@angular/common/http';
 
-// export function getGrades(course: ICourse, time: string | number = -1) {
-//   // Hvis timer en string, bruges det som key
-//   // Er det number, er indeksering som i python
-//   if (typeof time === "string") {
-//     return course.grades[time]
-//   } else if (time < 0) {
-//     const keys = Object.keys(course.grades);
-//     return course.grades[keys[keys.length+time]]
-//   } else {
-//     const keys = Object.keys(course.grades);
-//     return course.grades[keys[time]]
-//   }
-// }
-
-// export function getEvals(course: ICourse, time: string | number = -1) {
-//   // Hvis timer en string, bruges det som key
-//   // Er det number, er indeksering som i python
-//   if (typeof time === "string") {
-//     return course.evals[time]
-//   } else if (time < 0) {
-//     const keys = Object.keys(course.evals);
-//     return course.evals[keys[keys.length+time]]
-//   } else {
-//     const keys = Object.keys(course.evals);
-//     return course.evals[keys[time]]
-//   }
-// }
-
 function parseData() {
   console.log(JSON.parse(this.responseText));
   return JSON.parse(this.responseText);
@@ -41,7 +13,7 @@ function parseData() {
 })
 export class CourseService {
 
-  public time: Date;
+  public time: Date = new Date();
   public courses: {[key: string]: ICourse};
   public courseNos: string[] = [];
   public courseNames: string[] = [];
@@ -64,9 +36,8 @@ export class CourseService {
   loadData(force=false): void {
     // Henter data, hvis ikke allerede hentet
     if (this.courses && !force) return;
-    // console.log(1);
     this.httpClient
-      .get<ICourses>("https://raw.githubusercontent.com/sorenmulli/dtucourses/master/src/backend/data/db.json")
+      .get<ICourses>("../../assets/db.json")
       .toPromise()
       .then(value => {
         console.log(value);
@@ -79,16 +50,6 @@ export class CourseService {
           this.courseNames.push(this.courses[courseNo].info.name.toLowerCase());
         }
       }).catch(reason => console.log(reason));
-    // const request = new XMLHttpRequest();
-    // request.onload = parseData;
-    // request.open("get", "https://raw.githubusercontent.com/sorenmulli/dtucourses/master/src/backend/data/db.json", true);
-    // request.send();
-    // console.log(request.response);
-    // request.onreadystatechange = function() {
-    //   console.log(request.responseText);
-    // }
-    // this.time = new Date();
-    // this.courses = data.courses;
   }
 
   search(queue: string, useCourseNo: boolean): {[key: string]: ICourse} {
