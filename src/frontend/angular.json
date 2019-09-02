@@ -25,7 +25,6 @@
             ],
             "styles": [
               "node_modules/dkfds/dist/css/dkfds-virkdk.css",
-              "node_modules/dkfds-plugins/dist/css/dkfds-datatables-theme.standalone.min.css",
               "src/styles.css"
             ],
             "scripts": [
