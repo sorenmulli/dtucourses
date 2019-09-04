@@ -14,7 +14,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { PlotlyComponent } from './plotly/plotly.component';
 import { CourseService } from './course/course.service';
 import { KeysPipe, SafePipe } from './course/course.pipe';
-import { registerLocaleData } from '@angular/common';
+import { registerLocaleData, HashLocationStrategy } from '@angular/common';
 import { HttpClientModule } from "@angular/common/http";
 
 registerLocaleData(localeDA);
@@ -42,7 +42,7 @@ registerLocaleData(localeDA);
   ],
   providers: [
     CourseService,
-    {provide: LOCALE_ID, useValue: "da-DK"}
+    {provide: LOCALE_ID, useValue: "da-DK", useClass: HashLocationStrategy}
   ],
   bootstrap: [AppComponent]
 })
