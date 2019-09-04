@@ -3,6 +3,8 @@ import { Injectable, OnInit, OnDestroy } from '@angular/core';
 import { ICourse, ICourses } from "./course";
 import { HttpClient } from '@angular/common/http';
 
+import * as data from "../../assets/db.json";
+
 function parseData() {
   console.log(JSON.parse(this.responseText));
   return JSON.parse(this.responseText);
@@ -36,20 +38,27 @@ export class CourseService {
   loadData(force=false): void {
     // Henter data, hvis ikke allerede hentet
     if (this.courses && !force) return;
-    this.httpClient
-      .get<ICourses>("https://raw.githubusercontent.com/sorenmulli/dtucourses/master/src/backend/data/db.json")
-      .toPromise()
-      .then(value => {
-        console.log(value);
-        this.time = value.time;
-        this.courses = value.courses;
-        console.log(111);
-        console.log(this.courses);
-        this.courseNos = Object.keys(this.courses);
-        for (let courseNo of this.courseNos) {
-          this.courseNames.push(this.courses[courseNo].info.name.toLowerCase());
-        }
-      }).catch(reason => console.log(reason));
+    // this.httpClient
+    //   .get<ICourses>("https://raw.githubusercontent.com/sorenmulli/dtucourses/master/src/backend/data/db.json")
+    //   .toPromise()
+    //   .then(value => {
+    //     console.log(value);
+    //     this.time = value.time;
+    //     this.courses = value.courses;
+    //     console.log(111);
+    //     console.log(this.courses);
+    //     this.courseNos = Object.keys(this.courses);
+    //     for (let courseNo of this.courseNos) {
+    //       this.courseNames.push(this.courses[courseNo].info.name.toLowerCase());
+    //     }
+    //   }).catch(reason => console.log(reason));
+    this.time = new Date(data.time);
+    this.courses = data.courses;
+    this.courseNos = Object.keys(this.courses);
+    for (let courseNo of this.courseNos) {
+      this.courseNames.push(this.courses[courseNo].info.name.toLowerCase());
+    }
+
   }
 
   search(queue: string, useCourseNo: boolean): {[key: string]: ICourse} {

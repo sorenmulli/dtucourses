@@ -1,7 +1,0 @@
-Kursusliste som array sorteret efter kursusnr.
-Få tingene til at passe med interface
-Parallelisering af datahentning
-Datahentningstidspunkt
-
-
-
