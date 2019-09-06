@@ -4,7 +4,7 @@ import { NgModule, LOCALE_ID } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MatFormFieldModule, MatInputModule } from "@angular/material";
-import localeDA from "@angular/common/locales/da";
+// import localeDA from "@angular/common/locales/da";
 import { CourseComponent } from './course/course.component';
 import { CourseInfoComponent } from "./course/course-info.component";
 import { StatisticsComponent } from './statistics/statistics.component';
@@ -17,7 +17,7 @@ import { KeysPipe, SafePipe } from './course/course.pipe';
 import { registerLocaleData, HashLocationStrategy } from '@angular/common';
 import { HttpClientModule } from "@angular/common/http";
 
-registerLocaleData(localeDA);
+// registerLocaleData(localeDA);
 
 @NgModule({
   declarations: [
@@ -42,7 +42,7 @@ registerLocaleData(localeDA);
   ],
   providers: [
     CourseService,
-    {provide: LOCALE_ID, useValue: "da-DK", useClass: HashLocationStrategy}
+    // {provide: LOCALE_ID, useValue: "da-DK", useClass: HashLocationStrategy}
   ],
   bootstrap: [AppComponent]
 })
