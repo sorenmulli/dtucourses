@@ -4,7 +4,7 @@ os.chdir(realpath(dirname(__file__)))
 
 # Indsætter js-filer direkte i index.html, da den ellers ikke kan finde dem
 
-with open("dist/frontend/index.html") as f:
+with open("../../docs/index.html") as f:
 	content = f.readlines()
 	line = content[12]
 	src_indices = [i for i, x in enumerate(line) if line[i:i+4] == "src="]
@@ -21,11 +21,11 @@ with open("dist/frontend/index.html") as f:
 	js_indices = [i+1 for i, x in enumerate(line) if line[i:i+3] == "></"]
 	for i, path in zip(reversed(js_indices), reversed(files)):
 		with open("dist/frontend/%s" % path) as js:
-			line = line[:i] + js.read() + line[i:]
+			line = line[:i] + js.read() + line[i:] + "\n"
 		os.remove("dist/frontend/%s" % path)
 	content[12] = line
 
-with open("dist/frontend/index.html", "w") as f:
+with open("../../docs/index.html", "w") as f:
 	f.writelines(content)
 
 
