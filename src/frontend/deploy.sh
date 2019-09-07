@@ -13,6 +13,7 @@ mkdir ../../docs
 # rm -rf !(.git|.gitignore|src|docs)
 
 ng build --prod
+python injector.py
 yes | cp -rf dist/frontend/* ../../docs
 
 git add -A
