@@ -13,7 +13,7 @@ import json
 import time 
 import sys
 '''
-	Requires manually downloaded HTML-page called dtucourses.html located in scrape downloaded from
+	Requires manually downloaded HTML-page (complete webpage) called dtucourses.html located in scrape downloaded from
 	http://kurser.dtu.dk/search?CourseCode=&SearchKeyword=&Department=1&Department=10&Department=11&Department=12&Department=13&Department=22&Department=23&Department=24&Department=25&Department=26&Department=27&Department=28&Department=29&Department=30&Department=31&Department=33&Department=34&Department=36&Department=38&Department=41&Department=42&Department=46&Department=47&Department=59&Department=IHK&Department=83&CourseType=&TeachingLanguage=
 '''
 
@@ -81,9 +81,11 @@ def scrape_all(N_processes = 12):
 	'''
 	nowtime = time.strftime('%Y-%m-%dT%H%M%S', time.localtime()) 
 	cleantime = nowtime.split('T')[0]
+	course_dict = dict()
 
-	data = {'time': cleantime}
-	
+	with open("src/backend/data/time.txt", "w") as f:
+		f.write(cleantime)
+	course_dict["time"] = cleantime
 
 	print("Reading course information ... ")
 	course_list = get_course_information()
@@ -96,15 +98,15 @@ def scrape_all(N_processes = 12):
 	course_list = [item for sublist in mushed_course_list for item in sublist]
 
 #	course_list = scrape_loop(course_list)
-	course_dict = dict() 
 	for course in course_list:
 		course_dict[course["info"]["course_no"]] = course 
+		# with open("src/backend/data/%s.json" % course, "w") as f:
+		# 	json.dump(course, f, indent=4)
 
 	print("N found courses:", len(course_list))
-	data['courses'] = course_dict
 
 	with open('src/backend/data/%scomplete_raw_data.json' %nowtime, 'w+') as fp:
-		json.dump(data, fp, indent=4)
+		json.dump(course_dict, fp, indent=4)
 	# with open("src/frontend/src/assets/complete_raw_data.json", "w") as fp:
 	# 	json.dump(raw_database, fp, indent=4, sort_keys=True)
 
