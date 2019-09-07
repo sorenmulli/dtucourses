@@ -18,12 +18,12 @@ with open("../../docs/index.html") as f:
 	for i in reversed(src_indices):
 		line = line[:i] + line[i+5+line[i+5:].index('"')+2:]
 	# Indsætter js
-	js_indices = [i+1 for i, x in enumerate(line) if line[i:i+3] == "></script"]
+	js_indices = [i+1 for i, x in enumerate(line) if line[i:i+9] == "></script"]
 	for i, path in zip(reversed(js_indices), reversed(files)):
 		with open("../../docs/%s" % path) as js:
 			line = line[:i] + js.read() + line[i:] + "\n"
 		os.remove("../../docs/%s" % path)
-	content[12] = line
+	content = content[:12] + line.split("\n") + content[13:]
 
 with open("../../docs/index.html", "w") as f:
 	f.writelines(content)
