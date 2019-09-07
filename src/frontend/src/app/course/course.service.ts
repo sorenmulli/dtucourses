@@ -68,7 +68,7 @@ export class CourseService {
       if (searchables[i].indexOf(queue) >= 0) {
         matches[this.courseNos[i]] = this.courses[this.courseNos[i]];
       }
-    }
+    }https://duckduckgo.com/?q=dark+mode+webpage&t=ffab
     return this.getNFirst(matches)
   }
 
