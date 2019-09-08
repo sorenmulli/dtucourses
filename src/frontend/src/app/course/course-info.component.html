@@ -1,78 +1,92 @@
 <h3>{{course.info.course_no}} {{course.info.name}}</h3>
 
 <div class="row">
-	<div class="col-12 col-md-6">
-		<table class="table data-table" stl>
-			<thead><th colspan="2">Kursusinformation</th></thead>
-			<tbody>
-				<tr>
-					<th>ECTS</th>
-					<td>{{course.info.ECTS}}</td>
-				</tr>
-				<tr>
-					<th>Sprog</th>
-					<td>{{course.info.language}}</td>
-				</tr>
-				<tr>
-					<th>Skemaplacering</th>
-					<td>{{course.info.time}}</td>
-				</tr>
-				<tr>
-					<th>Niveau</th>
-					<td>{{course.info.level}}</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-	
-	<div class="col-12 col-md-6">
-		<table class="table data-table">
-			<thead>
-				<tr>
-					<th>Kernetal</th>
-					<th>Værdi</th>
-					<th>Percentil</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<th>Karaktergennemsnit</th>
-					<td style="text-align: right">{{course.grades[0].exam_avg | number:"1.0-1"}}</td>
-					<td style="text-align: right">PERCENTIL</td>
-				</tr>
-				<tr>
-					<th>
-						Indlæring
-						<a href="javascript:void(0)" class="js-tooltip" title="hello there">
-								<svg class="icon-svg" focusable="false" aria-hidden="true" ><use xlink:href="#help-circle-outline"></use></svg>
-						</a>
-					</th>
-					<td style="text-align: right">{{course.eval_points[0].learning | number:"1.0-1"}} / 5</td>
-					<td style="text-align: right">PERCENTIL</td>
-				</tr>
-				<tr>
-					<th>
-						Arbejde
-					</th>
-					<td style="text-align: right">{{course.eval_points[0].worklevel | number:"1.0-1"}} / 5</td>
-					<td style="text-align: right">PERCENTIL</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+  <div class="col-12 col-md-6">
+    <table class="table data-table" stl>
+      <thead><th colspan="2">Kursusinformation</th></thead>
+      <tbody>
+        <tr>
+          <th>ECTS</th>
+          <td>{{course.info.ECTS}}</td>
+        </tr>
+        <tr>
+          <th>Sprog</th>
+          <td>{{course.info.language}}</td>
+        </tr>
+        <tr>
+          <th>Skemaplacering</th>
+          <td>{{course.info.time}}</td>
+        </tr>
+        <tr>
+          <th>Niveau</th>
+          <td>{{course.info.level}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <div class="col-12 col-md-6">
+    <table class="table data-table">
+      <thead>
+        <tr>
+          <th>Kernetal</th>
+          <th>Værdi</th>
+          <th>Percentil</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Karaktergennemsnit</th>
+          <td style="text-align: right">{{course.grades ? (course.grades[0].exam_avg | number:"1.0-1") : "N/A"}}</td>
+          <td style="text-align: right">{{course.grade_percentile}}</td>
+        </tr>
+        <tr>
+          <th>
+            Indlæring
+            <a href="javascript:void(0)" class="js-tooltip" title="hello there">
+                <svg class="icon-svg" focusable="false" aria-hidden="true" ><use xlink:href="#help-circle-outline"></use></svg>
+            </a>
+          </th>
+          <td style="text-align: right">{{course.eval_points[0].learning | number:"1.0-1"}} / 5</td>
+          <td style="text-align: right">{{course.eval_percentiles.learning | number:"1.2-2"}} %</td>
+        </tr>
+        <tr>
+          <th>
+            Arbejde
+          </th>
+          <td style="text-align: right">{{course.eval_points[0].worklevel | number:"1.0-1"}} / 5</td>
+          <td style="text-align: right">{{course.eval_percentiles.worklevel | number:"1.2-2"}} %</td>
+        </tr>
+        <tr>
+          <th>
+            Samlet vurdering
+          </th>
+          <td style="text-align: right">{{course.eval_points[0].worklevel | number:"1.0-1"}} / 5</td>
+          <td style="text-align: right">{{course.eval_percentiles.worklevel | number:"1.2-2"}} %</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
 
-	
-	
+
+<div class="container py-8">
+    <a href="javascript:void(0)" class="popover js-tooltip"
+        role="tooltip"
+        title="Dette er en hjælpetekst i en popover">sad</a>
+</div>
+
+
+
 <!-- Studieplanlæggeren -->
 <p><a (click)="showCourseDescription=!showCourseDescription">
-	{{showCourseDescription ? "Luk" : "Vis"}} kursusbeskrivelse
+  {{showCourseDescription ? "Luk" : "Vis"}} kursusbeskrivelse
 </a></p>
 <iframe *ngIf="showCourseDescription"
-		[src]="('https://kurser.dtu.dk/course/' + course.info.course_no) | safe"
-		style="width:100%;height:500px"></iframe>
+    [src]="('https://kurser.dtu.dk/course/' + course.info.course_no) | safe"
+    style="width:100%;height:500px"></iframe>
 <p><a (click)="showStudieplan=!showStudieplan">
-	{{showStudieplan ? "Luk" : "Åbn"}} din studieplan
+  {{showStudieplan ? "Luk" : "Åbn"}} din studieplan
 </a></p>
 <iframe *ngIf="showStudieplan" class="studieplan" src="https://studieplan.dtu.dk"></iframe>
 <svg class="icon-svg" aria-hidden="true" focusable="false"><use xlink:href="#printer"></use></svg>

@@ -6,7 +6,6 @@ import { HttpClient } from '@angular/common/http';
 import * as data from "../../assets/course_min.json";
 
 function parseData() {
-  console.log(JSON.parse(this.responseText));
   return JSON.parse(this.responseText);
 }
 
@@ -39,7 +38,6 @@ export class CourseService {
         })
         .catch(reason => {
           this.currentCourse = null;
-          console.log(reason.statusText);
         });
     }
   }
@@ -64,7 +62,6 @@ export class CourseService {
         matches[this.courseNos[i]] = this.courses[this.courseNos[i]];
       }
     }
-    console.log(matches);
     return this.getNFirst(matches)
   }
 
