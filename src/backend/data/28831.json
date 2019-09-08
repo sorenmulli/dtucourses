@@ -1,1 +1,344 @@
-{"info": {"language": "Engelsk", "ECTS": 5, "time": "Januar", "level": "Kandidat", "name": "Computational Fluid Dynamics in Chemical Engineering", "course_no": "28831"}, "evals": [{"time": "E-18-03", "N_responses": 19, "learning_answers": [10, 6, 2, 1, 0], "participation_answers": [7, 8, 2, 1, 1], "material_answers": [6, 7, 4, 2, 0], "clear_answers": [7, 5, 4, 1, 2], "connection_answers": [6, 7, 2, 2, 2], "worklevel_answers": [0, 0, 5, 11, 3], "prerequisite_answers": [1, 0, 17, 1, 0], "good_answers": [10, 4, 2, 2, 1]}, {"time": "E-17-03", "N_responses": 19, "learning_answers": [12, 7, 0, 0, 0], "participation_answers": [14, 3, 2, 0, 0], "material_answers": [6, 6, 5, 2, 0], "clear_answers": [4, 7, 8, 0, 0], "connection_answers": [10, 8, 0, 1, 0], "worklevel_answers": [0, 0, 6, 10, 3], "prerequisite_answers": [0, 0, 18, 1, 0], "good_answers": [11, 5, 2, 1, 0]}, {"time": "E-16-03", "N_responses": 19, "learning_answers": [15, 3, 1, 0, 0], "participation_answers": [19, 0, 0, 0, 0], "material_answers": [8, 6, 4, 1, 0], "clear_answers": [5, 11, 2, 1, 0], "connection_answers": [12, 5, 1, 1, 0], "worklevel_answers": [1, 0, 11, 4, 3], "prerequisite_answers": [1, 0, 17, 1, 0], "good_answers": [13, 4, 2, 0, 0]}, {"time": "E-15-03", "N_responses": 6, "learning_answers": [4, 0, 1, 1, 0], "participation_answers": [3, 2, 0, 1, 0], "material_answers": [0, 0, 5, 0, 1], "clear_answers": [0, 5, 0, 0, 1], "connection_answers": [1, 4, 0, 1, 0], "worklevel_answers": [0, 0, 3, 3, 0], "prerequisite_answers": [0, 0, 4, 2, 0], "good_answers": [2, 2, 1, 0, 1]}], "eval_points": [{"time": "E-18-03", "learning": 4.315789473684211, "worklevel": 3.8947368421052633, "good": 4.052631578947368, "N": 19}, {"time": "E-17-03", "learning": 4.631578947368421, "worklevel": 3.8421052631578947, "good": 4.368421052631579, "N": 19}, {"time": "E-16-03", "learning": 4.7368421052631575, "worklevel": 3.4210526315789473, "good": 4.578947368421052, "N": 19}, {"time": "E-15-03", "learning": 4.166666666666667, "worklevel": 3.5, "good": 3.6666666666666665, "N": 6}], "grades": [{"time": "2018winter", "N_exam": 19, "N_passed": 19, "exam_avg": 9.1, "grade_dist": [3, 9, 6, 1, 0, 0, 0, 1]}, {"time": "2017winter", "N_exam": 20, "N_passed": 20, "exam_avg": 8.7, "grade_dist": [3, 8, 8, 0, 1, 0, 0, 1]}, {"time": "2014winter", "N_exam": 9, "N_passed": 9, "exam_avg": 8.4, "grade_dist": [0, 7, 0, 1, 1, 0, 0, 3]}], "grade_percentile": 75.398313027179, "eval_percentiles": {"learning": 64.55194290245836, "worklevel": 89.49246629659001, "good": 55.78905630452022}, "composites": {"beer_points": 2.930362810064234, "quality_points": 3.7460158776830337, "beer_percentiles": 31.63163163163163, "quality_percentiles": 68.56856856856857}}
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "Januar",
+        "level": "Kandidat",
+        "name": "Computational Fluid Dynamics in Chemical Engineering",
+        "course_no": "28831"
+    },
+    "evals": [
+        {
+            "time": "E-18-03",
+            "N_responses": 19,
+            "learning_answers": [
+                10,
+                6,
+                2,
+                1,
+                0
+            ],
+            "participation_answers": [
+                7,
+                8,
+                2,
+                1,
+                1
+            ],
+            "material_answers": [
+                6,
+                7,
+                4,
+                2,
+                0
+            ],
+            "clear_answers": [
+                7,
+                5,
+                4,
+                1,
+                2
+            ],
+            "connection_answers": [
+                6,
+                7,
+                2,
+                2,
+                2
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                5,
+                11,
+                3
+            ],
+            "prerequisite_answers": [
+                1,
+                0,
+                17,
+                1,
+                0
+            ],
+            "good_answers": [
+                10,
+                4,
+                2,
+                2,
+                1
+            ]
+        },
+        {
+            "time": "E-17-03",
+            "N_responses": 19,
+            "learning_answers": [
+                12,
+                7,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                14,
+                3,
+                2,
+                0,
+                0
+            ],
+            "material_answers": [
+                6,
+                6,
+                5,
+                2,
+                0
+            ],
+            "clear_answers": [
+                4,
+                7,
+                8,
+                0,
+                0
+            ],
+            "connection_answers": [
+                10,
+                8,
+                0,
+                1,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                6,
+                10,
+                3
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                18,
+                1,
+                0
+            ],
+            "good_answers": [
+                11,
+                5,
+                2,
+                1,
+                0
+            ]
+        },
+        {
+            "time": "E-16-03",
+            "N_responses": 19,
+            "learning_answers": [
+                15,
+                3,
+                1,
+                0,
+                0
+            ],
+            "participation_answers": [
+                19,
+                0,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                8,
+                6,
+                4,
+                1,
+                0
+            ],
+            "clear_answers": [
+                5,
+                11,
+                2,
+                1,
+                0
+            ],
+            "connection_answers": [
+                12,
+                5,
+                1,
+                1,
+                0
+            ],
+            "worklevel_answers": [
+                1,
+                0,
+                11,
+                4,
+                3
+            ],
+            "prerequisite_answers": [
+                1,
+                0,
+                17,
+                1,
+                0
+            ],
+            "good_answers": [
+                13,
+                4,
+                2,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "E-15-03",
+            "N_responses": 6,
+            "learning_answers": [
+                4,
+                0,
+                1,
+                1,
+                0
+            ],
+            "participation_answers": [
+                3,
+                2,
+                0,
+                1,
+                0
+            ],
+            "material_answers": [
+                0,
+                0,
+                5,
+                0,
+                1
+            ],
+            "clear_answers": [
+                0,
+                5,
+                0,
+                0,
+                1
+            ],
+            "connection_answers": [
+                1,
+                4,
+                0,
+                1,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                3,
+                3,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                4,
+                2,
+                0
+            ],
+            "good_answers": [
+                2,
+                2,
+                1,
+                0,
+                1
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "E-18-03",
+            "learning": 4.315789473684211,
+            "worklevel": 3.8947368421052633,
+            "good": 4.052631578947368,
+            "N": 19
+        },
+        {
+            "time": "E-17-03",
+            "learning": 4.631578947368421,
+            "worklevel": 3.8421052631578947,
+            "good": 4.368421052631579,
+            "N": 19
+        },
+        {
+            "time": "E-16-03",
+            "learning": 4.7368421052631575,
+            "worklevel": 3.4210526315789473,
+            "good": 4.578947368421052,
+            "N": 19
+        },
+        {
+            "time": "E-15-03",
+            "learning": 4.166666666666667,
+            "worklevel": 3.5,
+            "good": 3.6666666666666665,
+            "N": 6
+        }
+    ],
+    "grades": [
+        {
+            "time": "2018winter",
+            "N_exam": 19,
+            "N_passed": 19,
+            "exam_avg": 9.1,
+            "grade_dist": [
+                3,
+                9,
+                6,
+                1,
+                0,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "time": "2017winter",
+            "N_exam": 20,
+            "N_passed": 20,
+            "exam_avg": 8.7,
+            "grade_dist": [
+                3,
+                8,
+                8,
+                0,
+                1,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "time": "2014winter",
+            "N_exam": 9,
+            "N_passed": 9,
+            "exam_avg": 8.4,
+            "grade_dist": [
+                0,
+                7,
+                0,
+                1,
+                1,
+                0,
+                0,
+                3
+            ]
+        }
+    ],
+    "grade_percentile": 75.398313027179,
+    "eval_percentiles": {
+        "learning": 64.55194290245836,
+        "worklevel": 89.49246629659001,
+        "good": 55.78905630452022
+    },
+    "composites": {
+        "beer_points": 2.930362810064234,
+        "quality_points": 3.7460158776830337,
+        "beer_percentiles": 31.63163163163163,
+        "quality_percentiles": 68.56856856856857
+    }
+}

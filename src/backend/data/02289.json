@@ -1,1 +1,22 @@
-{"info": {"language": "Engelsk", "ECTS": 5, "time": "E1A (man 8-12)", "level": "Kandidat", "name": "Algoritmiske teknikker for moderne datamodeller", "course_no": "02289"}, "grade_percentile": null, "eval_percentiles": {"learning": null, "worklevel": null, "good": null}, "composites": {"beer_points": null, "quality_points": null, "beer_percentiles": null, "quality_percentiles": null}}
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "E1A (man 8-12)",
+        "level": "Kandidat",
+        "name": "Algoritmiske teknikker for moderne datamodeller",
+        "course_no": "02289"
+    },
+    "grade_percentile": null,
+    "eval_percentiles": {
+        "learning": null,
+        "worklevel": null,
+        "good": null
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

@@ -1,1 +1,160 @@
-{"info": {"language": "Engelsk", "ECTS": 10, "time": "Udenfor skema-struktur", "level": "Kandidat", "name": "Klimamodeller, observationer og klima\u00e6ndringer", "course_no": "42262"}, "evals": [{"time": "F-19-13", "N_responses": 1, "learning_answers": [1, 0, 0, 0, 0], "participation_answers": [0, 1, 0, 0, 0], "material_answers": [1, 0, 0, 0, 0], "clear_answers": [0, 0, 1, 0, 0], "connection_answers": [1, 0, 0, 0, 0], "worklevel_answers": [0, 0, 1, 0, 0], "prerequisite_answers": [0, 0, 1, 0, 0], "good_answers": [0, 1, 0, 0, 0]}, {"time": "F-18-13", "N_responses": 1, "learning_answers": [1, 0, 0, 0, 0], "participation_answers": [1, 0, 0, 0, 0], "material_answers": [0, 0, 1, 0, 0], "clear_answers": [0, 0, 1, 0, 0], "connection_answers": [1, 0, 0, 0, 0], "worklevel_answers": [0, 0, 1, 0, 0], "prerequisite_answers": [0, 0, 1, 0, 0], "good_answers": [1, 0, 0, 0, 0]}], "eval_points": [{"time": "F-19-13", "learning": 5.0, "worklevel": 3.0, "good": 4.0, "N": 1}, {"time": "F-18-13", "learning": 5.0, "worklevel": 3.0, "good": 5.0, "N": 1}], "grade_percentile": null, "eval_percentiles": {"learning": 96.4710547184774, "worklevel": 35.091197462331486, "good": 51.11022997620936}, "composites": {"beer_points": null, "quality_points": null, "beer_percentiles": null, "quality_percentiles": null}}
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 10,
+        "time": "Udenfor skema-struktur",
+        "level": "Kandidat",
+        "name": "Klimamodeller, observationer og klima\u00e6ndringer",
+        "course_no": "42262"
+    },
+    "evals": [
+        {
+            "time": "F-19-13",
+            "N_responses": 1,
+            "learning_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "clear_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "connection_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "good_answers": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-18-13",
+            "N_responses": 1,
+            "learning_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "clear_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "connection_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "good_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "F-19-13",
+            "learning": 5.0,
+            "worklevel": 3.0,
+            "good": 4.0,
+            "N": 1
+        },
+        {
+            "time": "F-18-13",
+            "learning": 5.0,
+            "worklevel": 3.0,
+            "good": 5.0,
+            "N": 1
+        }
+    ],
+    "grade_percentile": null,
+    "eval_percentiles": {
+        "learning": 96.4710547184774,
+        "worklevel": 35.091197462331486,
+        "good": 51.11022997620936
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

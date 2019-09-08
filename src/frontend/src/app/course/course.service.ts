@@ -47,20 +47,6 @@ export class CourseService {
   loadData(force=false): void {
     // Henter data, hvis ikke allerede hentet
     if (this.courses && !force) return;
-    // this.httpClient
-    //   .get<ICourses>("https://raw.githubusercontent.com/sorenmulli/dtucourses/master/src/backend/data/db.json")
-    //   .toPromise()
-    //   .then(value => {
-    //     console.log(value);
-    //     this.time = value.time;
-    //     this.courses = value.courses;
-    //     console.log(111);
-    //     console.log(this.courses);
-    //     this.courseNos = Object.keys(this.courses);
-    //     for (let courseNo of this.courseNos) {
-    //       this.courseNames.push(this.courses[courseNo].info.name.toLowerCase());
-    //     }
-    //   }).catch(reason => console.log(reason));
     this.time = new Date(data.time);
     this.courses = data.courses;
     this.courseNos = Object.keys(this.courses);
@@ -70,6 +56,7 @@ export class CourseService {
   }
 
   search(queue: string, useCourseNo: boolean): {[key: string]: ICourseMin} {
+    // Søger blandt alle kurser
     const searchables = useCourseNo ? this.courseNos : this.courseNames;
     let matches: {[key: string]: ICourseMin} = {};
     for (let i in searchables) {
@@ -77,6 +64,7 @@ export class CourseService {
         matches[this.courseNos[i]] = this.courses[this.courseNos[i]];
       }
     }
+    console.log(matches);
     return this.getNFirst(matches)
   }
 

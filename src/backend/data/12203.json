@@ -1,1 +1,1649 @@
-{"info": {"language": "Dansk", "ECTS": 10, "time": "F5B (ons 13-17)  og  Juni", "level": "Bachelor", "name": "Milj\u00f8fagprojekt", "course_no": "12203"}, "evals": [{"time": "F-18-03JUN", "N_responses": 5, "learning_answers": [3, 2, 0, 0, 0], "participation_answers": [4, 0, 1, 0, 0], "material_answers": [2, 1, 2, 0, 0], "clear_answers": [2, 2, 1, 0, 0], "connection_answers": [2, 3, 0, 0, 0], "worklevel_answers": [0, 0, 1, 2, 2], "prerequisite_answers": [0, 0, 5, 0, 0], "good_answers": [4, 1, 0, 0, 0]}, {"time": "F-18-13", "N_responses": 28, "learning_answers": [16, 9, 3, 0, 0], "participation_answers": [20, 5, 2, 1, 0], "material_answers": [6, 7, 13, 2, 0], "clear_answers": [6, 10, 11, 1, 0], "connection_answers": [6, 11, 11, 0, 0], "worklevel_answers": [0, 3, 10, 8, 7], "prerequisite_answers": [0, 0, 26, 1, 0], "good_answers": [17, 10, 1, 0, 0]}, {"time": "E-17-13", "N_responses": 3, "learning_answers": [1, 2, 0, 0, 0], "participation_answers": [3, 0, 0, 0, 0], "material_answers": [0, 2, 1, 0, 0], "clear_answers": [0, 0, 1, 2, 0], "connection_answers": [0, 0, 3, 0, 0], "worklevel_answers": [0, 0, 1, 1, 1], "prerequisite_answers": [0, 0, 3, 0, 0], "good_answers": [2, 1, 0, 0, 0]}, {"time": "F-17-13", "N_responses": 9, "learning_answers": [4, 4, 0, 1, 0], "participation_answers": [6, 3, 0, 0, 0], "material_answers": [0, 1, 7, 1, 0], "clear_answers": [0, 2, 5, 2, 0], "connection_answers": [0, 4, 4, 1, 0], "worklevel_answers": [1, 0, 3, 4, 1], "prerequisite_answers": [0, 0, 9, 0, 0], "good_answers": [3, 4, 1, 1, 0]}, {"time": "E-16-13", "N_responses": 3, "learning_answers": [3, 0, 0, 0, 0], "participation_answers": [3, 0, 0, 0, 0], "material_answers": [1, 1, 1, 0, 0], "clear_answers": [1, 1, 1, 0, 0], "connection_answers": [2, 1, 0, 0, 0], "worklevel_answers": [0, 0, 3, 0, 0], "prerequisite_answers": [0, 0, 3, 0, 0], "good_answers": [2, 1, 0, 0, 0]}, {"time": "F-16-03JUN", "N_responses": 8, "learning_answers": [7, 1, 0, 0, 0], "participation_answers": [8, 0, 0, 0, 0], "material_answers": [4, 2, 2, 0, 0], "clear_answers": [3, 2, 2, 1, 0], "connection_answers": [5, 2, 1, 0, 0], "worklevel_answers": [0, 0, 4, 4, 0], "prerequisite_answers": [0, 0, 8, 0, 0], "good_answers": [7, 1, 0, 0, 0]}, {"time": "F-16-13", "N_responses": 10, "learning_answers": [5, 3, 1, 0, 0], "participation_answers": [6, 3, 1, 0, 0], "material_answers": [3, 4, 3, 0, 0], "clear_answers": [1, 4, 2, 1, 2], "connection_answers": [2, 4, 3, 0, 1], "worklevel_answers": [0, 1, 3, 2, 4], "prerequisite_answers": [0, 0, 10, 0, 0], "good_answers": [8, 1, 1, 0, 0]}, {"time": "E-15-13", "N_responses": 2, "learning_answers": [2, 0, 0, 0, 0], "participation_answers": [2, 0, 0, 0, 0], "material_answers": [1, 0, 1, 0, 0], "clear_answers": [0, 1, 0, 1, 0], "connection_answers": [0, 0, 1, 1, 0], "worklevel_answers": [0, 0, 2, 0, 0], "prerequisite_answers": [0, 0, 2, 0, 0], "good_answers": [1, 1, 0, 0, 0]}, {"time": "F-15-03", "N_responses": 5, "learning_answers": [2, 3, 0, 0, 0], "participation_answers": [1, 4, 0, 0, 0], "material_answers": [0, 2, 3, 0, 0], "clear_answers": [1, 3, 1, 0, 0], "connection_answers": [0, 2, 3, 0, 0], "worklevel_answers": [0, 0, 2, 2, 1], "prerequisite_answers": [0, 0, 5, 0, 0], "good_answers": [0, 4, 1, 0, 0]}, {"time": "F-15-13", "N_responses": 15, "learning_answers": [9, 5, 1, 0, 0], "participation_answers": [7, 5, 2, 0, 0], "material_answers": [4, 5, 6, 0, 0], "clear_answers": [3, 5, 6, 1, 0], "connection_answers": [6, 2, 7, 0, 0], "worklevel_answers": [0, 0, 8, 5, 2], "prerequisite_answers": [0, 0, 15, 0, 0], "good_answers": [9, 3, 3, 0, 0]}, {"time": "F-14-03", "N_responses": 3, "learning_answers": [3, 0, 0, 0, 0], "participation_answers": [3, 0, 0, 0, 0], "material_answers": [3, 0, 0, 0, 0], "clear_answers": [0, 3, 0, 0, 0], "connection_answers": [3, 0, 0, 0, 0], "worklevel_answers": [0, 0, 0, 2, 1], "prerequisite_answers": [1, 0, 2, 0, 0], "good_answers": [3, 0, 0, 0, 0]}, {"time": "F-14-13", "N_responses": 7, "learning_answers": [6, 0, 1, 0, 0], "participation_answers": [6, 0, 1, 0, 0], "material_answers": [4, 2, 1, 0, 0], "clear_answers": [2, 2, 3, 0, 0], "connection_answers": [3, 2, 2, 0, 0], "worklevel_answers": [0, 0, 4, 1, 2], "prerequisite_answers": [0, 0, 7, 0, 0], "good_answers": [5, 1, 1, 0, 0]}, {"time": "E-13-13", "N_responses": 5, "learning_answers": [4, 1, 0, 0, 0], "participation_answers": [5, 0, 0, 0, 0], "material_answers": [2, 2, 1, 0, 0], "clear_answers": [2, 1, 2, 0, 0], "connection_answers": [2, 1, 2, 0, 0], "worklevel_answers": [0, 0, 3, 0, 2], "prerequisite_answers": [0, 0, 5, 0, 0], "good_answers": [2, 3, 0, 0, 0]}, {"time": "F-13-13", "N_responses": 18, "learning_answers": [16, 1, 1, 0, 0], "participation_answers": [16, 0, 1, 1, 0], "material_answers": [5, 1, 12, 0, 0], "clear_answers": [7, 6, 5, 0, 0], "connection_answers": [7, 3, 7, 0, 0], "worklevel_answers": [0, 0, 5, 5, 6], "prerequisite_answers": [1, 0, 16, 1, 0], "good_answers": [13, 4, 0, 1, 0]}, {"time": "E-12-13", "N_responses": 1, "learning_answers": [0, 1, 0, 0, 0], "participation_answers": [1, 0, 0, 0, 0], "material_answers": [0, 0, 0, 0, 1], "clear_answers": [1, 0, 0, 0, 0], "connection_answers": [0, 1, 0, 0, 0], "worklevel_answers": [0, 0, 1, 0, 0], "prerequisite_answers": [0, 0, 1, 0, 0], "good_answers": [1, 0, 0, 0, 0]}, {"time": "F-12-13", "N_responses": 11, "learning_answers": [7, 3, 1, 0, 0], "participation_answers": [9, 1, 1, 0, 0], "material_answers": [2, 1, 6, 1, 0], "clear_answers": [3, 2, 5, 0, 0], "connection_answers": [2, 2, 5, 1, 0], "worklevel_answers": [0, 0, 4, 4, 3], "prerequisite_answers": [0, 0, 10, 1, 0], "good_answers": [4, 5, 2, 0, 0]}, {"time": "E-11-13", "N_responses": 1, "learning_answers": [0, 1, 0, 0, 0], "participation_answers": [1, 0, 0, 0, 0], "material_answers": [0, 0, 1, 0, 0], "clear_answers": [0, 1, 0, 0, 0], "connection_answers": [1, 0, 0, 0, 0], "worklevel_answers": [0, 0, 0, 1, 0], "prerequisite_answers": [0, 0, 1, 0, 0], "good_answers": [1, 0, 0, 0, 0]}, {"time": "F-11-13", "N_responses": 10, "learning_answers": [7, 2, 0, 0, 1], "participation_answers": [9, 0, 0, 0, 1], "material_answers": [3, 2, 3, 1, 0], "clear_answers": [3, 1, 4, 1, 1], "connection_answers": [2, 2, 2, 1, 1], "worklevel_answers": [0, 0, 5, 3, 0], "prerequisite_answers": [0, 0, 6, 0, 1], "good_answers": [4, 3, 0, 1, 0]}, {"time": "E-10-13", "N_responses": 2, "learning_answers": [2, 0, 0, 0, 0], "participation_answers": [2, 0, 0, 0, 0], "material_answers": [1, 0, 1, 0, 0], "clear_answers": [1, 0, 0, 0, 0], "connection_answers": [1, 0, 0, 0, 0], "worklevel_answers": [1, 0, 0, 0, 1], "prerequisite_answers": [0, 0, 2, 0, 0], "good_answers": [2, 0, 0, 0, 0]}, {"time": "F-10-03", "N_responses": 2, "learning_answers": [0, 2, 0, 0, 0], "participation_answers": [0, 1, 1, 0, 0], "material_answers": [0, 1, 1, 0, 0], "clear_answers": [0, 1, 1, 0, 0], "connection_answers": [0, 1, 1, 0, 0], "worklevel_answers": [0, 0, 2, 0, 0], "prerequisite_answers": [0, 0, 2, 0, 0], "good_answers": [0, 1, 1, 0, 0]}, {"time": "F-10-13", "N_responses": 9, "learning_answers": [5, 3, 0, 1, 0], "participation_answers": [5, 0, 2, 1, 1], "material_answers": [2, 1, 4, 0, 1], "clear_answers": [2, 2, 4, 1, 0], "connection_answers": [3, 1, 5, 0, 0], "worklevel_answers": [1, 0, 2, 3, 3], "prerequisite_answers": [1, 0, 8, 0, 0], "good_answers": [6, 2, 1, 0, 0]}, {"time": "F-09-03", "N_responses": 9, "learning_answers": [6, 3, 0, 0, 0], "participation_answers": [7, 2, 0, 0, 0], "material_answers": [2, 2, 4, 0, 0], "clear_answers": [2, 6, 0, 0, 1], "connection_answers": [3, 3, 1, 0, 1], "worklevel_answers": [1, 0, 3, 2, 3], "prerequisite_answers": [1, 0, 6, 1, 0], "good_answers": [6, 2, 1, 0, 0]}, {"time": "F-09-13", "N_responses": 9, "learning_answers": [5, 2, 2, 0, 0], "participation_answers": [6, 1, 2, 0, 0], "material_answers": [2, 0, 6, 0, 0], "clear_answers": [2, 1, 5, 0, 1], "connection_answers": [2, 1, 5, 0, 0], "worklevel_answers": [0, 1, 4, 2, 2], "prerequisite_answers": [0, 0, 9, 0, 0], "good_answers": [3, 4, 2, 0, 0]}], "eval_points": [{"time": "F-18-03JUN", "learning": 4.6, "worklevel": 4.2, "good": 4.8, "N": 5}, {"time": "F-18-13", "learning": 4.464285714285714, "worklevel": 3.6785714285714284, "good": 4.571428571428571, "N": 28}, {"time": "E-17-13", "learning": 4.333333333333333, "worklevel": 4.0, "good": 4.666666666666667, "N": 3}, {"time": "F-17-13", "learning": 4.222222222222222, "worklevel": 3.4444444444444446, "good": 4.0, "N": 9}, {"time": "E-16-13", "learning": 5.0, "worklevel": 3.0, "good": 4.666666666666667, "N": 3}, {"time": "F-16-03JUN", "learning": 4.875, "worklevel": 3.5, "good": 4.875, "N": 8}, {"time": "F-16-13", "learning": 4.0, "worklevel": 3.9, "good": 4.7, "N": 10}, {"time": "E-15-13", "learning": 5.0, "worklevel": 3.0, "good": 4.5, "N": 2}, {"time": "F-15-03", "learning": 4.4, "worklevel": 3.8, "good": 3.8, "N": 5}, {"time": "F-15-13", "learning": 4.533333333333333, "worklevel": 3.6, "good": 4.4, "N": 15}, {"time": "F-14-03", "learning": 5.0, "worklevel": 4.333333333333333, "good": 5.0, "N": 3}, {"time": "F-14-13", "learning": 4.714285714285714, "worklevel": 3.7142857142857144, "good": 4.571428571428571, "N": 7}, {"time": "E-13-13", "learning": 4.8, "worklevel": 3.8, "good": 4.4, "N": 5}, {"time": "F-13-13", "learning": 4.833333333333333, "worklevel": 3.611111111111111, "good": 4.611111111111111, "N": 18}, {"time": "E-12-13", "learning": 4.0, "worklevel": 3.0, "good": 5.0, "N": 1}, {"time": "F-12-13", "learning": 4.545454545454546, "worklevel": 3.909090909090909, "good": 4.181818181818182, "N": 11}, {"time": "E-11-13", "learning": 4.0, "worklevel": 4.0, "good": 5.0, "N": 1}, {"time": "F-11-13", "learning": 4.4, "worklevel": 2.7, "good": 3.4, "N": 10}, {"time": "E-10-13", "learning": 5.0, "worklevel": 3.0, "good": 5.0, "N": 2}, {"time": "F-10-03", "learning": 4.0, "worklevel": 3.0, "good": 3.5, "N": 2}, {"time": "F-10-13", "learning": 4.333333333333333, "worklevel": 3.7777777777777777, "good": 4.555555555555555, "N": 9}, {"time": "F-09-03", "learning": 4.666666666666667, "worklevel": 3.6666666666666665, "good": 4.555555555555555, "N": 9}, {"time": "F-09-13", "learning": 4.333333333333333, "worklevel": 3.5555555555555554, "good": 4.111111111111111, "N": 9}], "grades": [{"time": "2019summer", "N_exam": 41, "N_passed": 41, "exam_avg": 11.5, "grade_dist": [34, 5, 2, 0, 0, 0, 0, 1]}, {"time": "2016summer", "N_exam": 36, "N_passed": 36, "exam_avg": 9.8, "grade_dist": [12, 15, 7, 2, 0, 0, 0, 2]}, {"time": "2015summer", "N_exam": 25, "N_passed": 25, "exam_avg": 9.8, "grade_dist": [14, 2, 7, 2, 0, 0, 0, 3]}, {"time": "2014summer", "N_exam": 29, "N_passed": 29, "exam_avg": 9.2, "grade_dist": [10, 10, 4, 5, 0, 0, 0, 1]}, {"time": "2013summer", "N_exam": 28, "N_passed": 28, "exam_avg": 10.0, "grade_dist": [12, 9, 6, 1, 0, 0, 0, 1]}], "grade_percentile": 98.45360824742268, "eval_percentiles": {"learning": 83.74306106264869, "worklevel": 95.67803330689928, "good": 91.79222839016653}, "composites": {"beer_points": 3.2016401350699475, "quality_points": 4.584357541899442, "beer_percentiles": 50.4004004004004, "quality_percentiles": 97.14714714714715}}
+{
+    "info": {
+        "language": "Dansk",
+        "ECTS": 10,
+        "time": "F5B (ons 13-17)  og  Juni",
+        "level": "Bachelor",
+        "name": "Milj\u00f8fagprojekt",
+        "course_no": "12203"
+    },
+    "evals": [
+        {
+            "time": "F-18-03JUN",
+            "N_responses": 5,
+            "learning_answers": [
+                3,
+                2,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                4,
+                0,
+                1,
+                0,
+                0
+            ],
+            "material_answers": [
+                2,
+                1,
+                2,
+                0,
+                0
+            ],
+            "clear_answers": [
+                2,
+                2,
+                1,
+                0,
+                0
+            ],
+            "connection_answers": [
+                2,
+                3,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                1,
+                2,
+                2
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                5,
+                0,
+                0
+            ],
+            "good_answers": [
+                4,
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-18-13",
+            "N_responses": 28,
+            "learning_answers": [
+                16,
+                9,
+                3,
+                0,
+                0
+            ],
+            "participation_answers": [
+                20,
+                5,
+                2,
+                1,
+                0
+            ],
+            "material_answers": [
+                6,
+                7,
+                13,
+                2,
+                0
+            ],
+            "clear_answers": [
+                6,
+                10,
+                11,
+                1,
+                0
+            ],
+            "connection_answers": [
+                6,
+                11,
+                11,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                3,
+                10,
+                8,
+                7
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                26,
+                1,
+                0
+            ],
+            "good_answers": [
+                17,
+                10,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "E-17-13",
+            "N_responses": 3,
+            "learning_answers": [
+                1,
+                2,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                3,
+                0,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                0,
+                2,
+                1,
+                0,
+                0
+            ],
+            "clear_answers": [
+                0,
+                0,
+                1,
+                2,
+                0
+            ],
+            "connection_answers": [
+                0,
+                0,
+                3,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                1,
+                1,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                3,
+                0,
+                0
+            ],
+            "good_answers": [
+                2,
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-17-13",
+            "N_responses": 9,
+            "learning_answers": [
+                4,
+                4,
+                0,
+                1,
+                0
+            ],
+            "participation_answers": [
+                6,
+                3,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                0,
+                1,
+                7,
+                1,
+                0
+            ],
+            "clear_answers": [
+                0,
+                2,
+                5,
+                2,
+                0
+            ],
+            "connection_answers": [
+                0,
+                4,
+                4,
+                1,
+                0
+            ],
+            "worklevel_answers": [
+                1,
+                0,
+                3,
+                4,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                9,
+                0,
+                0
+            ],
+            "good_answers": [
+                3,
+                4,
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "time": "E-16-13",
+            "N_responses": 3,
+            "learning_answers": [
+                3,
+                0,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                3,
+                0,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            "clear_answers": [
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            "connection_answers": [
+                2,
+                1,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                3,
+                0,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                3,
+                0,
+                0
+            ],
+            "good_answers": [
+                2,
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-16-03JUN",
+            "N_responses": 8,
+            "learning_answers": [
+                7,
+                1,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                8,
+                0,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                4,
+                2,
+                2,
+                0,
+                0
+            ],
+            "clear_answers": [
+                3,
+                2,
+                2,
+                1,
+                0
+            ],
+            "connection_answers": [
+                5,
+                2,
+                1,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                4,
+                4,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                8,
+                0,
+                0
+            ],
+            "good_answers": [
+                7,
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-16-13",
+            "N_responses": 10,
+            "learning_answers": [
+                5,
+                3,
+                1,
+                0,
+                0
+            ],
+            "participation_answers": [
+                6,
+                3,
+                1,
+                0,
+                0
+            ],
+            "material_answers": [
+                3,
+                4,
+                3,
+                0,
+                0
+            ],
+            "clear_answers": [
+                1,
+                4,
+                2,
+                1,
+                2
+            ],
+            "connection_answers": [
+                2,
+                4,
+                3,
+                0,
+                1
+            ],
+            "worklevel_answers": [
+                0,
+                1,
+                3,
+                2,
+                4
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                10,
+                0,
+                0
+            ],
+            "good_answers": [
+                8,
+                1,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "E-15-13",
+            "N_responses": 2,
+            "learning_answers": [
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            "clear_answers": [
+                0,
+                1,
+                0,
+                1,
+                0
+            ],
+            "connection_answers": [
+                0,
+                0,
+                1,
+                1,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                2,
+                0,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                2,
+                0,
+                0
+            ],
+            "good_answers": [
+                1,
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-15-03",
+            "N_responses": 5,
+            "learning_answers": [
+                2,
+                3,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                1,
+                4,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                0,
+                2,
+                3,
+                0,
+                0
+            ],
+            "clear_answers": [
+                1,
+                3,
+                1,
+                0,
+                0
+            ],
+            "connection_answers": [
+                0,
+                2,
+                3,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                2,
+                2,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                5,
+                0,
+                0
+            ],
+            "good_answers": [
+                0,
+                4,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-15-13",
+            "N_responses": 15,
+            "learning_answers": [
+                9,
+                5,
+                1,
+                0,
+                0
+            ],
+            "participation_answers": [
+                7,
+                5,
+                2,
+                0,
+                0
+            ],
+            "material_answers": [
+                4,
+                5,
+                6,
+                0,
+                0
+            ],
+            "clear_answers": [
+                3,
+                5,
+                6,
+                1,
+                0
+            ],
+            "connection_answers": [
+                6,
+                2,
+                7,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                8,
+                5,
+                2
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                15,
+                0,
+                0
+            ],
+            "good_answers": [
+                9,
+                3,
+                3,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-14-03",
+            "N_responses": 3,
+            "learning_answers": [
+                3,
+                0,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                3,
+                0,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                3,
+                0,
+                0,
+                0,
+                0
+            ],
+            "clear_answers": [
+                0,
+                3,
+                0,
+                0,
+                0
+            ],
+            "connection_answers": [
+                3,
+                0,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                0,
+                2,
+                1
+            ],
+            "prerequisite_answers": [
+                1,
+                0,
+                2,
+                0,
+                0
+            ],
+            "good_answers": [
+                3,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-14-13",
+            "N_responses": 7,
+            "learning_answers": [
+                6,
+                0,
+                1,
+                0,
+                0
+            ],
+            "participation_answers": [
+                6,
+                0,
+                1,
+                0,
+                0
+            ],
+            "material_answers": [
+                4,
+                2,
+                1,
+                0,
+                0
+            ],
+            "clear_answers": [
+                2,
+                2,
+                3,
+                0,
+                0
+            ],
+            "connection_answers": [
+                3,
+                2,
+                2,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                4,
+                1,
+                2
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                7,
+                0,
+                0
+            ],
+            "good_answers": [
+                5,
+                1,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "E-13-13",
+            "N_responses": 5,
+            "learning_answers": [
+                4,
+                1,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                5,
+                0,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                2,
+                2,
+                1,
+                0,
+                0
+            ],
+            "clear_answers": [
+                2,
+                1,
+                2,
+                0,
+                0
+            ],
+            "connection_answers": [
+                2,
+                1,
+                2,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                3,
+                0,
+                2
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                5,
+                0,
+                0
+            ],
+            "good_answers": [
+                2,
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-13-13",
+            "N_responses": 18,
+            "learning_answers": [
+                16,
+                1,
+                1,
+                0,
+                0
+            ],
+            "participation_answers": [
+                16,
+                0,
+                1,
+                1,
+                0
+            ],
+            "material_answers": [
+                5,
+                1,
+                12,
+                0,
+                0
+            ],
+            "clear_answers": [
+                7,
+                6,
+                5,
+                0,
+                0
+            ],
+            "connection_answers": [
+                7,
+                3,
+                7,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                5,
+                5,
+                6
+            ],
+            "prerequisite_answers": [
+                1,
+                0,
+                16,
+                1,
+                0
+            ],
+            "good_answers": [
+                13,
+                4,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "time": "E-12-13",
+            "N_responses": 1,
+            "learning_answers": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "clear_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "connection_answers": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "good_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-12-13",
+            "N_responses": 11,
+            "learning_answers": [
+                7,
+                3,
+                1,
+                0,
+                0
+            ],
+            "participation_answers": [
+                9,
+                1,
+                1,
+                0,
+                0
+            ],
+            "material_answers": [
+                2,
+                1,
+                6,
+                1,
+                0
+            ],
+            "clear_answers": [
+                3,
+                2,
+                5,
+                0,
+                0
+            ],
+            "connection_answers": [
+                2,
+                2,
+                5,
+                1,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                4,
+                4,
+                3
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                10,
+                1,
+                0
+            ],
+            "good_answers": [
+                4,
+                5,
+                2,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "E-11-13",
+            "N_responses": 1,
+            "learning_answers": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "clear_answers": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "connection_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "good_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-11-13",
+            "N_responses": 10,
+            "learning_answers": [
+                7,
+                2,
+                0,
+                0,
+                1
+            ],
+            "participation_answers": [
+                9,
+                0,
+                0,
+                0,
+                1
+            ],
+            "material_answers": [
+                3,
+                2,
+                3,
+                1,
+                0
+            ],
+            "clear_answers": [
+                3,
+                1,
+                4,
+                1,
+                1
+            ],
+            "connection_answers": [
+                2,
+                2,
+                2,
+                1,
+                1
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                5,
+                3,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                6,
+                0,
+                1
+            ],
+            "good_answers": [
+                4,
+                3,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "time": "E-10-13",
+            "N_responses": 2,
+            "learning_answers": [
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            "clear_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "connection_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                1,
+                0,
+                0,
+                0,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                2,
+                0,
+                0
+            ],
+            "good_answers": [
+                2,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-10-03",
+            "N_responses": 2,
+            "learning_answers": [
+                0,
+                2,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                0,
+                1,
+                1,
+                0,
+                0
+            ],
+            "material_answers": [
+                0,
+                1,
+                1,
+                0,
+                0
+            ],
+            "clear_answers": [
+                0,
+                1,
+                1,
+                0,
+                0
+            ],
+            "connection_answers": [
+                0,
+                1,
+                1,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                2,
+                0,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                2,
+                0,
+                0
+            ],
+            "good_answers": [
+                0,
+                1,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-10-13",
+            "N_responses": 9,
+            "learning_answers": [
+                5,
+                3,
+                0,
+                1,
+                0
+            ],
+            "participation_answers": [
+                5,
+                0,
+                2,
+                1,
+                1
+            ],
+            "material_answers": [
+                2,
+                1,
+                4,
+                0,
+                1
+            ],
+            "clear_answers": [
+                2,
+                2,
+                4,
+                1,
+                0
+            ],
+            "connection_answers": [
+                3,
+                1,
+                5,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                1,
+                0,
+                2,
+                3,
+                3
+            ],
+            "prerequisite_answers": [
+                1,
+                0,
+                8,
+                0,
+                0
+            ],
+            "good_answers": [
+                6,
+                2,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-09-03",
+            "N_responses": 9,
+            "learning_answers": [
+                6,
+                3,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                7,
+                2,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                2,
+                2,
+                4,
+                0,
+                0
+            ],
+            "clear_answers": [
+                2,
+                6,
+                0,
+                0,
+                1
+            ],
+            "connection_answers": [
+                3,
+                3,
+                1,
+                0,
+                1
+            ],
+            "worklevel_answers": [
+                1,
+                0,
+                3,
+                2,
+                3
+            ],
+            "prerequisite_answers": [
+                1,
+                0,
+                6,
+                1,
+                0
+            ],
+            "good_answers": [
+                6,
+                2,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-09-13",
+            "N_responses": 9,
+            "learning_answers": [
+                5,
+                2,
+                2,
+                0,
+                0
+            ],
+            "participation_answers": [
+                6,
+                1,
+                2,
+                0,
+                0
+            ],
+            "material_answers": [
+                2,
+                0,
+                6,
+                0,
+                0
+            ],
+            "clear_answers": [
+                2,
+                1,
+                5,
+                0,
+                1
+            ],
+            "connection_answers": [
+                2,
+                1,
+                5,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                1,
+                4,
+                2,
+                2
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                9,
+                0,
+                0
+            ],
+            "good_answers": [
+                3,
+                4,
+                2,
+                0,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "F-18-03JUN",
+            "learning": 4.6,
+            "worklevel": 4.2,
+            "good": 4.8,
+            "N": 5
+        },
+        {
+            "time": "F-18-13",
+            "learning": 4.464285714285714,
+            "worklevel": 3.6785714285714284,
+            "good": 4.571428571428571,
+            "N": 28
+        },
+        {
+            "time": "E-17-13",
+            "learning": 4.333333333333333,
+            "worklevel": 4.0,
+            "good": 4.666666666666667,
+            "N": 3
+        },
+        {
+            "time": "F-17-13",
+            "learning": 4.222222222222222,
+            "worklevel": 3.4444444444444446,
+            "good": 4.0,
+            "N": 9
+        },
+        {
+            "time": "E-16-13",
+            "learning": 5.0,
+            "worklevel": 3.0,
+            "good": 4.666666666666667,
+            "N": 3
+        },
+        {
+            "time": "F-16-03JUN",
+            "learning": 4.875,
+            "worklevel": 3.5,
+            "good": 4.875,
+            "N": 8
+        },
+        {
+            "time": "F-16-13",
+            "learning": 4.0,
+            "worklevel": 3.9,
+            "good": 4.7,
+            "N": 10
+        },
+        {
+            "time": "E-15-13",
+            "learning": 5.0,
+            "worklevel": 3.0,
+            "good": 4.5,
+            "N": 2
+        },
+        {
+            "time": "F-15-03",
+            "learning": 4.4,
+            "worklevel": 3.8,
+            "good": 3.8,
+            "N": 5
+        },
+        {
+            "time": "F-15-13",
+            "learning": 4.533333333333333,
+            "worklevel": 3.6,
+            "good": 4.4,
+            "N": 15
+        },
+        {
+            "time": "F-14-03",
+            "learning": 5.0,
+            "worklevel": 4.333333333333333,
+            "good": 5.0,
+            "N": 3
+        },
+        {
+            "time": "F-14-13",
+            "learning": 4.714285714285714,
+            "worklevel": 3.7142857142857144,
+            "good": 4.571428571428571,
+            "N": 7
+        },
+        {
+            "time": "E-13-13",
+            "learning": 4.8,
+            "worklevel": 3.8,
+            "good": 4.4,
+            "N": 5
+        },
+        {
+            "time": "F-13-13",
+            "learning": 4.833333333333333,
+            "worklevel": 3.611111111111111,
+            "good": 4.611111111111111,
+            "N": 18
+        },
+        {
+            "time": "E-12-13",
+            "learning": 4.0,
+            "worklevel": 3.0,
+            "good": 5.0,
+            "N": 1
+        },
+        {
+            "time": "F-12-13",
+            "learning": 4.545454545454546,
+            "worklevel": 3.909090909090909,
+            "good": 4.181818181818182,
+            "N": 11
+        },
+        {
+            "time": "E-11-13",
+            "learning": 4.0,
+            "worklevel": 4.0,
+            "good": 5.0,
+            "N": 1
+        },
+        {
+            "time": "F-11-13",
+            "learning": 4.4,
+            "worklevel": 2.7,
+            "good": 3.4,
+            "N": 10
+        },
+        {
+            "time": "E-10-13",
+            "learning": 5.0,
+            "worklevel": 3.0,
+            "good": 5.0,
+            "N": 2
+        },
+        {
+            "time": "F-10-03",
+            "learning": 4.0,
+            "worklevel": 3.0,
+            "good": 3.5,
+            "N": 2
+        },
+        {
+            "time": "F-10-13",
+            "learning": 4.333333333333333,
+            "worklevel": 3.7777777777777777,
+            "good": 4.555555555555555,
+            "N": 9
+        },
+        {
+            "time": "F-09-03",
+            "learning": 4.666666666666667,
+            "worklevel": 3.6666666666666665,
+            "good": 4.555555555555555,
+            "N": 9
+        },
+        {
+            "time": "F-09-13",
+            "learning": 4.333333333333333,
+            "worklevel": 3.5555555555555554,
+            "good": 4.111111111111111,
+            "N": 9
+        }
+    ],
+    "grades": [
+        {
+            "time": "2019summer",
+            "N_exam": 41,
+            "N_passed": 41,
+            "exam_avg": 11.5,
+            "grade_dist": [
+                34,
+                5,
+                2,
+                0,
+                0,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "time": "2016summer",
+            "N_exam": 36,
+            "N_passed": 36,
+            "exam_avg": 9.8,
+            "grade_dist": [
+                12,
+                15,
+                7,
+                2,
+                0,
+                0,
+                0,
+                2
+            ]
+        },
+        {
+            "time": "2015summer",
+            "N_exam": 25,
+            "N_passed": 25,
+            "exam_avg": 9.8,
+            "grade_dist": [
+                14,
+                2,
+                7,
+                2,
+                0,
+                0,
+                0,
+                3
+            ]
+        },
+        {
+            "time": "2014summer",
+            "N_exam": 29,
+            "N_passed": 29,
+            "exam_avg": 9.2,
+            "grade_dist": [
+                10,
+                10,
+                4,
+                5,
+                0,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "time": "2013summer",
+            "N_exam": 28,
+            "N_passed": 28,
+            "exam_avg": 10.0,
+            "grade_dist": [
+                12,
+                9,
+                6,
+                1,
+                0,
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "grade_percentile": 98.45360824742268,
+    "eval_percentiles": {
+        "learning": 83.74306106264869,
+        "worklevel": 95.67803330689928,
+        "good": 91.79222839016653
+    },
+    "composites": {
+        "beer_points": 3.2016401350699475,
+        "quality_points": 4.584357541899442,
+        "beer_percentiles": 50.4004004004004,
+        "quality_percentiles": 97.14714714714715
+    }
+}

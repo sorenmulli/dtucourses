@@ -1,1 +1,22 @@
-{"info": {"language": "Engelsk", "ECTS": 5, "time": "Juni", "level": "Kandidat", "name": "Koncepter og modellering i to", "course_no": "10306"}, "grade_percentile": null, "eval_percentiles": {"learning": null, "worklevel": null, "good": null}, "composites": {"beer_points": null, "quality_points": null, "beer_percentiles": null, "quality_percentiles": null}}
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "Juni",
+        "level": "Kandidat",
+        "name": "Koncepter og modellering i to",
+        "course_no": "10306"
+    },
+    "grade_percentile": null,
+    "eval_percentiles": {
+        "learning": null,
+        "worklevel": null,
+        "good": null
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

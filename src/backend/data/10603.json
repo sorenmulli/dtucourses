@@ -1,1 +1,41 @@
-{"info": {"language": "Engelsk", "ECTS": 5, "time": "Juni", "level": "Kandidat", "name": "Hvordan vidste Edison og Bohr", "course_no": "10603"}, "grades": [{"time": "2019summer", "N_exam": 14, "N_passed": 14, "exam_avg": 12.0, "grade_dist": [1, 0, 0, 0, 0, 0, 0, 13, 0]}], "grade_percentile": 99.53139643861293, "eval_percentiles": {"learning": null, "worklevel": null, "good": null}, "composites": {"beer_points": null, "quality_points": null, "beer_percentiles": null, "quality_percentiles": null}}
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "Juni",
+        "level": "Kandidat",
+        "name": "Hvordan vidste Edison og Bohr",
+        "course_no": "10603"
+    },
+    "grades": [
+        {
+            "time": "2019summer",
+            "N_exam": 14,
+            "N_passed": 14,
+            "exam_avg": 12.0,
+            "grade_dist": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                13,
+                0
+            ]
+        }
+    ],
+    "grade_percentile": 99.53139643861293,
+    "eval_percentiles": {
+        "learning": null,
+        "worklevel": null,
+        "good": null
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

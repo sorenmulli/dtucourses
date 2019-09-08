@@ -1,1 +1,280 @@
-{"info": {"language": "Dansk", "ECTS": 10, "time": "E5 (ons 8-17)  ,  E4B (fre 8-12)  og  E3B (fre 13-17)", "level": "Diplomingeni\u00f8r", "name": "IT og kommunikation", "course_no": "62581"}, "evals": [{"time": "E-18-13", "N_responses": 20, "learning_answers": [9, 6, 4, 1, 0], "participation_answers": [7, 7, 5, 1, 0], "material_answers": [4, 8, 4, 3, 1], "clear_answers": [5, 8, 4, 2, 0], "connection_answers": [10, 6, 1, 2, 0], "worklevel_answers": [0, 0, 7, 9, 3], "prerequisite_answers": [0, 0, 11, 6, 2], "good_answers": [7, 7, 2, 3, 0]}, {"time": "E-17-13", "N_responses": 16, "learning_answers": [4, 3, 6, 2, 1], "participation_answers": [3, 4, 5, 2, 2], "material_answers": [5, 2, 5, 4, 0], "clear_answers": [5, 1, 4, 3, 3], "connection_answers": [2, 5, 5, 1, 3], "worklevel_answers": [0, 4, 7, 2, 3], "prerequisite_answers": [0, 0, 10, 4, 1], "good_answers": [3, 3, 3, 5, 2]}, {"time": "E-16-13", "N_responses": 26, "learning_answers": [6, 7, 7, 2, 4], "participation_answers": [4, 7, 6, 5, 3], "material_answers": [5, 10, 6, 1, 4], "clear_answers": [5, 2, 8, 5, 6], "connection_answers": [5, 8, 5, 4, 3], "worklevel_answers": [2, 4, 9, 8, 3], "prerequisite_answers": [1, 0, 15, 8, 2], "good_answers": [6, 8, 7, 1, 4]}], "eval_points": [{"time": "E-18-13", "learning": 4.15, "worklevel": 3.6, "good": 3.75, "N": 20}, {"time": "E-17-13", "learning": 3.4375, "worklevel": 3.25, "good": 3.0, "N": 16}, {"time": "E-16-13", "learning": 3.3461538461538463, "worklevel": 3.230769230769231, "good": 3.423076923076923, "N": 26}], "grades": [{"time": "2018winter", "N_exam": 30, "N_passed": 26, "exam_avg": 4.9, "grade_dist": [2, 4, 7, 6, 7, 3, 1, 3, 2]}, {"time": "2017winter", "N_exam": 25, "N_passed": 22, "exam_avg": 5.6, "grade_dist": [2, 4, 5, 9, 2, 3, 0, 1, 2]}, {"time": "2016winter", "N_exam": 35, "N_passed": 32, "exam_avg": 5.5, "grade_dist": [3, 4, 10, 9, 6, 3, 0, 1, 1]}], "grade_percentile": 8.856607310215558, "eval_percentiles": {"learning": 53.72720063441713, "worklevel": 81.56225218080888, "good": 36.71689135606661}, "composites": {"beer_points": 2.2615533043897735, "quality_points": 2.5731843575418996, "beer_percentiles": 6.906906906906907, "quality_percentiles": 11.811811811811811}}
+{
+    "info": {
+        "language": "Dansk",
+        "ECTS": 10,
+        "time": "E5 (ons 8-17)  ,  E4B (fre 8-12)  og  E3B (fre 13-17)",
+        "level": "Diplomingeni\u00f8r",
+        "name": "IT og kommunikation",
+        "course_no": "62581"
+    },
+    "evals": [
+        {
+            "time": "E-18-13",
+            "N_responses": 20,
+            "learning_answers": [
+                9,
+                6,
+                4,
+                1,
+                0
+            ],
+            "participation_answers": [
+                7,
+                7,
+                5,
+                1,
+                0
+            ],
+            "material_answers": [
+                4,
+                8,
+                4,
+                3,
+                1
+            ],
+            "clear_answers": [
+                5,
+                8,
+                4,
+                2,
+                0
+            ],
+            "connection_answers": [
+                10,
+                6,
+                1,
+                2,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                7,
+                9,
+                3
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                11,
+                6,
+                2
+            ],
+            "good_answers": [
+                7,
+                7,
+                2,
+                3,
+                0
+            ]
+        },
+        {
+            "time": "E-17-13",
+            "N_responses": 16,
+            "learning_answers": [
+                4,
+                3,
+                6,
+                2,
+                1
+            ],
+            "participation_answers": [
+                3,
+                4,
+                5,
+                2,
+                2
+            ],
+            "material_answers": [
+                5,
+                2,
+                5,
+                4,
+                0
+            ],
+            "clear_answers": [
+                5,
+                1,
+                4,
+                3,
+                3
+            ],
+            "connection_answers": [
+                2,
+                5,
+                5,
+                1,
+                3
+            ],
+            "worklevel_answers": [
+                0,
+                4,
+                7,
+                2,
+                3
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                10,
+                4,
+                1
+            ],
+            "good_answers": [
+                3,
+                3,
+                3,
+                5,
+                2
+            ]
+        },
+        {
+            "time": "E-16-13",
+            "N_responses": 26,
+            "learning_answers": [
+                6,
+                7,
+                7,
+                2,
+                4
+            ],
+            "participation_answers": [
+                4,
+                7,
+                6,
+                5,
+                3
+            ],
+            "material_answers": [
+                5,
+                10,
+                6,
+                1,
+                4
+            ],
+            "clear_answers": [
+                5,
+                2,
+                8,
+                5,
+                6
+            ],
+            "connection_answers": [
+                5,
+                8,
+                5,
+                4,
+                3
+            ],
+            "worklevel_answers": [
+                2,
+                4,
+                9,
+                8,
+                3
+            ],
+            "prerequisite_answers": [
+                1,
+                0,
+                15,
+                8,
+                2
+            ],
+            "good_answers": [
+                6,
+                8,
+                7,
+                1,
+                4
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "E-18-13",
+            "learning": 4.15,
+            "worklevel": 3.6,
+            "good": 3.75,
+            "N": 20
+        },
+        {
+            "time": "E-17-13",
+            "learning": 3.4375,
+            "worklevel": 3.25,
+            "good": 3.0,
+            "N": 16
+        },
+        {
+            "time": "E-16-13",
+            "learning": 3.3461538461538463,
+            "worklevel": 3.230769230769231,
+            "good": 3.423076923076923,
+            "N": 26
+        }
+    ],
+    "grades": [
+        {
+            "time": "2018winter",
+            "N_exam": 30,
+            "N_passed": 26,
+            "exam_avg": 4.9,
+            "grade_dist": [
+                2,
+                4,
+                7,
+                6,
+                7,
+                3,
+                1,
+                3,
+                2
+            ]
+        },
+        {
+            "time": "2017winter",
+            "N_exam": 25,
+            "N_passed": 22,
+            "exam_avg": 5.6,
+            "grade_dist": [
+                2,
+                4,
+                5,
+                9,
+                2,
+                3,
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "time": "2016winter",
+            "N_exam": 35,
+            "N_passed": 32,
+            "exam_avg": 5.5,
+            "grade_dist": [
+                3,
+                4,
+                10,
+                9,
+                6,
+                3,
+                0,
+                1,
+                1
+            ]
+        }
+    ],
+    "grade_percentile": 8.856607310215558,
+    "eval_percentiles": {
+        "learning": 53.72720063441713,
+        "worklevel": 81.56225218080888,
+        "good": 36.71689135606661
+    },
+    "composites": {
+        "beer_points": 2.2615533043897735,
+        "quality_points": 2.5731843575418996,
+        "beer_percentiles": 6.906906906906907,
+        "quality_percentiles": 11.811811811811811
+    }
+}

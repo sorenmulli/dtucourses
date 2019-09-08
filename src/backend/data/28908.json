@@ -1,1 +1,22 @@
-{"info": {"language": "Engelsk", "ECTS": 7.5, "time": "August", "level": "Ph.d.", "name": "Reologi af v\u00e6sker med mikrostruktur (udvidet)", "course_no": "28908"}, "grade_percentile": null, "eval_percentiles": {"learning": null, "worklevel": null, "good": null}, "composites": {"beer_points": null, "quality_points": null, "beer_percentiles": null, "quality_percentiles": null}}
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 7.5,
+        "time": "August",
+        "level": "Ph.d.",
+        "name": "Reologi af v\u00e6sker med mikrostruktur (udvidet)",
+        "course_no": "28908"
+    },
+    "grade_percentile": null,
+    "eval_percentiles": {
+        "learning": null,
+        "worklevel": null,
+        "good": null
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

@@ -1,1 +1,40 @@
-{"info": {"language": "Engelsk", "ECTS": 5, "time": "F1A (man 8-12)", "level": "Kandidat", "name": "Scientific Computing for differentialligninger 1", "course_no": "02686"}, "grades": [{"time": "2019summer", "N_exam": 43, "N_passed": 41, "exam_avg": 8.7, "grade_dist": [13, 14, 9, 3, 2, 1, 1, 9]}], "grade_percentile": 66.82286785379569, "eval_percentiles": {"learning": null, "worklevel": null, "good": null}, "composites": {"beer_points": null, "quality_points": null, "beer_percentiles": null, "quality_percentiles": null}}
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "F1A (man 8-12)",
+        "level": "Kandidat",
+        "name": "Scientific Computing for differentialligninger 1",
+        "course_no": "02686"
+    },
+    "grades": [
+        {
+            "time": "2019summer",
+            "N_exam": 43,
+            "N_passed": 41,
+            "exam_avg": 8.7,
+            "grade_dist": [
+                13,
+                14,
+                9,
+                3,
+                2,
+                1,
+                1,
+                9
+            ]
+        }
+    ],
+    "grade_percentile": 66.82286785379569,
+    "eval_percentiles": {
+        "learning": null,
+        "worklevel": null,
+        "good": null
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

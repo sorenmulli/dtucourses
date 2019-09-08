@@ -1,1 +1,159 @@
-{"info": {"language": "Engelsk", "ECTS": 5, "time": "F4A (tirs 13-17)", "level": "Kandidat", "name": "Forbr\u00e6ndingsmotorer", "course_no": "41346"}, "evals": [{"time": "F-16-13", "N_responses": 11, "learning_answers": [3, 6, 2, 0, 0], "participation_answers": [6, 3, 2, 0, 0], "material_answers": [2, 1, 6, 2, 0], "clear_answers": [2, 3, 3, 2, 1], "connection_answers": [5, 2, 4, 0, 0], "worklevel_answers": [0, 1, 6, 2, 2], "prerequisite_answers": [0, 1, 9, 1, 0], "good_answers": [3, 5, 1, 1, 0]}], "eval_points": [{"time": "F-16-13", "learning": 4.090909090909091, "worklevel": 3.4545454545454546, "good": 3.6363636363636362, "N": 11}], "grades": [{"time": "2017summer", "N_exam": 19, "N_passed": 19, "exam_avg": 9.7, "grade_dist": [6, 7, 6, 0, 0, 0, 0, 1]}, {"time": "2016summer", "N_exam": 22, "N_passed": 22, "exam_avg": 10.5, "grade_dist": [12, 7, 2, 1, 0, 0, 0, 3]}, {"time": "2015summer", "N_exam": 20, "N_passed": 20, "exam_avg": 10.7, "grade_dist": [7, 13, 0, 0, 0, 0, 0, 4]}, {"time": "2014summer", "N_exam": 25, "N_passed": 25, "exam_avg": 8.4, "grade_dist": [8, 5, 5, 7, 0, 0, 0, 3]}], "grade_percentile": 85.37956888472353, "eval_percentiles": {"learning": 50.43616177636796, "worklevel": 74.70261697065821, "good": 31.800158604282316}, "composites": {"beer_points": 3.4167697232820244, "quality_points": 3.853021838496698, "beer_percentiles": 65.36536536536536, "quality_percentiles": 74.97497497497497}}
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "F4A (tirs 13-17)",
+        "level": "Kandidat",
+        "name": "Forbr\u00e6ndingsmotorer",
+        "course_no": "41346"
+    },
+    "evals": [
+        {
+            "time": "F-16-13",
+            "N_responses": 11,
+            "learning_answers": [
+                3,
+                6,
+                2,
+                0,
+                0
+            ],
+            "participation_answers": [
+                6,
+                3,
+                2,
+                0,
+                0
+            ],
+            "material_answers": [
+                2,
+                1,
+                6,
+                2,
+                0
+            ],
+            "clear_answers": [
+                2,
+                3,
+                3,
+                2,
+                1
+            ],
+            "connection_answers": [
+                5,
+                2,
+                4,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                1,
+                6,
+                2,
+                2
+            ],
+            "prerequisite_answers": [
+                0,
+                1,
+                9,
+                1,
+                0
+            ],
+            "good_answers": [
+                3,
+                5,
+                1,
+                1,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "F-16-13",
+            "learning": 4.090909090909091,
+            "worklevel": 3.4545454545454546,
+            "good": 3.6363636363636362,
+            "N": 11
+        }
+    ],
+    "grades": [
+        {
+            "time": "2017summer",
+            "N_exam": 19,
+            "N_passed": 19,
+            "exam_avg": 9.7,
+            "grade_dist": [
+                6,
+                7,
+                6,
+                0,
+                0,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "time": "2016summer",
+            "N_exam": 22,
+            "N_passed": 22,
+            "exam_avg": 10.5,
+            "grade_dist": [
+                12,
+                7,
+                2,
+                1,
+                0,
+                0,
+                0,
+                3
+            ]
+        },
+        {
+            "time": "2015summer",
+            "N_exam": 20,
+            "N_passed": 20,
+            "exam_avg": 10.7,
+            "grade_dist": [
+                7,
+                13,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4
+            ]
+        },
+        {
+            "time": "2014summer",
+            "N_exam": 25,
+            "N_passed": 25,
+            "exam_avg": 8.4,
+            "grade_dist": [
+                8,
+                5,
+                5,
+                7,
+                0,
+                0,
+                0,
+                3
+            ]
+        }
+    ],
+    "grade_percentile": 85.37956888472353,
+    "eval_percentiles": {
+        "learning": 50.43616177636796,
+        "worklevel": 74.70261697065821,
+        "good": 31.800158604282316
+    },
+    "composites": {
+        "beer_points": 3.4167697232820244,
+        "quality_points": 3.853021838496698,
+        "beer_percentiles": 65.36536536536536,
+        "quality_percentiles": 74.97497497497497
+    }
+}

@@ -1,1 +1,56 @@
-{"info": {"language": "Dansk", "ECTS": 10, "time": "F5A (ons 8-12)  og  Juni", "level": "Diplomingeni\u00f8r", "name": "CDIO", "course_no": "62410"}, "grades": [{"time": "2019summer", "N_exam": 108, "N_passed": 105, "exam_avg": 8.7, "grade_dist": [40, 24, 23, 11, 7, 3, 0, 11]}, {"time": "2018summer", "N_exam": 107, "N_passed": 107, "exam_avg": 8.1, "grade_dist": [7, 41, 49, 7, 3, 0, 0, 6]}], "grade_percentile": 66.82286785379569, "eval_percentiles": {"learning": null, "worklevel": null, "good": null}, "composites": {"beer_points": null, "quality_points": null, "beer_percentiles": null, "quality_percentiles": null}}
+{
+    "info": {
+        "language": "Dansk",
+        "ECTS": 10,
+        "time": "F5A (ons 8-12)  og  Juni",
+        "level": "Diplomingeni\u00f8r",
+        "name": "CDIO",
+        "course_no": "62410"
+    },
+    "grades": [
+        {
+            "time": "2019summer",
+            "N_exam": 108,
+            "N_passed": 105,
+            "exam_avg": 8.7,
+            "grade_dist": [
+                40,
+                24,
+                23,
+                11,
+                7,
+                3,
+                0,
+                11
+            ]
+        },
+        {
+            "time": "2018summer",
+            "N_exam": 107,
+            "N_passed": 107,
+            "exam_avg": 8.1,
+            "grade_dist": [
+                7,
+                41,
+                49,
+                7,
+                3,
+                0,
+                0,
+                6
+            ]
+        }
+    ],
+    "grade_percentile": 66.82286785379569,
+    "eval_percentiles": {
+        "learning": null,
+        "worklevel": null,
+        "good": null
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

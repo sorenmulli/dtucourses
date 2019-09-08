@@ -1,1 +1,127 @@
-{"info": {"language": "Engelsk", "ECTS": 10, "time": "Juli  og  August", "level": "Diplomingeni\u00f8r", "name": "Innovation Pilot (summer edition)", "course_no": "62990"}, "evals": [{"time": "F-18-03JUL", "N_responses": 46, "learning_answers": [11, 10, 9, 12, 4], "participation_answers": [16, 12, 9, 7, 2], "material_answers": [5, 11, 14, 6, 10], "clear_answers": [7, 3, 16, 13, 7], "connection_answers": [9, 15, 13, 5, 4], "worklevel_answers": [1, 2, 26, 13, 4], "prerequisite_answers": [0, 3, 37, 5, 1], "good_answers": [8, 9, 14, 5, 9]}], "eval_points": [{"time": "F-18-03JUL", "learning": 3.260869565217391, "worklevel": 3.369565217391304, "good": 2.9782608695652173, "N": 46}], "grades": [{"time": "2018summer", "N_exam": 105, "N_passed": 105, "exam_avg": 9.0, "grade_dist": [17, 45, 38, 5, 0, 0, 0, 17]}, {"time": "2017summer", "N_exam": 77, "N_passed": 77, "exam_avg": 8.6, "grade_dist": [5, 48, 10, 14, 0, 0, 0, 2]}], "grade_percentile": 73.10215557638239, "eval_percentiles": {"learning": 12.52973830293418, "worklevel": 68.3584456780333, "good": 10.467882632831087}, "composites": {"beer_points": 3.334361039451331, "quality_points": 3.2890454214233666, "beer_percentiles": 60.16016016016016, "quality_percentiles": 41.44144144144144}}
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 10,
+        "time": "Juli  og  August",
+        "level": "Diplomingeni\u00f8r",
+        "name": "Innovation Pilot (summer edition)",
+        "course_no": "62990"
+    },
+    "evals": [
+        {
+            "time": "F-18-03JUL",
+            "N_responses": 46,
+            "learning_answers": [
+                11,
+                10,
+                9,
+                12,
+                4
+            ],
+            "participation_answers": [
+                16,
+                12,
+                9,
+                7,
+                2
+            ],
+            "material_answers": [
+                5,
+                11,
+                14,
+                6,
+                10
+            ],
+            "clear_answers": [
+                7,
+                3,
+                16,
+                13,
+                7
+            ],
+            "connection_answers": [
+                9,
+                15,
+                13,
+                5,
+                4
+            ],
+            "worklevel_answers": [
+                1,
+                2,
+                26,
+                13,
+                4
+            ],
+            "prerequisite_answers": [
+                0,
+                3,
+                37,
+                5,
+                1
+            ],
+            "good_answers": [
+                8,
+                9,
+                14,
+                5,
+                9
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "F-18-03JUL",
+            "learning": 3.260869565217391,
+            "worklevel": 3.369565217391304,
+            "good": 2.9782608695652173,
+            "N": 46
+        }
+    ],
+    "grades": [
+        {
+            "time": "2018summer",
+            "N_exam": 105,
+            "N_passed": 105,
+            "exam_avg": 9.0,
+            "grade_dist": [
+                17,
+                45,
+                38,
+                5,
+                0,
+                0,
+                0,
+                17
+            ]
+        },
+        {
+            "time": "2017summer",
+            "N_exam": 77,
+            "N_passed": 77,
+            "exam_avg": 8.6,
+            "grade_dist": [
+                5,
+                48,
+                10,
+                14,
+                0,
+                0,
+                0,
+                2
+            ]
+        }
+    ],
+    "grade_percentile": 73.10215557638239,
+    "eval_percentiles": {
+        "learning": 12.52973830293418,
+        "worklevel": 68.3584456780333,
+        "good": 10.467882632831087
+    },
+    "composites": {
+        "beer_points": 3.334361039451331,
+        "quality_points": 3.2890454214233666,
+        "beer_percentiles": 60.16016016016016,
+        "quality_percentiles": 41.44144144144144
+    }
+}

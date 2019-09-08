@@ -1,1 +1,111 @@
-{"info": {"language": "Engelsk", "ECTS": 5, "time": "E1A (man 8-12)", "level": "Kandidat", "name": "Data science inden for mobilitet", "course_no": "42184"}, "evals": [{"time": "E-18-13", "N_responses": 11, "learning_answers": [4, 6, 0, 1, 0], "participation_answers": [6, 4, 1, 0, 0], "material_answers": [6, 3, 0, 0, 1], "clear_answers": [4, 5, 2, 0, 0], "connection_answers": [3, 5, 1, 1, 0], "worklevel_answers": [0, 0, 9, 1, 1], "prerequisite_answers": [0, 0, 10, 1, 0], "good_answers": [5, 0, 3, 2, 0]}], "eval_points": [{"time": "E-18-13", "learning": 4.181818181818182, "worklevel": 3.272727272727273, "good": 3.4545454545454546, "N": 11}], "grades": [{"time": "2018winter", "N_exam": 18, "N_passed": 17, "exam_avg": 8.8, "grade_dist": [3, 9, 4, 1, 0, 1, 0, 1]}], "grade_percentile": 68.50984067478913, "eval_percentiles": {"learning": 55.98731165741475, "worklevel": 60.78509119746233, "good": 24.50436161776368}, "composites": {"beer_points": 3.3696180327149934, "quality_points": 3.6360589131538856, "beer_percentiles": 62.56256256256256, "quality_percentiles": 61.76176176176176}}
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "E1A (man 8-12)",
+        "level": "Kandidat",
+        "name": "Data science inden for mobilitet",
+        "course_no": "42184"
+    },
+    "evals": [
+        {
+            "time": "E-18-13",
+            "N_responses": 11,
+            "learning_answers": [
+                4,
+                6,
+                0,
+                1,
+                0
+            ],
+            "participation_answers": [
+                6,
+                4,
+                1,
+                0,
+                0
+            ],
+            "material_answers": [
+                6,
+                3,
+                0,
+                0,
+                1
+            ],
+            "clear_answers": [
+                4,
+                5,
+                2,
+                0,
+                0
+            ],
+            "connection_answers": [
+                3,
+                5,
+                1,
+                1,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                9,
+                1,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                10,
+                1,
+                0
+            ],
+            "good_answers": [
+                5,
+                0,
+                3,
+                2,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "E-18-13",
+            "learning": 4.181818181818182,
+            "worklevel": 3.272727272727273,
+            "good": 3.4545454545454546,
+            "N": 11
+        }
+    ],
+    "grades": [
+        {
+            "time": "2018winter",
+            "N_exam": 18,
+            "N_passed": 17,
+            "exam_avg": 8.8,
+            "grade_dist": [
+                3,
+                9,
+                4,
+                1,
+                0,
+                1,
+                0,
+                1
+            ]
+        }
+    ],
+    "grade_percentile": 68.50984067478913,
+    "eval_percentiles": {
+        "learning": 55.98731165741475,
+        "worklevel": 60.78509119746233,
+        "good": 24.50436161776368
+    },
+    "composites": {
+        "beer_points": 3.3696180327149934,
+        "quality_points": 3.6360589131538856,
+        "beer_percentiles": 62.56256256256256,
+        "quality_percentiles": 61.76176176176176
+    }
+}

@@ -42,7 +42,7 @@ export class CourseComponent implements OnInit {
 
   setTopCourse() {
     // Tager kurset øverst i søgningen
-    const courseNo = Object.keys(this.searchResults)[0];
+    const courseNo = Object.keys(this.searchResults).sort()[0];
     // Sikrer, at siden genindlæses, selv hvis kurset, og dermed url'en, er den samme
     this.setCourse(courseNo);
   }

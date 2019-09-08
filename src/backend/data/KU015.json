@@ -1,1 +1,22 @@
-{"info": {"language": "Dansk", "ECTS": 7.5, "time": "F3A (tirs 8-12)  ,  F2B (tors 8-12)  og  F1B (tors 13-17)", "level": "Bachelor", "name": "Grundl\u00e6ggende farmakologi og l\u00e6gemiddelstoffers biotilg\u00e6ngelighed", "course_no": "KU015"}, "grade_percentile": null, "eval_percentiles": {"learning": null, "worklevel": null, "good": null}, "composites": {"beer_points": null, "quality_points": null, "beer_percentiles": null, "quality_percentiles": null}}
+{
+    "info": {
+        "language": "Dansk",
+        "ECTS": 7.5,
+        "time": "F3A (tirs 8-12)  ,  F2B (tors 8-12)  og  F1B (tors 13-17)",
+        "level": "Bachelor",
+        "name": "Grundl\u00e6ggende farmakologi og l\u00e6gemiddelstoffers biotilg\u00e6ngelighed",
+        "course_no": "KU015"
+    },
+    "grade_percentile": null,
+    "eval_percentiles": {
+        "learning": null,
+        "worklevel": null,
+        "good": null
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

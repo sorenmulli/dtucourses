@@ -1,1 +1,194 @@
-{"info": {"language": "Engelsk", "ECTS": 5, "time": "F1B (tors 13-17)", "level": "Kandidat", "name": "Tr\u00e6konstruktioner", "course_no": "11353"}, "evals": [{"time": "F-18-03AUG", "N_responses": 28, "learning_answers": [23, 5, 0, 0, 0], "participation_answers": [22, 4, 1, 0, 1], "material_answers": [9, 14, 3, 2, 0], "clear_answers": [4, 5, 5, 9, 5], "connection_answers": [10, 14, 2, 2, 0], "worklevel_answers": [0, 0, 6, 6, 16], "prerequisite_answers": [0, 0, 26, 2, 0], "good_answers": [14, 11, 2, 1, 0]}, {"time": "F-17-03AUG", "N_responses": 18, "learning_answers": [13, 4, 0, 1, 0], "participation_answers": [12, 3, 3, 0, 0], "material_answers": [3, 12, 3, 0, 0], "clear_answers": [2, 4, 4, 5, 2], "connection_answers": [7, 7, 3, 1, 0], "worklevel_answers": [0, 0, 0, 7, 11], "prerequisite_answers": [0, 1, 15, 1, 0], "good_answers": [7, 9, 2, 0, 0]}], "eval_points": [{"time": "F-18-03AUG", "learning": 4.821428571428571, "worklevel": 4.357142857142857, "good": 4.357142857142857, "N": 28}, {"time": "F-17-03AUG", "learning": 4.611111111111111, "worklevel": 4.611111111111111, "good": 4.277777777777778, "N": 18}], "grades": [{"time": "2018summer", "N_exam": 58, "N_passed": 58, "exam_avg": 8.6, "grade_dist": [3, 33, 14, 8, 0, 0, 0, 2]}, {"time": "2017summer", "N_exam": 34, "N_passed": 33, "exam_avg": 7.7, "grade_dist": [6, 8, 14, 3, 2, 0, 1, 1]}], "grade_percentile": 65.41705716963449, "eval_percentiles": {"learning": 91.99048374306106, "worklevel": 97.38302934179222, "good": 73.15622521808089}, "composites": {"beer_points": 2.4475639170284618, "quality_points": 3.705187549880286, "beer_percentiles": 10.21021021021021, "quality_percentiles": 65.46546546546547}}
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "F1B (tors 13-17)",
+        "level": "Kandidat",
+        "name": "Tr\u00e6konstruktioner",
+        "course_no": "11353"
+    },
+    "evals": [
+        {
+            "time": "F-18-03AUG",
+            "N_responses": 28,
+            "learning_answers": [
+                23,
+                5,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                22,
+                4,
+                1,
+                0,
+                1
+            ],
+            "material_answers": [
+                9,
+                14,
+                3,
+                2,
+                0
+            ],
+            "clear_answers": [
+                4,
+                5,
+                5,
+                9,
+                5
+            ],
+            "connection_answers": [
+                10,
+                14,
+                2,
+                2,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                6,
+                6,
+                16
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                26,
+                2,
+                0
+            ],
+            "good_answers": [
+                14,
+                11,
+                2,
+                1,
+                0
+            ]
+        },
+        {
+            "time": "F-17-03AUG",
+            "N_responses": 18,
+            "learning_answers": [
+                13,
+                4,
+                0,
+                1,
+                0
+            ],
+            "participation_answers": [
+                12,
+                3,
+                3,
+                0,
+                0
+            ],
+            "material_answers": [
+                3,
+                12,
+                3,
+                0,
+                0
+            ],
+            "clear_answers": [
+                2,
+                4,
+                4,
+                5,
+                2
+            ],
+            "connection_answers": [
+                7,
+                7,
+                3,
+                1,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                0,
+                7,
+                11
+            ],
+            "prerequisite_answers": [
+                0,
+                1,
+                15,
+                1,
+                0
+            ],
+            "good_answers": [
+                7,
+                9,
+                2,
+                0,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "F-18-03AUG",
+            "learning": 4.821428571428571,
+            "worklevel": 4.357142857142857,
+            "good": 4.357142857142857,
+            "N": 28
+        },
+        {
+            "time": "F-17-03AUG",
+            "learning": 4.611111111111111,
+            "worklevel": 4.611111111111111,
+            "good": 4.277777777777778,
+            "N": 18
+        }
+    ],
+    "grades": [
+        {
+            "time": "2018summer",
+            "N_exam": 58,
+            "N_passed": 58,
+            "exam_avg": 8.6,
+            "grade_dist": [
+                3,
+                33,
+                14,
+                8,
+                0,
+                0,
+                0,
+                2
+            ]
+        },
+        {
+            "time": "2017summer",
+            "N_exam": 34,
+            "N_passed": 33,
+            "exam_avg": 7.7,
+            "grade_dist": [
+                6,
+                8,
+                14,
+                3,
+                2,
+                0,
+                1,
+                1
+            ]
+        }
+    ],
+    "grade_percentile": 65.41705716963449,
+    "eval_percentiles": {
+        "learning": 91.99048374306106,
+        "worklevel": 97.38302934179222,
+        "good": 73.15622521808089
+    },
+    "composites": {
+        "beer_points": 2.4475639170284618,
+        "quality_points": 3.705187549880286,
+        "beer_percentiles": 10.21021021021021,
+        "quality_percentiles": 65.46546546546547
+    }
+}

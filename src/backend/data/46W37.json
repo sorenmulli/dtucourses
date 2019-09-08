@@ -1,1 +1,40 @@
-{"info": {"language": "Engelsk", "ECTS": 5, "time": "Udenfor skema-struktur", "level": "Deltidsmaster", "name": "M\u00e5leteknikker i vindenergi", "course_no": "46W37"}, "grades": [{"time": "2018winter", "N_exam": 11, "N_passed": 11, "exam_avg": 8.5, "grade_dist": [1, 4, 6, 0, 0, 0, 0, 4]}], "grade_percentile": 63.26148078725398, "eval_percentiles": {"learning": null, "worklevel": null, "good": null}, "composites": {"beer_points": null, "quality_points": null, "beer_percentiles": null, "quality_percentiles": null}}
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "Udenfor skema-struktur",
+        "level": "Deltidsmaster",
+        "name": "M\u00e5leteknikker i vindenergi",
+        "course_no": "46W37"
+    },
+    "grades": [
+        {
+            "time": "2018winter",
+            "N_exam": 11,
+            "N_passed": 11,
+            "exam_avg": 8.5,
+            "grade_dist": [
+                1,
+                4,
+                6,
+                0,
+                0,
+                0,
+                0,
+                4
+            ]
+        }
+    ],
+    "grade_percentile": 63.26148078725398,
+    "eval_percentiles": {
+        "learning": null,
+        "worklevel": null,
+        "good": null
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

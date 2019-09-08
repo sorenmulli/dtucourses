@@ -1,1 +1,277 @@
-{"info": {"language": "Engelsk", "ECTS": 5, "time": "E2B (tors 8-12)  eller  F4B (fre 8-12)", "level": "Diplomingeni\u00f8r", "name": "Internet of Things", "course_no": "62407"}, "evals": [{"time": "F-19-13", "N_responses": 1, "learning_answers": [0, 1, 0, 0, 0], "participation_answers": [0, 0, 0, 1, 0], "material_answers": [0, 0, 1, 0, 0], "clear_answers": [1, 0, 0, 0, 0], "connection_answers": [0, 0, 1, 0, 0], "worklevel_answers": [0, 1, 0, 0, 0], "prerequisite_answers": [0, 0, 1, 0, 0], "good_answers": [0, 1, 0, 0, 0]}, {"time": "F-18-13", "N_responses": 3, "learning_answers": [0, 2, 1, 0, 0], "participation_answers": [0, 2, 1, 0, 0], "material_answers": [0, 1, 1, 1, 0], "clear_answers": [0, 1, 1, 1, 0], "connection_answers": [0, 2, 1, 0, 0], "worklevel_answers": [0, 0, 3, 0, 0], "prerequisite_answers": [0, 0, 3, 0, 0], "good_answers": [0, 1, 0, 1, 1]}, {"time": "E-17-13", "N_responses": 2, "learning_answers": [0, 1, 0, 0, 1], "participation_answers": [0, 1, 1, 0, 0], "material_answers": [0, 1, 0, 0, 1], "clear_answers": [0, 0, 0, 1, 1], "connection_answers": [0, 0, 1, 0, 1], "worklevel_answers": [1, 0, 0, 1, 0], "prerequisite_answers": [0, 0, 2, 0, 0], "good_answers": [0, 1, 0, 0, 1]}], "eval_points": [{"time": "F-19-13", "learning": 4.0, "worklevel": 2.0, "good": 4.0, "N": 1}, {"time": "F-18-13", "learning": 3.6666666666666665, "worklevel": 3.0, "good": 2.3333333333333335, "N": 3}, {"time": "E-17-13", "learning": 2.5, "worklevel": 2.5, "good": 2.5, "N": 2}], "grades": [{"time": "2019summer", "N_exam": 11, "N_passed": 11, "exam_avg": 7.8, "grade_dist": [1, 5, 2, 2, 1, 0, 0, 2]}, {"time": "2018winter", "N_exam": 21, "N_passed": 21, "exam_avg": 8.1, "grade_dist": [5, 7, 3, 4, 2, 0, 0, 1]}, {"time": "2017winter", "N_exam": 5, "N_passed": 5, "exam_avg": 8.2, "grade_dist": [0, 2, 3, 0, 0, 0, 0, 3]}], "grade_percentile": 47.000937207122774, "eval_percentiles": {"learning": 42.9817605075337, "worklevel": 1.1498810467882632, "good": 51.11022997620936}, "composites": {"beer_points": 4.1849493487699, "quality_points": 3.8067039106145253, "beer_percentiles": 97.7977977977978, "quality_percentiles": 72.72272272272272}}
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "E2B (tors 8-12)  eller  F4B (fre 8-12)",
+        "level": "Diplomingeni\u00f8r",
+        "name": "Internet of Things",
+        "course_no": "62407"
+    },
+    "evals": [
+        {
+            "time": "F-19-13",
+            "N_responses": 1,
+            "learning_answers": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "material_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "clear_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "connection_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "good_answers": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-18-13",
+            "N_responses": 3,
+            "learning_answers": [
+                0,
+                2,
+                1,
+                0,
+                0
+            ],
+            "participation_answers": [
+                0,
+                2,
+                1,
+                0,
+                0
+            ],
+            "material_answers": [
+                0,
+                1,
+                1,
+                1,
+                0
+            ],
+            "clear_answers": [
+                0,
+                1,
+                1,
+                1,
+                0
+            ],
+            "connection_answers": [
+                0,
+                2,
+                1,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                3,
+                0,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                3,
+                0,
+                0
+            ],
+            "good_answers": [
+                0,
+                1,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "time": "E-17-13",
+            "N_responses": 2,
+            "learning_answers": [
+                0,
+                1,
+                0,
+                0,
+                1
+            ],
+            "participation_answers": [
+                0,
+                1,
+                1,
+                0,
+                0
+            ],
+            "material_answers": [
+                0,
+                1,
+                0,
+                0,
+                1
+            ],
+            "clear_answers": [
+                0,
+                0,
+                0,
+                1,
+                1
+            ],
+            "connection_answers": [
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            "worklevel_answers": [
+                1,
+                0,
+                0,
+                1,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                2,
+                0,
+                0
+            ],
+            "good_answers": [
+                0,
+                1,
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "F-19-13",
+            "learning": 4.0,
+            "worklevel": 2.0,
+            "good": 4.0,
+            "N": 1
+        },
+        {
+            "time": "F-18-13",
+            "learning": 3.6666666666666665,
+            "worklevel": 3.0,
+            "good": 2.3333333333333335,
+            "N": 3
+        },
+        {
+            "time": "E-17-13",
+            "learning": 2.5,
+            "worklevel": 2.5,
+            "good": 2.5,
+            "N": 2
+        }
+    ],
+    "grades": [
+        {
+            "time": "2019summer",
+            "N_exam": 11,
+            "N_passed": 11,
+            "exam_avg": 7.8,
+            "grade_dist": [
+                1,
+                5,
+                2,
+                2,
+                1,
+                0,
+                0,
+                2
+            ]
+        },
+        {
+            "time": "2018winter",
+            "N_exam": 21,
+            "N_passed": 21,
+            "exam_avg": 8.1,
+            "grade_dist": [
+                5,
+                7,
+                3,
+                4,
+                2,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "time": "2017winter",
+            "N_exam": 5,
+            "N_passed": 5,
+            "exam_avg": 8.2,
+            "grade_dist": [
+                0,
+                2,
+                3,
+                0,
+                0,
+                0,
+                0,
+                3
+            ]
+        }
+    ],
+    "grade_percentile": 47.000937207122774,
+    "eval_percentiles": {
+        "learning": 42.9817605075337,
+        "worklevel": 1.1498810467882632,
+        "good": 51.11022997620936
+    },
+    "composites": {
+        "beer_points": 4.1849493487699,
+        "quality_points": 3.8067039106145253,
+        "beer_percentiles": 97.7977977977978,
+        "quality_percentiles": 72.72272272272272
+    }
+}
