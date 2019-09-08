@@ -11,7 +11,7 @@ from scipy.stats import percentileofscore
 My job: I receive the course data downloaded from the DTU website and create meaningful metrics for all courses.
 '''
 
-newest_file = '2019-08-25T201957complete_raw_data.json'
+newest_file = 'complete_raw_data.json'
 
 
 def getpercentiles(scorelist):
@@ -170,13 +170,27 @@ def course_compare(file):
 			"quality_percentiles": quality_percentiles[i]
 		}
 		courses[course_no]["composites"] = composites 
-			
+			# nowtime
 	finished_database = {"time": data["time"], "courses": courses}
+	for course_no in finished_database["courses"]:
+		with open("src/backend/data/%s.json" % course_no, "w") as f:
+			json.dump(finished_database["courses"][course_no], f)
 
 	#Serialize new db
 	with open('src/backend/data/db.json', 'w+') as fp:
 		json.dump(finished_database, fp, indent=4)
 
+def create_course_min():
+	with open("src/backend/data/complete_raw_data.json") as f:
+		course_dict = json.load(f)
+		course_min = {"time": course_dict["time"]}
+		for kw in course_dict["courses"]:
+			course_min[kw] = course_dict["courses"][kw]["info"]
+			
+	with open("src/backend/data/course_min.json", "w") as f:
+		json.dump(course_min, f, indent=4)
+
 
 if __name__ == "__main__":
+	create_course_min()
 	course_compare(newest_file)
