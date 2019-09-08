@@ -25,7 +25,7 @@ export class CourseService {
 
   get(courseNo: string): Promise<ICourse> {
     return this.httpClient.get<ICourse>(
-      "https://raw.githubusercontent.com/sorenmulli/dtucourses/master/src/frontend/src/assets/${courseNo}.json"
+      `https://raw.githubusercontent.com/sorenmulli/dtucourses/master/src/backend/data/${courseNo}.json`
     ).toPromise();
   }
 
