@@ -1,18 +1,22 @@
-export interface ICourses {
+export interface ICoursesMin {
 	time: Date,
 	courses: {
-		[key: string]: ICourse,
+		[key: string]: ICourseMin,
 	},
+}
+
+export interface ICourseMin {
+	course_no: string,
+	name: string,
+	language: string,
+	ECTS: number,
+	time: string,
+	level: string,
 }
 
 export interface ICourse {
 	info: {
-		course_no: string,
-		name: string,
-		language: string,
-		ECTS: number,
-		time: string,
-		level: string
+		ICourseMin,
 	},
 	grades?: {
 		time: string,

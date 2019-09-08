@@ -183,11 +183,13 @@ def course_compare(file):
 def create_course_min():
 	with open("src/backend/data/complete_raw_data.json") as f:
 		course_dict = json.load(f)
-		course_min = {"time": course_dict["time"]}
+		course_min = {"time": course_dict["time"], "courses": {}}
 		for kw in course_dict["courses"]:
-			course_min[kw] = course_dict["courses"][kw]["info"]
+			course_min["courses"][kw] = course_dict["courses"][kw]["info"]
 			
 	with open("src/backend/data/course_min.json", "w") as f:
+		json.dump(course_min, f, indent=4)
+	with open("src/frontend/src/assets/course_min.json", "w") as f:
 		json.dump(course_min, f, indent=4)
 
 
