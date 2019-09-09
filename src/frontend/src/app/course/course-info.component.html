@@ -36,33 +36,73 @@
       </thead>
       <tbody>
         <tr>
-          <th>Karaktergennemsnit</th>
+          <!-- Ikoner https://material.io/resources/icons/?icon=alarm&style=baseline -->
+          <th>
+            Karaktergennemsnit
+            <mat-icon>help_outline</mat-icon>
+          </th>
           <td style="text-align: right">{{course.grades ? (course.grades[0].exam_avg | number:"1.0-1") : "N/A"}}</td>
-          <td style="text-align: right">{{course.grade_percentile}}</td>
+          <td style="text-align: right"
+              [style.background-color]="bgColours.grade">
+            {{course.grade_percentile | number:"1.2-2"}} %
+          </td>
         </tr>
         <tr>
           <th>
             Indlæring
+            <mat-icon>help_outline</mat-icon>
             <a href="javascript:void(0)" class="js-tooltip" title="hello there">
                 <svg class="icon-svg" focusable="false" aria-hidden="true" ><use xlink:href="#help-circle-outline"></use></svg>
             </a>
           </th>
           <td style="text-align: right">{{course.eval_points[0].learning | number:"1.0-1"}} / 5</td>
-          <td style="text-align: right">{{course.eval_percentiles.learning | number:"1.2-2"}} %</td>
+          <td style="text-align: right"
+              [style.background-color]="bgColours.learning">
+            {{course.eval_percentiles.learning | number:"1.2-2"}} %</td>
         </tr>
         <tr>
           <th>
-            Arbejde
+            Arbejdsbyrde
+            <mat-icon>help_outline</mat-icon>
           </th>
           <td style="text-align: right">{{course.eval_points[0].worklevel | number:"1.0-1"}} / 5</td>
-          <td style="text-align: right">{{course.eval_percentiles.worklevel | number:"1.2-2"}} %</td>
+          <td style="text-align: right"
+              [style.background-color]="bgColours.worklevel">
+            {{course.eval_percentiles.worklevel | number:"1.2-2"}} %
+          </td>
         </tr>
         <tr>
           <th>
-            Samlet vurdering
+            Samlet indtryk
+            <mat-icon>help_outline</mat-icon>
           </th>
-          <td style="text-align: right">{{course.eval_points[0].worklevel | number:"1.0-1"}} / 5</td>
-          <td style="text-align: right">{{course.eval_percentiles.worklevel | number:"1.2-2"}} %</td>
+          <td style="text-align: right">{{course.eval_points[0].good | number:"1.0-1"}} / 5</td>
+          <td style="text-align: right"
+              [style.background-color]="bgColours.good">
+            {{course.eval_percentiles.good | number:"1.2-2"}} %
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Ølscore
+            <mat-icon>help_outline</mat-icon>
+          </th>
+          <td style="text-align: right">{{course.composites.beer_points | number:"1.0-1"}} / 5</td>
+          <td style="text-align: right"
+              [style.background-color]="bgColours.beer">
+            {{course.composites.beer_percentiles | number:"1.2-2"}} %
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Kvalitet
+            <mat-icon>help_outline</mat-icon>
+          </th>
+          <td style="text-align: right">{{course.composites.quality_points | number:"1.0-1"}} / 5</td>
+          <td style="text-align: right"
+              [style.background-color]="bgColours.quality">
+            {{course.composites.quality_percentiles | number:"1.2-2"}} %
+          </td>
         </tr>
       </tbody>
     </table>

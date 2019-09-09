@@ -22,7 +22,7 @@
 </div>
 
 <!-- Viser kursusinfo -->
-<course-info [course]="courseService.currentCourse" *ngIf="courseService.currentCourse"></course-info>
+<course-info [course]="courseService.currentCourse" [bgColours]="courseService.bgColours" *ngIf="courseService.currentCourse"></course-info>
 
 <!-- Viser søgeresultater -->
 <div *ngIf="!courseService.currentCourse" class="table--responsive-scroll">

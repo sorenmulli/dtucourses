@@ -1,3 +1,12 @@
+export interface BgColours {
+	grade: string,
+	learning: string,
+	worklevel: string,
+	good: string,
+	beer: string,
+	quality: string,
+}
+
 export interface ICoursesMin {
 	time: Date,
 	courses: {
@@ -48,7 +57,7 @@ export interface ICourse {
 		worklevel: number,
 		good: number,
 	},
-	composits: {
+	composites: {
 		beer_points: number,
 		quality_points: number,
 		beer_percentiles: number,

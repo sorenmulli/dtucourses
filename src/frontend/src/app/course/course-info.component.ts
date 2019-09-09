@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-import { ICourse } from './course';
+import { ICourse, BgColours } from './course';
 
 
 @Component({
@@ -14,6 +14,7 @@ export class CourseInfoComponent implements OnInit {
   showStudieplan: boolean = false
 
   @Input() course: ICourse;
+  @Input() bgColours: BgColours;
 
   constructor() { }
 

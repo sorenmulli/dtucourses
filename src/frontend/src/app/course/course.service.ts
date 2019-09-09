@@ -1,6 +1,6 @@
 import { Injectable, OnInit, OnDestroy } from '@angular/core';
 
-import { ICourse, ICourseMin } from "./course";
+import { ICourse, ICourseMin, BgColours } from "./course";
 import { HttpClient } from '@angular/common/http';
 
 import * as data from "../../assets/course_min.json";
@@ -19,6 +19,7 @@ export class CourseService {
   public courseNos: string[] = [];
   public courseNames: string[] = [];
   public currentCourse: ICourse | null;
+  public bgColours: BgColours;
 
   constructor(private httpClient: HttpClient) { }
 
@@ -35,8 +36,17 @@ export class CourseService {
       this.get(courseNo)
         .then(value => {
           this.currentCourse = value;
+          this.bgColours = {
+            grade: this.getHexColour(this.currentCourse.grade_percentile),
+            learning: this.getHexColour(this.currentCourse.eval_percentiles.learning),
+            worklevel: this.getHexColour(this.currentCourse.eval_percentiles.worklevel),
+            good: this.getHexColour(this.currentCourse.eval_percentiles.good),
+            beer: this.getHexColour(this.currentCourse.composites.beer_percentiles),
+            quality: this.getHexColour(this.currentCourse.composites.quality_percentiles),
+          };
         })
         .catch(reason => {
+          console.log(reason);
           this.currentCourse = null;
         });
     }
@@ -79,5 +89,14 @@ export class CourseService {
       }
     }
     return newObject
+  }
+
+  getHexColour(percentile: number): string {
+    // Beregner en hexfarve baseret på et tal 0-100 fra rød til grøn
+    let p1: string = Math.round(2.55*(100-percentile)).toString(16);
+    let p2: string = Math.round(2.55*percentile).toString(16);
+    p1 = p1.length === 1 ? "0" + p1 : p1;
+    p2 = p2.length === 1 ? "0" + p2 : p2;
+    return "#" + p1 + p2 + "00";
   }
 }

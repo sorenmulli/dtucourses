@@ -3,7 +3,7 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NgModule, LOCALE_ID } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MatFormFieldModule, MatInputModule } from "@angular/material";
+import { MatFormFieldModule, MatInputModule, MatIconModule } from "@angular/material";
 import localeDA from "@angular/common/locales/da";
 import { CourseComponent } from './course/course.component';
 import { CourseInfoComponent } from "./course/course-info.component";
@@ -41,6 +41,7 @@ registerLocaleData(localeDA);
     MatFormFieldModule,
     MatInputModule,
     MatTooltipModule,
+    MatIconModule,
   ],
   providers: [
     CourseService,

@@ -1,5 +1,5 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
-/* @import "../node_modules/dkfds/dist/css/dkfds-virkdk.css"; */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 .content {
 	max-width: 960px;
@@ -8,4 +8,9 @@
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 100px;
+}
+
+.material-icons {
+	vertical-align: bottom;
+	font-size: 18px;
 }

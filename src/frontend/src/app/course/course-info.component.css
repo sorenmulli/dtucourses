@@ -8,6 +8,11 @@ table.data-table {
 	margin: 0px;
 }
 
+table.data-table td {
+	text-align: right;
+	white-space: nowrap;
+}
+
 @media only screen and (max-width: 1200px) {
 	iframe.studieplan {
 		width: 100%;
@@ -17,13 +22,9 @@ table.data-table {
 	}
 }
 
-@media only screen and (max-width: 768px) {
-	table.data-table {
-		padding-top: 100px;
-	}
-}
-
 @media screen and (max-width: 992px) {
-	
+	table.data-table {
+		margin-top: 20px;
+	}
 }
 
