@@ -2,30 +2,6 @@
 
 <div class="row">
   <div class="col-12 col-lg-6">
-    <table class="table data-table" stl>
-      <thead><th colspan="2">Kursusinformation</th></thead>
-      <tbody>
-        <tr>
-          <th>ECTS</th>
-          <td style="text-align: left">{{course.info.ECTS}}</td>
-        </tr>
-        <tr>
-          <th>Sprog</th>
-          <td style="text-align: left">{{course.info.language}}</td>
-        </tr>
-        <tr>
-          <th>Skemaplacering</th>
-          <td style="text-align: left">{{course.info.time}}</td>
-        </tr>
-        <tr>
-          <th>Niveau</th>
-          <td style="text-align: left">{{course.info.level}}</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  
-  <div class="col-12 col-lg-6">
     <table class="table data-table">
       <thead>
         <tr>
@@ -43,7 +19,7 @@
           <th>
             Karaktergennemsnit
           </th>
-          <td>{{course.grades ? (course.grades[0].exam_avg | number:"1.2-2") : "N/A"}}</td>
+          <td>{{course.grades ? (course.grades[0].exam_avg | number:"1.1-1") : "N/A"}}</td>
           <td [style.background-color]="bgColours.grade">
             {{course.grade_percentile | number:"1.2-2"}} %
           </td>
@@ -51,18 +27,18 @@
         <tr>
           <th>
             Indlæring
-            <mat-icon class="js-tooltip" title="Fagligt udbytte fra kurset baseret på {{course.eval_points[0].N}} bedømmelser. (1-5)">help_outline</mat-icon>
+            <mat-icon class="js-tooltip" title="Fagligt udbytte fra kurset baseret på {{course.eval_points[0].N}} bedømmelser. (0-4)">help_outline</mat-icon>
           </th>
-          <td>{{course.eval_points[0].learning | number:"1.0-1"}} / 5</td>
+          <td>{{course.eval_points[0].learning | number:"1.0-1"}} / 4</td>
           <td [style.background-color]="bgColours.learning">
             {{course.eval_percentiles.learning | number:"1.2-2"}} %</td>
         </tr>
         <tr>
           <th>
             Arbejdsbyrde
-            <mat-icon class="js-tooltip" title="Vurderet arbejdsbyrde i kurset baseret på {{course.eval_points[0].N}} bedømmelser. 3 er normeret arbejdsbyrde. (1-5)">help_outline</mat-icon>
+            <mat-icon class="js-tooltip" title="Vurderet arbejdsbyrde i kurset baseret på {{course.eval_points[0].N}} bedømmelser. 2 er normeret arbejdsbyrde. (0-4)">help_outline</mat-icon>
           </th>
-          <td>{{course.eval_points[0].worklevel | number:"1.0-1"}} / 5</td>
+          <td>{{course.eval_points[0].worklevel | number:"1.0-1"}} / 4</td>
           <td [style.background-color]="bgColours.worklevel">
             {{course.eval_percentiles.worklevel | number:"1.2-2"}} %
           </td>
@@ -70,9 +46,9 @@
         <tr>
           <th>
             Samlet indtryk
-            <mat-icon class="js-tooltip" title="Samlet kursusindtryk baseret på {{course.eval_points[0].N}} bedømmelser. (1-5)">help_outline</mat-icon>
+            <mat-icon class="js-tooltip" title="Samlet kursusindtryk baseret på {{course.eval_points[0].N}} bedømmelser. (0-4)">help_outline</mat-icon>
           </th>
-          <td>{{course.eval_points[0].good | number:"1.0-1"}} / 5</td>
+          <td>{{course.eval_points[0].good | number:"1.0-1"}} / 4</td>
           <td [style.background-color]="bgColours.good">
             {{course.eval_percentiles.good | number:"1.2-2"}} %
           </td>
@@ -80,9 +56,9 @@
         <tr>
           <th>
             Ølscore
-            <mat-icon class="js-tooltip" title="Måler karaktergennemsnittet i forhold til arbejdsbyrden. (1-5)">help_outline</mat-icon>
+            <mat-icon class="js-tooltip" title="Måler karaktergennemsnittet i forhold til arbejdsbyrden. (0-4)">help_outline</mat-icon>
           </th>
-          <td>{{course.composites.beer_points | number:"1.0-1"}} / 5</td>
+          <td>{{course.composites.beer_points | number:"1.0-1"}} / 4</td>
           <td [style.background-color]="bgColours.beer">
             {{course.composites.beer_percentiles | number:"1.2-2"}} %
           </td>
@@ -90,13 +66,37 @@
         <tr>
           <th>
             Kvalitet
-            <mat-icon class="js-tooltip" title="Samlet kursuskvalitet, der tager højde for karakterer, indlæring, arbejdsbyrde og samlet indtryk. (1-5)">help_outline</mat-icon>
+            <mat-icon class="js-tooltip" title="Samlet kursuskvalitet, der tager højde for karakterer, indlæring, arbejdsbyrde og samlet indtryk. (0-4)">help_outline</mat-icon>
           </th>
-          <td>{{course.composites.quality_points | number:"1.0-1"}} / 5</td>
+          <td>{{course.composites.quality_points | number:"1.0-1"}} / 4</td>
           <td
               [style.background-color]="bgColours.quality">
             {{course.composites.quality_percentiles | number:"1.2-2"}} %
           </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="col-12 col-lg-6">
+    <table class="table data-table" stl>
+      <thead><th colspan="2">Grundlæggende kursusinformation</th></thead>
+      <tbody>
+        <tr>
+          <th>ECTS</th>
+          <td style="text-align: left">{{course.info.ECTS}}</td>
+        </tr>
+        <tr>
+          <th>Sprog</th>
+          <td style="text-align: left">{{course.info.language}}</td>
+        </tr>
+        <tr>
+          <th>Skemaplacering</th>
+          <td style="text-align: left; white-space: normal">{{course.info.time}}</td>
+        </tr>
+        <tr>
+          <th>Niveau</th>
+          <td style="text-align: left">{{course.info.level}}</td>
         </tr>
       </tbody>
     </table>
