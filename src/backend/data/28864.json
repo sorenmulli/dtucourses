@@ -658,8 +658,8 @@
         "good": 34.17922283901665
     },
     "composites": {
-        "beer_points": 4.580775382740498,
-        "quality_points": 4.636577477212585,
+        "beer_points": 3.5807753827404976,
+        "quality_points": 3.6365774772125845,
         "beer_percentiles": 99.49949949949949,
         "quality_percentiles": 97.997997997998
     }

@@ -24,7 +24,7 @@ table.data-table td {
 
 @media screen and (max-width: 992px) {
 	table.data-table {
-		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 }
 

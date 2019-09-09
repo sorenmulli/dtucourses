@@ -39,7 +39,7 @@ export class CourseService {
           this.bgColours = {
             grade: this.getHexColour(this.currentCourse.grade_percentile),
             learning: this.getHexColour(this.currentCourse.eval_percentiles.learning),
-            worklevel: this.getHexColour(this.currentCourse.eval_percentiles.worklevel),
+            worklevel: this.getHexColour(this.currentCourse.eval_percentiles.worklevel, true),
             good: this.getHexColour(this.currentCourse.eval_percentiles.good),
             beer: this.getHexColour(this.currentCourse.composites.beer_percentiles),
             quality: this.getHexColour(this.currentCourse.composites.quality_percentiles),
@@ -91,8 +91,9 @@ export class CourseService {
     return newObject
   }
 
-  getHexColour(percentile: number): string {
+  getHexColour(percentile: number, invert=false): string {
     // Beregner en hexfarve baseret på et tal 0-100 fra rød til grøn
+    if (invert) percentile = 100 - percentile;
     let p1: string = Math.round(2.55*(100-percentile)).toString(16);
     let p2: string = Math.round(2.55*percentile).toString(16);
     p1 = p1.length === 1 ? "0" + p1 : p1;

@@ -128,7 +128,7 @@ def course_compare(file):
 
 	#Scale grade averages to [1:5]. Complicated syntax is for preserving the Nones
 	scaled_grade_arr = np.copy(pure_grade_arr)
-	scaled_grade_arr[scaled_grade_arr != None] = (scaled_grade_arr[scaled_grade_arr != None] + 3) * 4 / 15 + 1
+	scaled_grade_arr[scaled_grade_arr != None] = (scaled_grade_arr[scaled_grade_arr != None] + 3) * 4 / 15
 
 	
 	#Create composite scores and scale to [1:5]. Complicated initialization and syntax is for preserving Nones
@@ -138,8 +138,8 @@ def course_compare(file):
 	beer_arr[composite_courses] = scaled_grade_arr[composite_courses] - worklevel_arr[composite_courses]
 	quality_arr[composite_courses] = learning_arr[composite_courses]  + good_arr[composite_courses] + pure_grade_arr[composite_courses] - worklevel_arr[composite_courses]
 
-	beer_arr[composite_courses] = (beer_arr[composite_courses] - beer_arr[composite_courses].min())  * 4 / (beer_arr[composite_courses].max() - beer_arr[composite_courses].min()) +1
-	quality_arr[composite_courses] = (quality_arr[composite_courses] - quality_arr[composite_courses].min())  * 4 / (quality_arr[composite_courses].max() - quality_arr[composite_courses].min()) +1
+	beer_arr[composite_courses] = (beer_arr[composite_courses] - beer_arr[composite_courses].min())  * 4 / (beer_arr[composite_courses].max() - beer_arr[composite_courses].min())
+	quality_arr[composite_courses] = (quality_arr[composite_courses] - quality_arr[composite_courses].min())  * 4 / (quality_arr[composite_courses].max() - quality_arr[composite_courses].min())
 
 	#Create percentile versions of all measures
 	learning_percentiles = getpercentiles(learning_arr)
