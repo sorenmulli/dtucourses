@@ -1,0 +1,293 @@
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "E5B (ons 13-17)",
+        "level": "Kandidat",
+        "name": "Batterimaterialer og batterikemi: fra fundamentale mekanismer til battericeller",
+        "course_no": "47310"
+    },
+    "evals": [
+        {
+            "time": "E-16-13",
+            "N_responses": 16,
+            "learning_answers": [
+                8,
+                6,
+                2,
+                0,
+                0
+            ],
+            "participation_answers": [
+                9,
+                6,
+                1,
+                0,
+                0
+            ],
+            "material_answers": [
+                6,
+                6,
+                4,
+                0,
+                0
+            ],
+            "clear_answers": [
+                2,
+                5,
+                8,
+                1,
+                0
+            ],
+            "connection_answers": [
+                8,
+                8,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                8,
+                7,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                15,
+                1,
+                0
+            ],
+            "good_answers": [
+                8,
+                8,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "E-15-13",
+            "N_responses": 9,
+            "learning_answers": [
+                5,
+                4,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                4,
+                5,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                6,
+                2,
+                1,
+                0,
+                0
+            ],
+            "clear_answers": [
+                2,
+                2,
+                5,
+                0,
+                0
+            ],
+            "connection_answers": [
+                5,
+                4,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                1,
+                1,
+                7,
+                0,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                7,
+                2,
+                0
+            ],
+            "good_answers": [
+                6,
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "E-14-13",
+            "N_responses": 2,
+            "learning_answers": [
+                1,
+                1,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                1,
+                0,
+                0,
+                1,
+                0
+            ],
+            "clear_answers": [
+                0,
+                0,
+                0,
+                1,
+                1
+            ],
+            "connection_answers": [
+                1,
+                1,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                1,
+                1,
+                0
+            ],
+            "good_answers": [
+                1,
+                0,
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "E-16-13",
+            "learning": 4.375,
+            "worklevel": 3.5625,
+            "good": 4.5,
+            "N": 16
+        },
+        {
+            "time": "E-15-13",
+            "learning": 4.555555555555555,
+            "worklevel": 2.6666666666666665,
+            "good": 4.666666666666667,
+            "N": 9
+        },
+        {
+            "time": "E-14-13",
+            "learning": 4.5,
+            "worklevel": 4.0,
+            "good": 4.0,
+            "N": 2
+        }
+    ],
+    "grades": [
+        {
+            "time": "2018winter",
+            "N_exam": 15,
+            "N_passed": 15,
+            "exam_avg": 9.5,
+            "grade_dist": [
+                6,
+                4,
+                4,
+                0,
+                1,
+                0,
+                0,
+                3
+            ]
+        },
+        {
+            "time": "2016winter",
+            "N_exam": 18,
+            "N_passed": 18,
+            "exam_avg": 10.1,
+            "grade_dist": [
+                8,
+                6,
+                3,
+                1,
+                0,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "time": "2015winter",
+            "N_exam": 10,
+            "N_passed": 10,
+            "exam_avg": 9.6,
+            "grade_dist": [
+                4,
+                3,
+                2,
+                1,
+                0,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "time": "2014winter",
+            "N_exam": 12,
+            "N_passed": 12,
+            "exam_avg": 9.1,
+            "grade_dist": [
+                2,
+                6,
+                3,
+                1,
+                0,
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "grade_percentile": 82.28678537956888,
+    "eval_percentiles": {
+        "learning": 69.19111816019033,
+        "worklevel": 80.05551149881047,
+        "good": 80.2141157811261
+    },
+    "composites": {
+        "beer_points": 3.2860588519054517,
+        "quality_points": 4.078212290502794,
+        "beer_percentiles": 56.15615615615616,
+        "quality_percentiles": 85.48548548548548
+    }
+}

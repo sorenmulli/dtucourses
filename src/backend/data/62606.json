@@ -1,0 +1,261 @@
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 10,
+        "time": "E3A (tirs 8-12)  og  Januar",
+        "level": "Diplomingeni\u00f8r",
+        "name": "Anvendt diskret reguleringsteknik p\u00e5 mekaniske, fluide og termiske anl\u00e6g",
+        "course_no": "62606"
+    },
+    "evals": [
+        {
+            "time": "E-18-03",
+            "N_responses": 2,
+            "learning_answers": [
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "clear_answers": [
+                1,
+                1,
+                0,
+                0,
+                0
+            ],
+            "connection_answers": [
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                2,
+                0,
+                0
+            ],
+            "good_answers": [
+                2,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-17-03JUN",
+            "N_responses": 2,
+            "learning_answers": [
+                0,
+                1,
+                0,
+                0,
+                1
+            ],
+            "participation_answers": [
+                0,
+                1,
+                1,
+                0,
+                0
+            ],
+            "material_answers": [
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            "clear_answers": [
+                0,
+                0,
+                2,
+                0,
+                0
+            ],
+            "connection_answers": [
+                0,
+                0,
+                0,
+                1,
+                1
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                0,
+                1,
+                1
+            ],
+            "good_answers": [
+                0,
+                1,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "time": "E-16-03",
+            "N_responses": 1,
+            "learning_answers": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "material_answers": [
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "clear_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "connection_answers": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "good_answers": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "E-18-03",
+            "learning": 5.0,
+            "worklevel": 4.0,
+            "good": 5.0,
+            "N": 2
+        },
+        {
+            "time": "F-17-03JUN",
+            "learning": 2.5,
+            "worklevel": 4.0,
+            "good": 2.5,
+            "N": 2
+        },
+        {
+            "time": "E-16-03",
+            "learning": 4.0,
+            "worklevel": 4.0,
+            "good": 4.0,
+            "N": 1
+        }
+    ],
+    "grades": [
+        {
+            "time": "2017summer",
+            "N_exam": 12,
+            "N_passed": 12,
+            "exam_avg": 8.5,
+            "grade_dist": [
+                4,
+                1,
+                6,
+                0,
+                1,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "time": "2016winter",
+            "N_exam": 13,
+            "N_passed": 12,
+            "exam_avg": 9.7,
+            "grade_dist": [
+                3,
+                9,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1
+            ]
+        }
+    ],
+    "grade_percentile": 63.26148078725398,
+    "eval_percentiles": {
+        "learning": 96.4710547184774,
+        "worklevel": 92.26804123711341,
+        "good": 96.70896114195084
+    },
+    "composites": {
+        "beer_points": 2.715388326097443,
+        "quality_points": 3.994413407821229,
+        "beer_percentiles": 21.32132132132132,
+        "quality_percentiles": 82.03203203203203
+    }
+}

@@ -31,7 +31,7 @@
 			<tr>
 				<th>Nummer</th>
 				<th>Navn</th>
-				<th>ECTS</th>
+				<th style="text-align: right">ECTS</th>
 				<th>Sprog</th>
 				<th>Niveau</th>
 			</tr>
@@ -41,10 +41,10 @@
 				<td>
 					<a href="javascript:void(0)" (click)="setCourse(courseNo)">{{courseNo}}</a>
 				</td>
-				<td>{{courseService.courses[courseNo].info.name}}</td>
-				<td><div style="text-align: right">{{courseService.courses[courseNo].info.ECTS | number:"1.0-1"}}</div></td>
-				<td>{{courseService.courses[courseNo].info.language}}</td>
-				<td>{{courseService.courses[courseNo].info.level}}</td>
+				<td>{{courseService.courses[courseNo].name}}</td>
+				<td><div style="text-align: right">{{courseService.courses[courseNo].ECTS | number:"1.0-1"}}</div></td>
+				<td>{{courseService.courses[courseNo].language}}</td>
+				<td>{{courseService.courses[courseNo].level}}</td>
 			</tr>
 			<tr>
 				<td colspan="6"><a (click)="showAll=!showAll">Vis {{showAll ? "færre" : "alle"}} søgeresultater</a></td>

@@ -1,0 +1,279 @@
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "F1A (man 8-12)",
+        "level": "Kandidat",
+        "name": "Funktionelle materialer",
+        "course_no": "47319"
+    },
+    "evals": [
+        {
+            "time": "F-18-13",
+            "N_responses": 26,
+            "learning_answers": [
+                9,
+                15,
+                1,
+                1,
+                0
+            ],
+            "participation_answers": [
+                8,
+                11,
+                4,
+                3,
+                0
+            ],
+            "material_answers": [
+                9,
+                9,
+                5,
+                3,
+                0
+            ],
+            "clear_answers": [
+                9,
+                4,
+                10,
+                3,
+                0
+            ],
+            "connection_answers": [
+                11,
+                10,
+                2,
+                3,
+                0
+            ],
+            "worklevel_answers": [
+                2,
+                5,
+                17,
+                2,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                25,
+                1,
+                0
+            ],
+            "good_answers": [
+                16,
+                9,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "time": "F-17-13",
+            "N_responses": 19,
+            "learning_answers": [
+                8,
+                8,
+                2,
+                1,
+                0
+            ],
+            "participation_answers": [
+                8,
+                8,
+                2,
+                1,
+                0
+            ],
+            "material_answers": [
+                4,
+                8,
+                5,
+                1,
+                1
+            ],
+            "clear_answers": [
+                5,
+                6,
+                4,
+                2,
+                2
+            ],
+            "connection_answers": [
+                5,
+                11,
+                1,
+                2,
+                0
+            ],
+            "worklevel_answers": [
+                2,
+                1,
+                12,
+                4,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                16,
+                3,
+                0
+            ],
+            "good_answers": [
+                9,
+                7,
+                2,
+                1,
+                0
+            ]
+        },
+        {
+            "time": "F-16-13",
+            "N_responses": 14,
+            "learning_answers": [
+                2,
+                9,
+                1,
+                2,
+                0
+            ],
+            "participation_answers": [
+                4,
+                7,
+                2,
+                1,
+                0
+            ],
+            "material_answers": [
+                4,
+                6,
+                3,
+                1,
+                0
+            ],
+            "clear_answers": [
+                2,
+                4,
+                5,
+                2,
+                0
+            ],
+            "connection_answers": [
+                4,
+                9,
+                1,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                4,
+                9,
+                1,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                14,
+                0,
+                0
+            ],
+            "good_answers": [
+                2,
+                9,
+                2,
+                1,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "F-18-13",
+            "learning": 4.230769230769231,
+            "worklevel": 2.730769230769231,
+            "good": 4.538461538461538,
+            "N": 26
+        },
+        {
+            "time": "F-17-13",
+            "learning": 4.2105263157894735,
+            "worklevel": 2.9473684210526314,
+            "good": 4.2631578947368425,
+            "N": 19
+        },
+        {
+            "time": "F-16-13",
+            "learning": 3.7857142857142856,
+            "worklevel": 2.7857142857142856,
+            "good": 3.857142857142857,
+            "N": 14
+        }
+    ],
+    "grades": [
+        {
+            "time": "2019summer",
+            "N_exam": 23,
+            "N_passed": 18,
+            "exam_avg": 5.9,
+            "grade_dist": [
+                1,
+                7,
+                4,
+                4,
+                2,
+                4,
+                0,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "time": "2016summer",
+            "N_exam": 18,
+            "N_passed": 18,
+            "exam_avg": 8.3,
+            "grade_dist": [
+                4,
+                6,
+                4,
+                3,
+                1,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "time": "2015summer",
+            "N_exam": 8,
+            "N_passed": 8,
+            "exam_avg": 7.6,
+            "grade_dist": [
+                1,
+                2,
+                3,
+                2,
+                0,
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "grade_percentile": 16.869728209934397,
+    "eval_percentiles": {
+        "learning": 59.39730372720064,
+        "worklevel": 14.43298969072165,
+        "good": 82.51387787470262
+    },
+    "composites": {
+        "beer_points": 3.1821069427437014,
+        "quality_points": 3.3075204125483455,
+        "beer_percentiles": 48.048048048048045,
+        "quality_percentiles": 42.54254254254254
+    }
+}

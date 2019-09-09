@@ -1,0 +1,93 @@
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "Udenfor skema-struktur",
+        "level": "Ph.d.",
+        "name": "Videreg\u00e5ende NMR spektroskopi",
+        "course_no": "26944"
+    },
+    "evals": [
+        {
+            "time": "E-17-03",
+            "N_responses": 4,
+            "learning_answers": [
+                0,
+                3,
+                0,
+                0,
+                1
+            ],
+            "participation_answers": [
+                3,
+                0,
+                0,
+                1,
+                0
+            ],
+            "material_answers": [
+                0,
+                3,
+                0,
+                0,
+                1
+            ],
+            "clear_answers": [
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            "connection_answers": [
+                3,
+                0,
+                0,
+                0,
+                1
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                4,
+                0,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                4,
+                0,
+                0
+            ],
+            "good_answers": [
+                3,
+                0,
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "E-17-03",
+            "learning": 3.25,
+            "worklevel": 3.0,
+            "good": 4.0,
+            "N": 4
+        }
+    ],
+    "grade_percentile": null,
+    "eval_percentiles": {
+        "learning": 12.25218080888184,
+        "worklevel": 35.091197462331486,
+        "good": 51.11022997620936
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

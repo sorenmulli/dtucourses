@@ -1,0 +1,111 @@
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "F2B (tors 8-12)",
+        "level": "Bachelor",
+        "name": "Fysikken bag solenergi og energilagring",
+        "course_no": "10260"
+    },
+    "evals": [
+        {
+            "time": "F-19-13",
+            "N_responses": 20,
+            "learning_answers": [
+                4,
+                9,
+                5,
+                1,
+                0
+            ],
+            "participation_answers": [
+                1,
+                10,
+                6,
+                2,
+                0
+            ],
+            "material_answers": [
+                0,
+                7,
+                7,
+                4,
+                2
+            ],
+            "clear_answers": [
+                3,
+                11,
+                5,
+                1,
+                0
+            ],
+            "connection_answers": [
+                5,
+                7,
+                4,
+                3,
+                1
+            ],
+            "worklevel_answers": [
+                0,
+                3,
+                12,
+                5,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                1,
+                17,
+                0,
+                2
+            ],
+            "good_answers": [
+                4,
+                9,
+                2,
+                5,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "F-19-13",
+            "learning": 3.65,
+            "worklevel": 3.1,
+            "good": 3.6,
+            "N": 20
+        }
+    ],
+    "grades": [
+        {
+            "time": "2019summer",
+            "N_exam": 41,
+            "N_passed": 37,
+            "exam_avg": 6.8,
+            "grade_dist": [
+                7,
+                10,
+                10,
+                3,
+                7,
+                4,
+                0,
+                1
+            ]
+        }
+    ],
+    "grade_percentile": 27.835051546391753,
+    "eval_percentiles": {
+        "learning": 23.830293417922285,
+        "worklevel": 46.86756542426645,
+        "good": 30.174464710547184
+    },
+    "composites": {
+        "beer_points": 3.077375783888085,
+        "quality_points": 3.0424581005586595,
+        "beer_percentiles": 41.14114114114114,
+        "quality_percentiles": 27.62762762762763
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "Januar",
+        "level": "Kandidat",
+        "name": "Eksperimentel fluid mekanik",
+        "course_no": "41822"
+    },
+    "evals": [
+        {
+            "time": "E-17-03",
+            "N_responses": 9,
+            "learning_answers": [
+                6,
+                3,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                5,
+                4,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                2,
+                5,
+                2,
+                0,
+                0
+            ],
+            "clear_answers": [
+                1,
+                6,
+                1,
+                0,
+                0
+            ],
+            "connection_answers": [
+                3,
+                3,
+                1,
+                1,
+                0
+            ],
+            "worklevel_answers": [
+                1,
+                0,
+                5,
+                3,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                8,
+                1,
+                0
+            ],
+            "good_answers": [
+                4,
+                4,
+                0,
+                1,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "E-17-03",
+            "learning": 4.666666666666667,
+            "worklevel": 3.111111111111111,
+            "good": 4.222222222222222,
+            "N": 9
+        }
+    ],
+    "grades": [
+        {
+            "time": "2010winter",
+            "N_exam": 32,
+            "N_passed": 32,
+            "exam_avg": 10.0,
+            "grade_dist": [
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                30,
+                0,
+                1
+            ]
+        }
+    ],
+    "grade_percentile": 89.22211808809747,
+    "eval_percentiles": {
+        "learning": 87.27200634417129,
+        "worklevel": 47.700237906423474,
+        "good": 64.98810467882633
+    },
+    "composites": {
+        "beer_points": 3.759929249075414,
+        "quality_points": 4.337057728119181,
+        "beer_percentiles": 85.28528528528528,
+        "quality_percentiles": 92.1921921921922
+    }
+}

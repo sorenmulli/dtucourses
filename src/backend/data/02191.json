@@ -1,0 +1,40 @@
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "Januar",
+        "level": "Kandidat",
+        "name": "Computersikkerhedsunders\u00f8gelser",
+        "course_no": "02191"
+    },
+    "grades": [
+        {
+            "time": "2018winter",
+            "N_exam": 24,
+            "N_passed": 24,
+            "exam_avg": 9.9,
+            "grade_dist": [
+                8,
+                12,
+                2,
+                2,
+                0,
+                0,
+                0,
+                2
+            ]
+        }
+    ],
+    "grade_percentile": 88.14432989690722,
+    "eval_percentiles": {
+        "learning": null,
+        "worklevel": null,
+        "good": null
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

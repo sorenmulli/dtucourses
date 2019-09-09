@@ -1,0 +1,42 @@
+{
+    "info": {
+        "language": "Dansk",
+        "ECTS": 10,
+        "time": "E5A (ons 8-12)  og  E4B (fre 8-12)  eller    F5A (ons 8-12)  og  F4B (fre 8-12)",
+        "level": "Diplomingeni\u00f8r",
+        "name": "Milj\u00f8, kemi og produkter",
+        "course_no": "62219"
+    },
+    "grades": [
+        {
+            "time": "2019summer",
+            "N_exam": 48,
+            "N_passed": 37,
+            "exam_avg": 5.6,
+            "grade_dist": [
+                3,
+                5,
+                12,
+                12,
+                5,
+                4,
+                0,
+                0,
+                7,
+                1
+            ]
+        }
+    ],
+    "grade_percentile": 13.542642924086223,
+    "eval_percentiles": {
+        "learning": null,
+        "worklevel": null,
+        "good": null
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

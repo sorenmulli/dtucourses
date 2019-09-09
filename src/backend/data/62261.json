@@ -1,0 +1,278 @@
+{
+    "info": {
+        "language": "Dansk",
+        "ECTS": 5,
+        "time": "E1A (man 8-12)  eller  F1A (man 8-12)",
+        "level": "Diplomingeni\u00f8r",
+        "name": "Bygningsinstallationer",
+        "course_no": "62261"
+    },
+    "evals": [
+        {
+            "time": "F-19-13",
+            "N_responses": 19,
+            "learning_answers": [
+                2,
+                3,
+                6,
+                6,
+                2
+            ],
+            "participation_answers": [
+                1,
+                1,
+                5,
+                5,
+                7
+            ],
+            "material_answers": [
+                0,
+                0,
+                9,
+                5,
+                5
+            ],
+            "clear_answers": [
+                0,
+                1,
+                4,
+                5,
+                9
+            ],
+            "connection_answers": [
+                0,
+                1,
+                6,
+                7,
+                5
+            ],
+            "worklevel_answers": [
+                0,
+                1,
+                8,
+                6,
+                4
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                14,
+                2,
+                3
+            ],
+            "good_answers": [
+                0,
+                1,
+                6,
+                6,
+                6
+            ]
+        },
+        {
+            "time": "E-18-13",
+            "N_responses": 19,
+            "learning_answers": [
+                4,
+                10,
+                4,
+                1,
+                0
+            ],
+            "participation_answers": [
+                3,
+                8,
+                5,
+                2,
+                1
+            ],
+            "material_answers": [
+                3,
+                6,
+                6,
+                4,
+                0
+            ],
+            "clear_answers": [
+                3,
+                4,
+                5,
+                3,
+                4
+            ],
+            "connection_answers": [
+                2,
+                10,
+                3,
+                2,
+                1
+            ],
+            "worklevel_answers": [
+                0,
+                2,
+                5,
+                6,
+                6
+            ],
+            "prerequisite_answers": [
+                0,
+                1,
+                14,
+                4,
+                0
+            ],
+            "good_answers": [
+                2,
+                7,
+                6,
+                4,
+                0
+            ]
+        },
+        {
+            "time": "F-18-13",
+            "N_responses": 17,
+            "learning_answers": [
+                1,
+                0,
+                5,
+                6,
+                5
+            ],
+            "participation_answers": [
+                0,
+                0,
+                3,
+                10,
+                4
+            ],
+            "material_answers": [
+                0,
+                1,
+                6,
+                6,
+                4
+            ],
+            "clear_answers": [
+                0,
+                1,
+                1,
+                4,
+                11
+            ],
+            "connection_answers": [
+                0,
+                0,
+                6,
+                4,
+                7
+            ],
+            "worklevel_answers": [
+                3,
+                2,
+                7,
+                2,
+                3
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                7,
+                6,
+                4
+            ],
+            "good_answers": [
+                1,
+                0,
+                4,
+                4,
+                8
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "F-19-13",
+            "learning": 2.8421052631578947,
+            "worklevel": 3.6842105263157894,
+            "good": 2.1052631578947367,
+            "N": 19
+        },
+        {
+            "time": "E-18-13",
+            "learning": 3.8947368421052633,
+            "worklevel": 3.8421052631578947,
+            "good": 3.3684210526315788,
+            "N": 19
+        },
+        {
+            "time": "F-18-13",
+            "learning": 2.176470588235294,
+            "worklevel": 3.0,
+            "good": 1.9411764705882353,
+            "N": 17
+        }
+    ],
+    "grades": [
+        {
+            "time": "2019summer",
+            "N_exam": 39,
+            "N_passed": 37,
+            "exam_avg": 7.1,
+            "grade_dist": [
+                6,
+                7,
+                15,
+                6,
+                3,
+                2,
+                0,
+                1,
+                6
+            ]
+        },
+        {
+            "time": "2018summer",
+            "N_exam": 35,
+            "N_passed": 34,
+            "exam_avg": 7.6,
+            "grade_dist": [
+                5,
+                9,
+                14,
+                3,
+                3,
+                1,
+                0,
+                11
+            ]
+        },
+        {
+            "time": "2018winter",
+            "N_exam": 63,
+            "N_passed": 60,
+            "exam_avg": 8.1,
+            "grade_dist": [
+                15,
+                18,
+                16,
+                8,
+                3,
+                3,
+                0,
+                3
+            ]
+        }
+    ],
+    "grade_percentile": 34.11433926897845,
+    "eval_percentiles": {
+        "learning": 5.392545598731166,
+        "worklevel": 84.97224425059477,
+        "good": 2.141157811260904
+    },
+    "composites": {
+        "beer_points": 2.668753649681367,
+        "quality_points": 2.3487797706556894,
+        "beer_percentiles": 18.61861861861862,
+        "quality_percentiles": 7.307307307307307
+    }
+}

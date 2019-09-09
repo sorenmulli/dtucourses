@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from "@angular/forms";
 import { ActivatedRoute, Router } from "@angular/router";
 
-import { ICourse } from "./course";
+import { ICourseMin } from "./course";
 import { CourseService } from './course.service';
 
 @Component({
@@ -13,7 +13,7 @@ import { CourseService } from './course.service';
 export class CourseComponent implements OnInit {
 
   courseSearchForm: FormGroup;
-  searchResults: {[key: string]: ICourse};
+  searchResults: {[key: string]: ICourseMin};
   showAll: boolean = false;
 
   constructor(public courseService: CourseService, private route: ActivatedRoute,
@@ -42,7 +42,7 @@ export class CourseComponent implements OnInit {
 
   setTopCourse() {
     // Tager kurset øverst i søgningen
-    const courseNo = Object.keys(this.searchResults)[0];
+    const courseNo = Object.keys(this.searchResults).sort()[0];
     // Sikrer, at siden genindlæses, selv hvis kurset, og dermed url'en, er den samme
     this.setCourse(courseNo);
   }

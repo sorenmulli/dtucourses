@@ -1,0 +1,178 @@
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "Juni",
+        "level": "Kandidat",
+        "name": "Human Factors og Implementeringsledelse",
+        "course_no": "42373"
+    },
+    "evals": [
+        {
+            "time": "E-18-03",
+            "N_responses": 13,
+            "learning_answers": [
+                9,
+                4,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                12,
+                1,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                2,
+                5,
+                6,
+                0,
+                0
+            ],
+            "clear_answers": [
+                2,
+                3,
+                7,
+                1,
+                0
+            ],
+            "connection_answers": [
+                8,
+                4,
+                1,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                3,
+                5,
+                5
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                13,
+                0,
+                0
+            ],
+            "good_answers": [
+                9,
+                3,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "time": "E-16-03",
+            "N_responses": 16,
+            "learning_answers": [
+                1,
+                12,
+                1,
+                0,
+                2
+            ],
+            "participation_answers": [
+                12,
+                3,
+                0,
+                1,
+                0
+            ],
+            "material_answers": [
+                4,
+                8,
+                2,
+                2,
+                0
+            ],
+            "clear_answers": [
+                2,
+                3,
+                4,
+                5,
+                2
+            ],
+            "connection_answers": [
+                2,
+                9,
+                2,
+                3,
+                0
+            ],
+            "worklevel_answers": [
+                1,
+                0,
+                3,
+                6,
+                6
+            ],
+            "prerequisite_answers": [
+                0,
+                1,
+                11,
+                2,
+                2
+            ],
+            "good_answers": [
+                6,
+                7,
+                1,
+                0,
+                2
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "E-18-03",
+            "learning": 4.6923076923076925,
+            "worklevel": 4.153846153846154,
+            "good": 4.538461538461538,
+            "N": 13
+        },
+        {
+            "time": "E-16-03",
+            "learning": 3.625,
+            "worklevel": 4.0,
+            "good": 3.9375,
+            "N": 16
+        }
+    ],
+    "grades": [
+        {
+            "time": "2016winter",
+            "N_exam": 22,
+            "N_passed": 21,
+            "exam_avg": 7.6,
+            "grade_dist": [
+                4,
+                6,
+                5,
+                6,
+                0,
+                1,
+                0,
+                1
+            ]
+        }
+    ],
+    "grade_percentile": 43.626991565135896,
+    "eval_percentiles": {
+        "learning": 88.42188739095955,
+        "worklevel": 95.0832672482157,
+        "good": 82.51387787470262
+    },
+    "composites": {
+        "beer_points": 2.396207651489851,
+        "quality_points": 3.50554361839278,
+        "beer_percentiles": 9.30930930930931,
+        "quality_percentiles": 53.353353353353356
+    }
+}

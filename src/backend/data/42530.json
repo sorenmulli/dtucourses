@@ -1,0 +1,178 @@
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "E4A (tirs 13-17)",
+        "level": "Kandidat",
+        "name": "Strategi og planl\u00e6gningsmetoder",
+        "course_no": "42530"
+    },
+    "evals": [
+        {
+            "time": "E-18-13",
+            "N_responses": 19,
+            "learning_answers": [
+                3,
+                6,
+                4,
+                3,
+                3
+            ],
+            "participation_answers": [
+                10,
+                5,
+                3,
+                0,
+                1
+            ],
+            "material_answers": [
+                5,
+                3,
+                6,
+                4,
+                1
+            ],
+            "clear_answers": [
+                3,
+                7,
+                3,
+                5,
+                1
+            ],
+            "connection_answers": [
+                6,
+                5,
+                7,
+                0,
+                1
+            ],
+            "worklevel_answers": [
+                2,
+                2,
+                12,
+                2,
+                1
+            ],
+            "prerequisite_answers": [
+                1,
+                1,
+                14,
+                2,
+                1
+            ],
+            "good_answers": [
+                3,
+                5,
+                6,
+                3,
+                2
+            ]
+        },
+        {
+            "time": "E-17-13",
+            "N_responses": 23,
+            "learning_answers": [
+                7,
+                9,
+                4,
+                3,
+                0
+            ],
+            "participation_answers": [
+                16,
+                5,
+                1,
+                1,
+                0
+            ],
+            "material_answers": [
+                5,
+                13,
+                2,
+                2,
+                1
+            ],
+            "clear_answers": [
+                6,
+                4,
+                5,
+                5,
+                3
+            ],
+            "connection_answers": [
+                11,
+                6,
+                4,
+                2,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                2,
+                16,
+                3,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                1,
+                20,
+                1,
+                1
+            ],
+            "good_answers": [
+                8,
+                9,
+                4,
+                2,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "E-18-13",
+            "learning": 3.1578947368421053,
+            "worklevel": 2.8947368421052633,
+            "good": 3.210526315789474,
+            "N": 19
+        },
+        {
+            "time": "E-17-13",
+            "learning": 3.869565217391304,
+            "worklevel": 3.0,
+            "good": 4.0,
+            "N": 23
+        }
+    ],
+    "grades": [
+        {
+            "time": "2018winter",
+            "N_exam": 54,
+            "N_passed": 53,
+            "exam_avg": 7.6,
+            "grade_dist": [
+                11,
+                11,
+                16,
+                12,
+                3,
+                1,
+                0,
+                3
+            ]
+        }
+    ],
+    "grade_percentile": 43.626991565135896,
+    "eval_percentiles": {
+        "learning": 10.07137192704203,
+        "worklevel": 24.464710547184772,
+        "good": 17.04996034892942
+    },
+    "composites": {
+        "beer_points": 3.416614619036738,
+        "quality_points": 3.07562481623052,
+        "beer_percentiles": 65.21521521521521,
+        "quality_percentiles": 29.62962962962963
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "info": {
+        "language": "Dansk",
+        "ECTS": 5,
+        "time": "August  og  Januar",
+        "level": "Bachelor",
+        "name": "Ingeni\u00f8rfagets videnskabsteori (august/januar)",
+        "course_no": "42611"
+    },
+    "grades": [
+        {
+            "time": "2018summer",
+            "N_exam": 59,
+            "N_passed": 56,
+            "exam_avg": 7.8,
+            "grade_dist": [
+                17,
+                12,
+                12,
+                10,
+                5,
+                3,
+                0,
+                4
+            ]
+        }
+    ],
+    "grade_percentile": 47.000937207122774,
+    "eval_percentiles": {
+        "learning": null,
+        "worklevel": null,
+        "good": null
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

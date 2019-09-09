@@ -1,0 +1,278 @@
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "F1A (man 8-12)",
+        "level": "Kandidat",
+        "name": "Skimmelsvampe: Biologi og applikationer",
+        "course_no": "27419"
+    },
+    "evals": [
+        {
+            "time": "F-19-13",
+            "N_responses": 21,
+            "learning_answers": [
+                11,
+                7,
+                1,
+                2,
+                0
+            ],
+            "participation_answers": [
+                10,
+                8,
+                1,
+                0,
+                2
+            ],
+            "material_answers": [
+                5,
+                5,
+                5,
+                3,
+                2
+            ],
+            "clear_answers": [
+                3,
+                4,
+                8,
+                4,
+                2
+            ],
+            "connection_answers": [
+                11,
+                6,
+                2,
+                2,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                3,
+                14,
+                4,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                19,
+                2,
+                0
+            ],
+            "good_answers": [
+                9,
+                6,
+                3,
+                3,
+                0
+            ]
+        },
+        {
+            "time": "F-18-13",
+            "N_responses": 19,
+            "learning_answers": [
+                8,
+                8,
+                3,
+                0,
+                0
+            ],
+            "participation_answers": [
+                11,
+                6,
+                0,
+                2,
+                0
+            ],
+            "material_answers": [
+                3,
+                7,
+                5,
+                4,
+                0
+            ],
+            "clear_answers": [
+                3,
+                7,
+                7,
+                1,
+                1
+            ],
+            "connection_answers": [
+                8,
+                7,
+                2,
+                1,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                5,
+                11,
+                2,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                1,
+                16,
+                1,
+                1
+            ],
+            "good_answers": [
+                10,
+                7,
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "time": "F-17-13",
+            "N_responses": 21,
+            "learning_answers": [
+                7,
+                9,
+                4,
+                1,
+                0
+            ],
+            "participation_answers": [
+                7,
+                9,
+                3,
+                2,
+                0
+            ],
+            "material_answers": [
+                8,
+                1,
+                7,
+                3,
+                2
+            ],
+            "clear_answers": [
+                3,
+                5,
+                11,
+                2,
+                0
+            ],
+            "connection_answers": [
+                6,
+                9,
+                5,
+                0,
+                1
+            ],
+            "worklevel_answers": [
+                0,
+                2,
+                14,
+                4,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                3,
+                17,
+                0,
+                1
+            ],
+            "good_answers": [
+                7,
+                11,
+                3,
+                0,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "F-19-13",
+            "learning": 4.285714285714286,
+            "worklevel": 3.0476190476190474,
+            "good": 4.0,
+            "N": 21
+        },
+        {
+            "time": "F-18-13",
+            "learning": 4.2631578947368425,
+            "worklevel": 2.9473684210526314,
+            "good": 4.368421052631579,
+            "N": 19
+        },
+        {
+            "time": "F-17-13",
+            "learning": 4.0476190476190474,
+            "worklevel": 3.1904761904761907,
+            "good": 4.190476190476191,
+            "N": 21
+        }
+    ],
+    "grades": [
+        {
+            "time": "2019summer",
+            "N_exam": 45,
+            "N_passed": 45,
+            "exam_avg": 9.8,
+            "grade_dist": [
+                20,
+                11,
+                12,
+                2,
+                0,
+                0,
+                0,
+                6
+            ]
+        },
+        {
+            "time": "2018summer",
+            "N_exam": 32,
+            "N_passed": 32,
+            "exam_avg": 9.3,
+            "grade_dist": [
+                12,
+                9,
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                5
+            ]
+        },
+        {
+            "time": "2017summer",
+            "N_exam": 45,
+            "N_passed": 45,
+            "exam_avg": 9.2,
+            "grade_dist": [
+                14,
+                16,
+                9,
+                6,
+                0,
+                0,
+                0,
+                6
+            ]
+        }
+    ],
+    "grade_percentile": 86.92596063730085,
+    "eval_percentiles": {
+        "learning": 63.045202220459956,
+        "worklevel": 42.664551942902456,
+        "good": 51.11022997620936
+    },
+    "composites": {
+        "beer_points": 3.7681620839363252,
+        "quality_points": 4.138707102952913,
+        "beer_percentiles": 85.88588588588588,
+        "quality_percentiles": 87.28728728728728
+    }
+}

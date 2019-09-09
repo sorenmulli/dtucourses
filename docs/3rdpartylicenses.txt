@@ -87,6 +87,8 @@ THE SOFTWARE.
 
 @angular/material/form-field
 
+@angular/material/tooltip
+
 @angular/platform-browser
 MIT
 
@@ -117,6 +119,8 @@ THE SOFTWARE.
 
 
 dkfds
+
+undefined
 
 rxjs
 Apache-2.0
@@ -323,8 +327,6 @@ Apache-2.0
  limitations under the License.
  
 
-
-undefined
 
 zone.js
 MIT

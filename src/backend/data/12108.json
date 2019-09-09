@@ -1,0 +1,194 @@
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "E1A (man 8-12)",
+        "level": "Kandidat",
+        "name": "Water Treatment: Biochemical Processes",
+        "course_no": "12108"
+    },
+    "evals": [
+        {
+            "time": "E-18-13",
+            "N_responses": 10,
+            "learning_answers": [
+                5,
+                4,
+                1,
+                0,
+                0
+            ],
+            "participation_answers": [
+                1,
+                5,
+                4,
+                0,
+                0
+            ],
+            "material_answers": [
+                2,
+                6,
+                2,
+                0,
+                0
+            ],
+            "clear_answers": [
+                2,
+                3,
+                4,
+                1,
+                0
+            ],
+            "connection_answers": [
+                5,
+                3,
+                2,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                8,
+                2,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                1,
+                9,
+                0,
+                0
+            ],
+            "good_answers": [
+                3,
+                5,
+                2,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "E-17-13",
+            "N_responses": 24,
+            "learning_answers": [
+                10,
+                6,
+                3,
+                3,
+                2
+            ],
+            "participation_answers": [
+                4,
+                5,
+                5,
+                6,
+                4
+            ],
+            "material_answers": [
+                5,
+                6,
+                7,
+                5,
+                1
+            ],
+            "clear_answers": [
+                1,
+                5,
+                7,
+                7,
+                4
+            ],
+            "connection_answers": [
+                1,
+                8,
+                7,
+                3,
+                5
+            ],
+            "worklevel_answers": [
+                2,
+                0,
+                11,
+                9,
+                2
+            ],
+            "prerequisite_answers": [
+                0,
+                1,
+                21,
+                1,
+                0
+            ],
+            "good_answers": [
+                5,
+                7,
+                4,
+                6,
+                2
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "E-18-13",
+            "learning": 4.4,
+            "worklevel": 3.2,
+            "good": 4.1,
+            "N": 10
+        },
+        {
+            "time": "E-17-13",
+            "learning": 3.7916666666666665,
+            "worklevel": 3.375,
+            "good": 3.2916666666666665,
+            "N": 24
+        }
+    ],
+    "grades": [
+        {
+            "time": "2018winter",
+            "N_exam": 16,
+            "N_passed": 15,
+            "exam_avg": 5.7,
+            "grade_dist": [
+                2,
+                3,
+                3,
+                1,
+                6,
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "time": "2017winter",
+            "N_exam": 25,
+            "N_passed": 25,
+            "exam_avg": 7.3,
+            "grade_dist": [
+                2,
+                7,
+                8,
+                8,
+                0,
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "grade_percentile": 14.479850046860356,
+    "eval_percentiles": {
+        "learning": 71.25297383029341,
+        "worklevel": 55.233941316415546,
+        "good": 58.68358445678033
+    },
+    "composites": {
+        "beer_points": 2.758610709117221,
+        "quality_points": 3.0558659217877095,
+        "beer_percentiles": 23.523523523523522,
+        "quality_percentiles": 28.07807807807808
+    }
+}

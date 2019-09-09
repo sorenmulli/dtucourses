@@ -1,0 +1,178 @@
+{
+    "info": {
+        "language": "Dansk",
+        "ECTS": 5,
+        "time": "Efter\u00e5r  eller  For\u00e5r",
+        "level": "Diplomingeni\u00f8r",
+        "name": "Netv\u00e6rksforsvar og angrebsh\u00e5ndtering",
+        "course_no": "62427"
+    },
+    "evals": [
+        {
+            "time": "E-18-13",
+            "N_responses": 2,
+            "learning_answers": [
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            "participation_answers": [
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            "material_answers": [
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            "clear_answers": [
+                0,
+                1,
+                1,
+                0,
+                0
+            ],
+            "connection_answers": [
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                2,
+                0,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                2,
+                0,
+                0
+            ],
+            "good_answers": [
+                1,
+                0,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "E-17-13",
+            "N_responses": 1,
+            "learning_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "clear_answers": [
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "connection_answers": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "good_answers": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "E-18-13",
+            "learning": 4.0,
+            "worklevel": 3.0,
+            "good": 4.0,
+            "N": 2
+        },
+        {
+            "time": "E-17-13",
+            "learning": 5.0,
+            "worklevel": 5.0,
+            "good": 4.0,
+            "N": 1
+        }
+    ],
+    "grades": [
+        {
+            "time": "2018winter",
+            "N_exam": 13,
+            "N_passed": 13,
+            "exam_avg": 6.1,
+            "grade_dist": [
+                1,
+                1,
+                5,
+                5,
+                1,
+                0,
+                0,
+                2
+            ]
+        }
+    ],
+    "grade_percentile": 19.025304592314903,
+    "eval_percentiles": {
+        "learning": 42.9817605075337,
+        "worklevel": 35.091197462331486,
+        "good": 51.11022997620936
+    },
+    "composites": {
+        "beer_points": 3.0071394114809458,
+        "quality_points": 3.08268156424581,
+        "beer_percentiles": 36.73673673673674,
+        "quality_percentiles": 29.97997997997998
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "info": {
+        "language": "Dansk",
+        "ECTS": 5,
+        "time": "August",
+        "level": "Bachelor",
+        "name": "Forskningsfordybelse BSc (august)",
+        "course_no": "10722"
+    },
+    "grades": [
+        {
+            "time": "2017summer",
+            "N_exam": 6,
+            "N_passed": 6,
+            "exam_avg": 12.0,
+            "grade_dist": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
+                0
+            ]
+        }
+    ],
+    "grade_percentile": 99.53139643861293,
+    "eval_percentiles": {
+        "learning": null,
+        "worklevel": null,
+        "good": null
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "info": {
+        "language": "Dansk",
+        "ECTS": 5,
+        "time": "Januar  og  Juni",
+        "level": "Diplomingeni\u00f8r",
+        "name": "Grundl\u00e6ggende matematik 2",
+        "course_no": "62159"
+    },
+    "grades": [
+        {
+            "time": "2019summer",
+            "N_exam": 23,
+            "N_passed": 17,
+            "exam_avg": 4.1,
+            "grade_dist": [
+                3,
+                0,
+                6,
+                3,
+                5,
+                4,
+                2,
+                1
+            ]
+        },
+        {
+            "time": "2018winter",
+            "N_exam": 48,
+            "N_passed": 35,
+            "exam_avg": 5.1,
+            "grade_dist": [
+                7,
+                6,
+                11,
+                6,
+                5,
+                9,
+                4,
+                7
+            ]
+        }
+    ],
+    "grade_percentile": 5.670103092783505,
+    "eval_percentiles": {
+        "learning": null,
+        "worklevel": null,
+        "good": null
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

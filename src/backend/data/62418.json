@@ -1,0 +1,128 @@
+{
+    "info": {
+        "language": "Dansk",
+        "ECTS": 5,
+        "time": "E2B (tors 8-12)",
+        "level": "Diplomingeni\u00f8r",
+        "name": "Biomedicinsk signalbehandling",
+        "course_no": "62418"
+    },
+    "evals": [
+        {
+            "time": "E-18-13",
+            "N_responses": 18,
+            "learning_answers": [
+                2,
+                2,
+                6,
+                7,
+                1
+            ],
+            "participation_answers": [
+                4,
+                3,
+                5,
+                4,
+                2
+            ],
+            "material_answers": [
+                0,
+                6,
+                2,
+                1,
+                9
+            ],
+            "clear_answers": [
+                2,
+                4,
+                6,
+                2,
+                4
+            ],
+            "connection_answers": [
+                2,
+                4,
+                3,
+                3,
+                6
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                10,
+                5,
+                3
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                12,
+                3,
+                2
+            ],
+            "good_answers": [
+                3,
+                2,
+                0,
+                8,
+                5
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "E-18-13",
+            "learning": 2.8333333333333335,
+            "worklevel": 3.611111111111111,
+            "good": 2.4444444444444446,
+            "N": 18
+        }
+    ],
+    "grades": [
+        {
+            "time": "2019summer",
+            "N_exam": 4,
+            "N_passed": 3,
+            "exam_avg": 4.0,
+            "grade_dist": [
+                0,
+                0,
+                2,
+                0,
+                1,
+                1,
+                0,
+                3
+            ]
+        },
+        {
+            "time": "2018winter",
+            "N_exam": 26,
+            "N_passed": 22,
+            "exam_avg": 8.0,
+            "grade_dist": [
+                8,
+                8,
+                3,
+                2,
+                1,
+                4,
+                0,
+                2,
+                2
+            ]
+        }
+    ],
+    "grade_percentile": 5.014058106841612,
+    "eval_percentiles": {
+        "learning": 5.194290245836638,
+        "worklevel": 81.91911181601903,
+        "good": 3.8065027755749403
+    },
+    "composites": {
+        "beer_points": 2.0580479176716513,
+        "quality_points": 1.6256983240223466,
+        "beer_percentiles": 4.104104104104104,
+        "quality_percentiles": 1.4014014014014013
+    }
+}

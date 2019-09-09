@@ -1,0 +1,40 @@
+{
+    "info": {
+        "language": "Dansk",
+        "ECTS": 5,
+        "time": "E1B (tors 13-17)",
+        "level": "Diplomingeni\u00f8r",
+        "name": "Software processer og m\u00f8nstre",
+        "course_no": "02369"
+    },
+    "grades": [
+        {
+            "time": "2018winter",
+            "N_exam": 80,
+            "N_passed": 80,
+            "exam_avg": 9.3,
+            "grade_dist": [
+                31,
+                18,
+                25,
+                1,
+                5,
+                0,
+                0,
+                4
+            ]
+        }
+    ],
+    "grade_percentile": 79.24086223055295,
+    "eval_percentiles": {
+        "learning": null,
+        "worklevel": null,
+        "good": null
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

@@ -1,0 +1,195 @@
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "E4B (fre 8-12)",
+        "level": "Kandidat",
+        "name": "Terrestrial Ecology",
+        "course_no": "12145"
+    },
+    "evals": [
+        {
+            "time": "E-18-13",
+            "N_responses": 11,
+            "learning_answers": [
+                7,
+                4,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                5,
+                5,
+                1,
+                0,
+                0
+            ],
+            "material_answers": [
+                6,
+                4,
+                1,
+                0,
+                0
+            ],
+            "clear_answers": [
+                4,
+                6,
+                0,
+                1,
+                0
+            ],
+            "connection_answers": [
+                6,
+                5,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                1,
+                9,
+                1,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                10,
+                1,
+                0
+            ],
+            "good_answers": [
+                5,
+                6,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "E-17-13",
+            "N_responses": 11,
+            "learning_answers": [
+                6,
+                3,
+                2,
+                0,
+                0
+            ],
+            "participation_answers": [
+                5,
+                4,
+                0,
+                1,
+                1
+            ],
+            "material_answers": [
+                6,
+                3,
+                2,
+                0,
+                0
+            ],
+            "clear_answers": [
+                2,
+                4,
+                3,
+                2,
+                0
+            ],
+            "connection_answers": [
+                3,
+                7,
+                1,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                10,
+                1,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                11,
+                0,
+                0
+            ],
+            "good_answers": [
+                7,
+                2,
+                2,
+                0,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "E-18-13",
+            "learning": 4.636363636363637,
+            "worklevel": 3.0,
+            "good": 4.454545454545454,
+            "N": 11
+        },
+        {
+            "time": "E-17-13",
+            "learning": 4.363636363636363,
+            "worklevel": 3.090909090909091,
+            "good": 4.454545454545454,
+            "N": 11
+        }
+    ],
+    "grades": [
+        {
+            "time": "2018winter",
+            "N_exam": 9,
+            "N_passed": 9,
+            "exam_avg": 9.1,
+            "grade_dist": [
+                2,
+                4,
+                2,
+                1,
+                0,
+                0,
+                0,
+                2
+            ]
+        },
+        {
+            "time": "2017winter",
+            "N_exam": 16,
+            "N_passed": 16,
+            "exam_avg": 8.7,
+            "grade_dist": [
+                3,
+                5,
+                7,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1
+            ]
+        }
+    ],
+    "grade_percentile": 75.398313027179,
+    "eval_percentiles": {
+        "learning": 85.52735923869945,
+        "worklevel": 35.091197462331486,
+        "good": 77.59714512291832
+    },
+    "composites": {
+        "beer_points": 3.655475156777617,
+        "quality_points": 4.179685119349923,
+        "beer_percentiles": 79.22922922922923,
+        "quality_percentiles": 89.03903903903904
+    }
+}

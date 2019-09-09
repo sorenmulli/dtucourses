@@ -1,0 +1,277 @@
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "F4B (fre 8-12)",
+        "level": "Bachelor",
+        "name": "Introduktion til cybermaterialer",
+        "course_no": "41680"
+    },
+    "evals": [
+        {
+            "time": "F-19-13",
+            "N_responses": 23,
+            "learning_answers": [
+                10,
+                8,
+                3,
+                1,
+                1
+            ],
+            "participation_answers": [
+                8,
+                7,
+                5,
+                3,
+                0
+            ],
+            "material_answers": [
+                7,
+                10,
+                3,
+                3,
+                0
+            ],
+            "clear_answers": [
+                11,
+                2,
+                8,
+                1,
+                1
+            ],
+            "connection_answers": [
+                9,
+                9,
+                3,
+                1,
+                1
+            ],
+            "worklevel_answers": [
+                0,
+                1,
+                17,
+                3,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                2,
+                17,
+                3,
+                1
+            ],
+            "good_answers": [
+                6,
+                11,
+                4,
+                0,
+                1
+            ]
+        },
+        {
+            "time": "F-18-13",
+            "N_responses": 25,
+            "learning_answers": [
+                10,
+                9,
+                5,
+                0,
+                1
+            ],
+            "participation_answers": [
+                9,
+                10,
+                2,
+                3,
+                1
+            ],
+            "material_answers": [
+                6,
+                10,
+                4,
+                3,
+                2
+            ],
+            "clear_answers": [
+                6,
+                7,
+                7,
+                5,
+                0
+            ],
+            "connection_answers": [
+                12,
+                8,
+                1,
+                3,
+                1
+            ],
+            "worklevel_answers": [
+                0,
+                8,
+                10,
+                6,
+                1
+            ],
+            "prerequisite_answers": [
+                1,
+                0,
+                19,
+                3,
+                1
+            ],
+            "good_answers": [
+                6,
+                13,
+                3,
+                1,
+                2
+            ]
+        },
+        {
+            "time": "F-17-13",
+            "N_responses": 9,
+            "learning_answers": [
+                2,
+                3,
+                3,
+                0,
+                1
+            ],
+            "participation_answers": [
+                2,
+                2,
+                2,
+                2,
+                1
+            ],
+            "material_answers": [
+                1,
+                4,
+                3,
+                0,
+                1
+            ],
+            "clear_answers": [
+                0,
+                1,
+                4,
+                3,
+                1
+            ],
+            "connection_answers": [
+                2,
+                4,
+                1,
+                1,
+                1
+            ],
+            "worklevel_answers": [
+                1,
+                0,
+                7,
+                1,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                7,
+                2,
+                0
+            ],
+            "good_answers": [
+                1,
+                3,
+                1,
+                3,
+                1
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "F-19-13",
+            "learning": 4.086956521739131,
+            "worklevel": 3.0434782608695654,
+            "good": 3.782608695652174,
+            "N": 23
+        },
+        {
+            "time": "F-18-13",
+            "learning": 4.08,
+            "worklevel": 3.0,
+            "good": 3.8,
+            "N": 25
+        },
+        {
+            "time": "F-17-13",
+            "learning": 3.5555555555555554,
+            "worklevel": 2.888888888888889,
+            "good": 3.0,
+            "N": 9
+        }
+    ],
+    "grades": [
+        {
+            "time": "2019summer",
+            "N_exam": 63,
+            "N_passed": 52,
+            "exam_avg": 4.7,
+            "grade_dist": [
+                3,
+                11,
+                11,
+                12,
+                15,
+                10,
+                1,
+                8
+            ]
+        },
+        {
+            "time": "2018summer",
+            "N_exam": 53,
+            "N_passed": 50,
+            "exam_avg": 6.7,
+            "grade_dist": [
+                5,
+                9,
+                23,
+                9,
+                4,
+                3,
+                0,
+                4
+            ]
+        },
+        {
+            "time": "2017summer",
+            "N_exam": 27,
+            "N_passed": 25,
+            "exam_avg": 5.3,
+            "grade_dist": [
+                2,
+                4,
+                5,
+                8,
+                6,
+                2,
+                0,
+                2
+            ]
+        }
+    ],
+    "grade_percentile": 7.731958762886598,
+    "eval_percentiles": {
+        "learning": 50.19825535289453,
+        "worklevel": 42.38699444885012,
+        "good": 38.778747026169704
+    },
+    "composites": {
+        "beer_points": 2.669347092011158,
+        "quality_points": 2.6606266699052705,
+        "beer_percentiles": 18.71871871871872,
+        "quality_percentiles": 14.214214214214214
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "info": {
+        "language": "Dansk",
+        "ECTS": 0,
+        "time": "Udenfor skema-struktur",
+        "level": "Bachelor",
+        "name": "Repetitionskursus i 01005 Matematik1",
+        "course_no": "01003"
+    },
+    "evals": [
+        {
+            "time": "F-17-03JUN",
+            "N_responses": 4,
+            "learning_answers": [
+                2,
+                1,
+                0,
+                1,
+                0
+            ],
+            "participation_answers": [
+                2,
+                1,
+                0,
+                0,
+                1
+            ],
+            "material_answers": [
+                1,
+                3,
+                0,
+                0,
+                0
+            ],
+            "clear_answers": [
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            "connection_answers": [
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                3,
+                0,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                1,
+                3,
+                0,
+                0
+            ],
+            "good_answers": [
+                1,
+                1,
+                1,
+                1,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "F-17-03JUN",
+            "learning": 4.0,
+            "worklevel": 3.5,
+            "good": 3.5,
+            "N": 4
+        }
+    ],
+    "grade_percentile": null,
+    "eval_percentiles": {
+        "learning": 42.9817605075337,
+        "worklevel": 77.20063441712927,
+        "good": 26.13005551149881
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "info": {
+        "language": "Dansk",
+        "ECTS": 10,
+        "time": "E4B (fre 8-12)  og  Januar  eller    F4B (fre 8-12)  og  Juni",
+        "level": "Diplomingeni\u00f8r",
+        "name": "Bygnings",
+        "course_no": "62279"
+    },
+    "grades": [
+        {
+            "time": "2019summer",
+            "N_exam": 94,
+            "N_passed": 94,
+            "exam_avg": 7.1,
+            "grade_dist": [
+                0,
+                29,
+                42,
+                19,
+                4,
+                0,
+                0,
+                4
+            ]
+        },
+        {
+            "time": "2018winter",
+            "N_exam": 66,
+            "N_passed": 61,
+            "exam_avg": 7.5,
+            "grade_dist": [
+                9,
+                23,
+                14,
+                15,
+                0,
+                5,
+                0,
+                3
+            ]
+        }
+    ],
+    "grade_percentile": 34.11433926897845,
+    "eval_percentiles": {
+        "learning": null,
+        "worklevel": null,
+        "good": null
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

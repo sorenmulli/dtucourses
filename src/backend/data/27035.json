@@ -1,0 +1,495 @@
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "Juni",
+        "level": "Bachelor",
+        "name": "Eksperimentel fermenteringsteknologi",
+        "course_no": "27035"
+    },
+    "evals": [
+        {
+            "time": "F-18-03JUN",
+            "N_responses": 38,
+            "learning_answers": [
+                31,
+                7,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                35,
+                2,
+                1,
+                0,
+                0
+            ],
+            "material_answers": [
+                13,
+                18,
+                4,
+                3,
+                0
+            ],
+            "clear_answers": [
+                17,
+                11,
+                7,
+                1,
+                0
+            ],
+            "connection_answers": [
+                27,
+                8,
+                2,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                1,
+                14,
+                23,
+                0,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                1,
+                35,
+                2,
+                0
+            ],
+            "good_answers": [
+                34,
+                4,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-17-03JUN",
+            "N_responses": 18,
+            "learning_answers": [
+                3,
+                13,
+                1,
+                1,
+                0
+            ],
+            "participation_answers": [
+                14,
+                2,
+                1,
+                1,
+                0
+            ],
+            "material_answers": [
+                3,
+                9,
+                3,
+                3,
+                0
+            ],
+            "clear_answers": [
+                2,
+                5,
+                9,
+                2,
+                0
+            ],
+            "connection_answers": [
+                6,
+                10,
+                2,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                5,
+                9,
+                3,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                1,
+                15,
+                1,
+                0
+            ],
+            "good_answers": [
+                5,
+                11,
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "time": "F-16-03JUN",
+            "N_responses": 32,
+            "learning_answers": [
+                19,
+                11,
+                0,
+                2,
+                0
+            ],
+            "participation_answers": [
+                29,
+                2,
+                0,
+                0,
+                1
+            ],
+            "material_answers": [
+                10,
+                13,
+                7,
+                1,
+                1
+            ],
+            "clear_answers": [
+                11,
+                7,
+                9,
+                3,
+                2
+            ],
+            "connection_answers": [
+                20,
+                7,
+                2,
+                0,
+                3
+            ],
+            "worklevel_answers": [
+                0,
+                3,
+                22,
+                6,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                1,
+                30,
+                1,
+                0
+            ],
+            "good_answers": [
+                19,
+                10,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "time": "F-15-03",
+            "N_responses": 31,
+            "learning_answers": [
+                11,
+                16,
+                4,
+                0,
+                0
+            ],
+            "participation_answers": [
+                25,
+                5,
+                1,
+                0,
+                0
+            ],
+            "material_answers": [
+                7,
+                13,
+                5,
+                4,
+                0
+            ],
+            "clear_answers": [
+                6,
+                4,
+                16,
+                5,
+                0
+            ],
+            "connection_answers": [
+                11,
+                16,
+                2,
+                0,
+                1
+            ],
+            "worklevel_answers": [
+                0,
+                5,
+                21,
+                4,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                2,
+                27,
+                2,
+                0
+            ],
+            "good_answers": [
+                14,
+                14,
+                2,
+                1,
+                0
+            ]
+        },
+        {
+            "time": "F-14-03",
+            "N_responses": 48,
+            "learning_answers": [
+                22,
+                20,
+                5,
+                0,
+                1
+            ],
+            "participation_answers": [
+                35,
+                10,
+                2,
+                0,
+                1
+            ],
+            "material_answers": [
+                4,
+                23,
+                9,
+                10,
+                2
+            ],
+            "clear_answers": [
+                9,
+                21,
+                15,
+                3,
+                0
+            ],
+            "connection_answers": [
+                19,
+                23,
+                5,
+                1,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                2,
+                31,
+                15,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                2,
+                45,
+                1,
+                0
+            ],
+            "good_answers": [
+                23,
+                16,
+                4,
+                4,
+                1
+            ]
+        },
+        {
+            "time": "F-13-03",
+            "N_responses": 39,
+            "learning_answers": [
+                19,
+                15,
+                4,
+                0,
+                1
+            ],
+            "participation_answers": [
+                29,
+                8,
+                2,
+                0,
+                0
+            ],
+            "material_answers": [
+                4,
+                6,
+                12,
+                12,
+                5
+            ],
+            "clear_answers": [
+                10,
+                15,
+                12,
+                2,
+                0
+            ],
+            "connection_answers": [
+                19,
+                14,
+                5,
+                1,
+                0
+            ],
+            "worklevel_answers": [
+                1,
+                6,
+                24,
+                7,
+                1
+            ],
+            "prerequisite_answers": [
+                1,
+                2,
+                35,
+                0,
+                0
+            ],
+            "good_answers": [
+                16,
+                16,
+                2,
+                4,
+                1
+            ]
+        },
+        {
+            "time": "F-12-03",
+            "N_responses": 43,
+            "learning_answers": [
+                23,
+                17,
+                2,
+                1,
+                0
+            ],
+            "participation_answers": [
+                31,
+                11,
+                1,
+                0,
+                0
+            ],
+            "material_answers": [
+                7,
+                16,
+                16,
+                3,
+                1
+            ],
+            "clear_answers": [
+                11,
+                23,
+                8,
+                1,
+                0
+            ],
+            "connection_answers": [
+                15,
+                20,
+                7,
+                0,
+                1
+            ],
+            "worklevel_answers": [
+                0,
+                4,
+                29,
+                9,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                1,
+                41,
+                0,
+                1
+            ],
+            "good_answers": [
+                20,
+                19,
+                2,
+                2,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "F-18-03JUN",
+            "learning": 4.815789473684211,
+            "worklevel": 2.5789473684210527,
+            "good": 4.894736842105263,
+            "N": 38
+        },
+        {
+            "time": "F-17-03JUN",
+            "learning": 4.0,
+            "worklevel": 3.0,
+            "good": 4.055555555555555,
+            "N": 18
+        },
+        {
+            "time": "F-16-03JUN",
+            "learning": 4.46875,
+            "worklevel": 3.15625,
+            "good": 4.40625,
+            "N": 32
+        },
+        {
+            "time": "F-15-03",
+            "learning": 4.225806451612903,
+            "worklevel": 3.032258064516129,
+            "good": 4.32258064516129,
+            "N": 31
+        },
+        {
+            "time": "F-14-03",
+            "learning": 4.291666666666667,
+            "worklevel": 3.2708333333333335,
+            "good": 4.166666666666667,
+            "N": 48
+        },
+        {
+            "time": "F-13-03",
+            "learning": 4.3076923076923075,
+            "worklevel": 3.0256410256410255,
+            "good": 4.076923076923077,
+            "N": 39
+        },
+        {
+            "time": "F-12-03",
+            "learning": 4.441860465116279,
+            "worklevel": 3.1627906976744184,
+            "good": 4.325581395348837,
+            "N": 43
+        }
+    ],
+    "grade_percentile": null,
+    "eval_percentiles": {
+        "learning": 91.91118160190325,
+        "worklevel": 8.762886597938145,
+        "good": 93.10071371927042
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

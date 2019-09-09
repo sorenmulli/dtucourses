@@ -1,0 +1,293 @@
+{
+    "info": {
+        "language": "Dansk",
+        "ECTS": 5,
+        "time": "August",
+        "level": "Bachelor",
+        "name": "Introduktion til programmering og databehandling",
+        "course_no": "02632"
+    },
+    "evals": [
+        {
+            "time": "F-18-03AUG",
+            "N_responses": 32,
+            "learning_answers": [
+                14,
+                12,
+                5,
+                1,
+                0
+            ],
+            "participation_answers": [
+                17,
+                6,
+                7,
+                2,
+                0
+            ],
+            "material_answers": [
+                17,
+                10,
+                3,
+                2,
+                0
+            ],
+            "clear_answers": [
+                8,
+                9,
+                8,
+                5,
+                2
+            ],
+            "connection_answers": [
+                11,
+                8,
+                8,
+                4,
+                1
+            ],
+            "worklevel_answers": [
+                0,
+                3,
+                24,
+                5,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                32,
+                0,
+                0
+            ],
+            "good_answers": [
+                14,
+                10,
+                6,
+                1,
+                1
+            ]
+        },
+        {
+            "time": "F-17-03AUG",
+            "N_responses": 19,
+            "learning_answers": [
+                13,
+                3,
+                3,
+                0,
+                0
+            ],
+            "participation_answers": [
+                12,
+                5,
+                2,
+                0,
+                0
+            ],
+            "material_answers": [
+                8,
+                8,
+                2,
+                1,
+                0
+            ],
+            "clear_answers": [
+                2,
+                6,
+                7,
+                3,
+                1
+            ],
+            "connection_answers": [
+                7,
+                7,
+                5,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                1,
+                3,
+                12,
+                2,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                17,
+                2,
+                0
+            ],
+            "good_answers": [
+                11,
+                6,
+                2,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-16-03AUG",
+            "N_responses": 33,
+            "learning_answers": [
+                13,
+                9,
+                8,
+                3,
+                0
+            ],
+            "participation_answers": [
+                13,
+                10,
+                6,
+                3,
+                1
+            ],
+            "material_answers": [
+                13,
+                6,
+                4,
+                2,
+                7
+            ],
+            "clear_answers": [
+                4,
+                7,
+                8,
+                5,
+                9
+            ],
+            "connection_answers": [
+                9,
+                6,
+                10,
+                3,
+                5
+            ],
+            "worklevel_answers": [
+                5,
+                5,
+                13,
+                8,
+                2
+            ],
+            "prerequisite_answers": [
+                1,
+                0,
+                28,
+                3,
+                1
+            ],
+            "good_answers": [
+                11,
+                14,
+                2,
+                4,
+                2
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "F-18-03AUG",
+            "learning": 4.21875,
+            "worklevel": 3.0625,
+            "good": 4.09375,
+            "N": 32
+        },
+        {
+            "time": "F-17-03AUG",
+            "learning": 4.526315789473684,
+            "worklevel": 2.9473684210526314,
+            "good": 4.473684210526316,
+            "N": 19
+        },
+        {
+            "time": "F-16-03AUG",
+            "learning": 3.9696969696969697,
+            "worklevel": 2.909090909090909,
+            "good": 3.8484848484848486,
+            "N": 33
+        }
+    ],
+    "grades": [
+        {
+            "time": "2018summer",
+            "N_exam": 107,
+            "N_passed": 91,
+            "exam_avg": 6.3,
+            "grade_dist": [
+                13,
+                20,
+                33,
+                22,
+                3,
+                13,
+                3,
+                19
+            ]
+        },
+        {
+            "time": "2016summer",
+            "N_exam": 88,
+            "N_passed": 69,
+            "exam_avg": 6.7,
+            "grade_dist": [
+                23,
+                20,
+                15,
+                5,
+                6,
+                11,
+                8,
+                1
+            ]
+        },
+        {
+            "time": "2016winter",
+            "N_exam": 4,
+            "N_passed": 0,
+            "exam_avg": -3.0,
+            "grade_dist": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                6
+            ]
+        },
+        {
+            "time": "2015summer",
+            "N_exam": 33,
+            "N_passed": 29,
+            "exam_avg": 6.5,
+            "grade_dist": [
+                3,
+                9,
+                8,
+                9,
+                0,
+                3,
+                1,
+                12
+            ]
+        }
+    ],
+    "grade_percentile": 21.227741330834114,
+    "eval_percentiles": {
+        "learning": 58.4456780333069,
+        "worklevel": 43.89373513084853,
+        "good": 58.32672482157018
+    },
+    "composites": {
+        "beer_points": 2.9997105643994213,
+        "quality_points": 3.2033519553072627,
+        "beer_percentiles": 35.53553553553554,
+        "quality_percentiles": 36.93693693693694
+    }
+}

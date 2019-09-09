@@ -1,0 +1,196 @@
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "E1B (tors 13-17)",
+        "level": "Kandidat",
+        "name": "Test af digitale systemer",
+        "course_no": "02209"
+    },
+    "evals": [
+        {
+            "time": "E-18-13",
+            "N_responses": 3,
+            "learning_answers": [
+                1,
+                1,
+                0,
+                1,
+                0
+            ],
+            "participation_answers": [
+                2,
+                1,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                1,
+                1,
+                0,
+                1,
+                0
+            ],
+            "clear_answers": [
+                1,
+                0,
+                1,
+                1,
+                0
+            ],
+            "connection_answers": [
+                1,
+                1,
+                0,
+                1,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                2,
+                1,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                3,
+                0,
+                0
+            ],
+            "good_answers": [
+                1,
+                1,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "time": "E-15-13",
+            "N_responses": 1,
+            "learning_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "clear_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "connection_answers": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "good_answers": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "E-18-13",
+            "learning": 3.6666666666666665,
+            "worklevel": 3.3333333333333335,
+            "good": 3.6666666666666665,
+            "N": 3
+        },
+        {
+            "time": "E-15-13",
+            "learning": 5.0,
+            "worklevel": 5.0,
+            "good": 5.0,
+            "N": 1
+        }
+    ],
+    "grades": [
+        {
+            "time": "2018winter",
+            "N_exam": 9,
+            "N_passed": 7,
+            "exam_avg": 7.5,
+            "grade_dist": [
+                2,
+                2,
+                2,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "time": "2013winter",
+            "N_exam": 5,
+            "N_passed": 4,
+            "exam_avg": 6.6,
+            "grade_dist": [
+                2,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                2
+            ]
+        }
+    ],
+    "grade_percentile": 41.37769447047798,
+    "eval_percentiles": {
+        "learning": 25.257731958762886,
+        "worklevel": 64.90880253766852,
+        "good": 33.34655035685964
+    },
+    "composites": {
+        "beer_points": 3.039556198745779,
+        "quality_points": 3.1899441340782113,
+        "beer_percentiles": 38.73873873873874,
+        "quality_percentiles": 35.83583583583584
+    }
+}

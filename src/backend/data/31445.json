@@ -1,0 +1,227 @@
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "Juni",
+        "level": "Kandidat",
+        "name": "Signalintegritet i h\u00f8jhastighedselektronik",
+        "course_no": "31445"
+    },
+    "evals": [
+        {
+            "time": "F-18-03JUN",
+            "N_responses": 19,
+            "learning_answers": [
+                14,
+                5,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                16,
+                3,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                10,
+                7,
+                1,
+                1,
+                0
+            ],
+            "clear_answers": [
+                4,
+                5,
+                10,
+                0,
+                0
+            ],
+            "connection_answers": [
+                14,
+                5,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                2,
+                13,
+                4,
+                0
+            ],
+            "prerequisite_answers": [
+                1,
+                1,
+                16,
+                1,
+                0
+            ],
+            "good_answers": [
+                16,
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "time": "F-16-03JUN",
+            "N_responses": 23,
+            "learning_answers": [
+                15,
+                6,
+                1,
+                1,
+                0
+            ],
+            "participation_answers": [
+                15,
+                5,
+                2,
+                0,
+                1
+            ],
+            "material_answers": [
+                8,
+                6,
+                6,
+                3,
+                0
+            ],
+            "clear_answers": [
+                6,
+                6,
+                6,
+                3,
+                1
+            ],
+            "connection_answers": [
+                11,
+                6,
+                3,
+                1,
+                1
+            ],
+            "worklevel_answers": [
+                0,
+                3,
+                12,
+                3,
+                4
+            ],
+            "prerequisite_answers": [
+                0,
+                1,
+                21,
+                0,
+                0
+            ],
+            "good_answers": [
+                14,
+                5,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "time": "F-15-03",
+            "N_responses": 10,
+            "learning_answers": [
+                9,
+                1,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                7,
+                2,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                3,
+                5,
+                2,
+                0,
+                0
+            ],
+            "clear_answers": [
+                2,
+                3,
+                5,
+                0,
+                0
+            ],
+            "connection_answers": [
+                4,
+                6,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                8,
+                2,
+                0
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                10,
+                0,
+                0
+            ],
+            "good_answers": [
+                10,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "F-18-03JUN",
+            "learning": 4.7368421052631575,
+            "worklevel": 3.1052631578947367,
+            "good": 4.842105263157895,
+            "N": 19
+        },
+        {
+            "time": "F-16-03JUN",
+            "learning": 4.521739130434782,
+            "worklevel": 3.217391304347826,
+            "good": 4.173913043478261,
+            "N": 23
+        },
+        {
+            "time": "F-15-03",
+            "learning": 4.9,
+            "worklevel": 3.2,
+            "good": 5.0,
+            "N": 10
+        }
+    ],
+    "grade_percentile": null,
+    "eval_percentiles": {
+        "learning": 89.49246629659001,
+        "worklevel": 47.343378271213325,
+        "good": 92.54559873116574
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

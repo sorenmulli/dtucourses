@@ -1,0 +1,111 @@
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "E2B (tors 8-12)",
+        "level": "Kandidat",
+        "name": "Industriel \u00d8kologi",
+        "course_no": "12142"
+    },
+    "evals": [
+        {
+            "time": "E-16-13",
+            "N_responses": 14,
+            "learning_answers": [
+                1,
+                5,
+                2,
+                3,
+                3
+            ],
+            "participation_answers": [
+                2,
+                5,
+                3,
+                2,
+                2
+            ],
+            "material_answers": [
+                0,
+                6,
+                2,
+                4,
+                2
+            ],
+            "clear_answers": [
+                1,
+                5,
+                1,
+                4,
+                3
+            ],
+            "connection_answers": [
+                1,
+                5,
+                2,
+                2,
+                4
+            ],
+            "worklevel_answers": [
+                0,
+                1,
+                3,
+                5,
+                5
+            ],
+            "prerequisite_answers": [
+                1,
+                0,
+                10,
+                3,
+                0
+            ],
+            "good_answers": [
+                0,
+                4,
+                3,
+                3,
+                4
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "E-16-13",
+            "learning": 2.857142857142857,
+            "worklevel": 4.0,
+            "good": 2.5,
+            "N": 14
+        }
+    ],
+    "grades": [
+        {
+            "time": "2018winter",
+            "N_exam": 24,
+            "N_passed": 24,
+            "exam_avg": 9.0,
+            "grade_dist": [
+                4,
+                10,
+                9,
+                1,
+                0,
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "grade_percentile": 73.10215557638239,
+    "eval_percentiles": {
+        "learning": 5.511498810467883,
+        "worklevel": 92.26804123711341,
+        "good": 4.480570975416336
+    },
+    "composites": {
+        "beer_points": 2.8234442836468885,
+        "quality_points": 2.883479648842777,
+        "beer_percentiles": 25.725725725725727,
+        "quality_percentiles": 22.02202202202202
+    }
+}

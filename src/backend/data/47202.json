@@ -1,0 +1,57 @@
+{
+    "info": {
+        "language": "Engelsk",
+        "ECTS": 5,
+        "time": "E3A (tirs 8-12)",
+        "level": "Bachelor",
+        "name": "Introduktion til fremtidens energi",
+        "course_no": "47202"
+    },
+    "grades": [
+        {
+            "time": "2018winter",
+            "N_exam": 113,
+            "N_passed": 110,
+            "exam_avg": 7.3,
+            "grade_dist": [
+                14,
+                27,
+                43,
+                18,
+                8,
+                2,
+                1,
+                1,
+                2
+            ]
+        },
+        {
+            "time": "2017winter",
+            "N_exam": 44,
+            "N_passed": 44,
+            "exam_avg": 7.8,
+            "grade_dist": [
+                7,
+                10,
+                19,
+                6,
+                2,
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "grade_percentile": 37.67572633552015,
+    "eval_percentiles": {
+        "learning": null,
+        "worklevel": null,
+        "good": null
+    },
+    "composites": {
+        "beer_points": null,
+        "quality_points": null,
+        "beer_percentiles": null,
+        "quality_percentiles": null
+    }
+}

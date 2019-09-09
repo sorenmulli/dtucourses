@@ -1,19 +1,21 @@
-export interface ICourses {
+export interface ICoursesMin {
 	time: Date,
 	courses: {
-		[key: string]: ICourse,
+		[key: string]: ICourseMin,
 	},
 }
 
+export interface ICourseMin {
+	course_no: string,
+	name: string,
+	language: string,
+	ECTS: number,
+	time: string,
+	level: string,
+}
+
 export interface ICourse {
-	info: {
-		course_no: string,
-		name: string,
-		language: string,
-		ECTS: number,
-		time: string,
-		level: string
-	},
+	info: ICourseMin,
 	grades?: {
 		time: string,
 		N_exam: number,
@@ -39,7 +41,19 @@ export interface ICourse {
 		worklevel: number,
 		good: number,
 		N: number,
-	}[]
+	}[],
+	grade_percentile: number,
+	eval_percentiles: {
+		learning: number,
+		worklevel: number,
+		good: number,
+	},
+	composits: {
+		beer_points: number,
+		quality_points: number,
+		beer_percentiles: number,
+		quality_percentiles: number,
+	}
 }
 
 

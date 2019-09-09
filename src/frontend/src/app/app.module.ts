@@ -14,8 +14,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { PlotlyComponent } from './plotly/plotly.component';
 import { CourseService } from './course/course.service';
 import { KeysPipe, SafePipe } from './course/course.pipe';
-import { registerLocaleData, HashLocationStrategy } from '@angular/common';
+import { registerLocaleData } from '@angular/common';
 import { HttpClientModule } from "@angular/common/http";
+import { MatTooltipModule } from "@angular/material";
 
 registerLocaleData(localeDA);
 
@@ -36,9 +37,10 @@ registerLocaleData(localeDA);
     AppRoutingModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MatFormFieldModule,
     MatInputModule,
-    HttpClientModule,
+    MatTooltipModule,
   ],
   providers: [
     CourseService,

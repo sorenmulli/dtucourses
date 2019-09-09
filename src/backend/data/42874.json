@@ -1,0 +1,111 @@
+{
+    "info": {
+        "language": "Dansk",
+        "ECTS": 5,
+        "time": "Januar",
+        "level": "Bachelor",
+        "name": "Vejtrafiksimulering",
+        "course_no": "42874"
+    },
+    "evals": [
+        {
+            "time": "E-18-03",
+            "N_responses": 2,
+            "learning_answers": [
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "participation_answers": [
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "material_answers": [
+                1,
+                1,
+                0,
+                0,
+                0
+            ],
+            "clear_answers": [
+                0,
+                1,
+                0,
+                0,
+                1
+            ],
+            "connection_answers": [
+                1,
+                1,
+                0,
+                0,
+                0
+            ],
+            "worklevel_answers": [
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            "prerequisite_answers": [
+                0,
+                0,
+                2,
+                0,
+                0
+            ],
+            "good_answers": [
+                2,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "eval_points": [
+        {
+            "time": "E-18-03",
+            "learning": 5.0,
+            "worklevel": 4.0,
+            "good": 5.0,
+            "N": 2
+        }
+    ],
+    "grades": [
+        {
+            "time": "2018winter",
+            "N_exam": 4,
+            "N_passed": 4,
+            "exam_avg": 7.8,
+            "grade_dist": [
+                0,
+                1,
+                3,
+                0,
+                0,
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "grade_percentile": 47.000937207122774,
+    "eval_percentiles": {
+        "learning": 96.4710547184774,
+        "worklevel": 92.26804123711341,
+        "good": 96.70896114195084
+    },
+    "composites": {
+        "beer_points": 2.56410998552822,
+        "quality_points": 3.8067039106145253,
+        "beer_percentiles": 14.364364364364365,
+        "quality_percentiles": 72.72272272272272
+    }
+}
