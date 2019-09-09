@@ -42,7 +42,7 @@ registerLocaleData(localeDA);
   ],
   providers: [
     CourseService,
-    {provide: LOCALE_ID, useValue: "da-DK", useClass: HashLocationStrategy}
+    {provide: LOCALE_ID, useValue: "da"}
   ],
   bootstrap: [AppComponent]
 })

@@ -52,8 +52,8 @@ export class CourseService {
     //       this.courseNames.push(this.courses[courseNo].info.name.toLowerCase());
     //     }
     //   }).catch(reason => console.log(reason));
-    this.time = new Date(data.time);
-    this.courses = data.courses;
+    this.time = new Date(data["time"]);
+    this.courses = data["courses"];
     this.courseNos = Object.keys(this.courses);
     for (let courseNo of this.courseNos) {
       this.courseNames.push(this.courses[courseNo].info.name.toLowerCase());

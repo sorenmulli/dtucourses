@@ -1,4 +1,15 @@
 dtucourses.html
+*.vscode
+*.aux
+*.bbl
+*.blg
+*.log
+*.pdf
+*.synctex.gz
+*.toc
+*__pycache__
+*.DS_Store
+*nohup.out
 
 
 # Byte-compiled / optimized / DLL files
