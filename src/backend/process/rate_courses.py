@@ -126,12 +126,12 @@ def course_compare(file):
 
 	pure_grade_arr = np.array(current_grade_avgs)
 
-	#Scale grade averages to [1:5]. Complicated syntax is for preserving the Nones
+	#Scale grade averages to [0:4]. Complicated syntax is for preserving the Nones
 	scaled_grade_arr = np.copy(pure_grade_arr)
 	scaled_grade_arr[scaled_grade_arr != None] = (scaled_grade_arr[scaled_grade_arr != None] + 3) * 4 / 15
 
 	
-	#Create composite scores and scale to [1:5]. Complicated initialization and syntax is for preserving Nones
+	#Create composite scores and scale to [0:4]. Complicated initialization and syntax is for preserving Nones
 	beer_arr = np.full(len(all_course_numbers) , None)
 	quality_arr = np.full(len(all_course_numbers) , None)
 
