@@ -192,30 +192,30 @@
     "eval_points": [
         {
             "time": "E-18-13",
-            "learning": 4.5,
-            "worklevel": 3.0,
-            "good": 4.75,
+            "learning": 3.5,
+            "worklevel": 2.0,
+            "good": 3.75,
             "N": 4
         },
         {
             "time": "E-16-13",
-            "learning": 4.5,
-            "worklevel": 3.0,
-            "good": 4.5,
+            "learning": 3.5,
+            "worklevel": 2.0,
+            "good": 3.5,
             "N": 2
         },
         {
             "time": "E-14-13",
-            "learning": 5.0,
-            "worklevel": 3.0,
-            "good": 5.0,
+            "learning": 4.0,
+            "worklevel": 2.0,
+            "good": 4.0,
             "N": 2
         }
     ],
     "grade_percentile": null,
     "eval_percentiles": {
         "learning": 77.67644726407613,
-        "worklevel": 35.091197462331486,
+        "worklevel": 34.89294210943695,
         "good": 90.56304520222047
     },
     "composites": {

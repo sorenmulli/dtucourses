@@ -372,52 +372,52 @@
     "eval_points": [
         {
             "time": "E-18-13",
-            "learning": 4.0,
-            "worklevel": 2.75,
-            "good": 4.116666666666666,
+            "learning": 3.0,
+            "worklevel": 1.75,
+            "good": 3.1166666666666667,
             "N": 60
         },
         {
             "time": "E-17-13",
-            "learning": 3.746268656716418,
-            "worklevel": 2.791044776119403,
-            "good": 3.8208955223880596,
+            "learning": 2.746268656716418,
+            "worklevel": 1.791044776119403,
+            "good": 2.8358208955223883,
             "N": 67
         },
         {
             "time": "E-16-13",
-            "learning": 3.9365079365079363,
-            "worklevel": 2.9365079365079363,
-            "good": 3.9523809523809526,
+            "learning": 2.9365079365079363,
+            "worklevel": 1.9365079365079365,
+            "good": 2.9523809523809526,
             "N": 63
         },
         {
             "time": "E-15-13",
-            "learning": 3.44,
-            "worklevel": 2.62,
-            "good": 3.62,
+            "learning": 2.44,
+            "worklevel": 1.64,
+            "good": 2.62,
             "N": 50
         },
         {
             "time": "F-15-13",
-            "learning": 3.0714285714285716,
-            "worklevel": 2.5,
-            "good": 3.142857142857143,
+            "learning": 2.0714285714285716,
+            "worklevel": 1.5,
+            "good": 2.142857142857143,
             "N": 14
         },
         {
             "time": "E-14-13",
-            "learning": 3.7,
-            "worklevel": 2.933333333333333,
-            "good": 3.466666666666667,
+            "learning": 2.7,
+            "worklevel": 1.9333333333333333,
+            "good": 2.5,
             "N": 30
         }
     ],
     "grade_percentile": null,
     "eval_percentiles": {
-        "learning": 42.9817605075337,
-        "worklevel": 15.503568596352101,
-        "good": 59.08009516256939
+        "learning": 42.90245836637589,
+        "worklevel": 15.305313243457574,
+        "good": 58.52498017446471
     },
     "composites": {
         "beer_points": null,

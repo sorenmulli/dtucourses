@@ -26,7 +26,7 @@ def getpercentiles(scorelist):
 
 def course_compare(file):
 	#Scores corresponding to different answer possibilities
-	scores = np.array([5, 4, 3, 2, 1])
+	scores = np.array([4, 3, 2, 1, 0])
 
 	#Load raw data
 	with open('src/backend/data/' + file, 'r+') as fp:

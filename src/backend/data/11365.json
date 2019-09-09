@@ -312,37 +312,37 @@
     "eval_points": [
         {
             "time": "E-18-03",
-            "learning": 4.238095238095238,
-            "worklevel": 3.5714285714285716,
-            "good": 3.7142857142857144,
+            "learning": 3.238095238095238,
+            "worklevel": 2.5714285714285716,
+            "good": 2.761904761904762,
             "N": 21
         },
         {
             "time": "E-17-03",
-            "learning": 5.0,
-            "worklevel": 3.3333333333333335,
-            "good": 5.0,
+            "learning": 4.0,
+            "worklevel": 2.3333333333333335,
+            "good": 4.0,
             "N": 3
         },
         {
             "time": "E-16-03",
-            "learning": 4.571428571428571,
-            "worklevel": 3.4285714285714284,
-            "good": 4.285714285714286,
+            "learning": 3.5714285714285716,
+            "worklevel": 2.4285714285714284,
+            "good": 3.2857142857142856,
             "N": 7
         },
         {
             "time": "E-15-03",
-            "learning": 3.6,
-            "worklevel": 3.4,
-            "good": 3.8,
+            "learning": 2.6,
+            "worklevel": 2.4,
+            "good": 2.8,
             "N": 5
         },
         {
             "time": "E-14-03",
-            "learning": 4.0,
-            "worklevel": 2.0,
-            "good": 4.0,
+            "learning": 3.0,
+            "worklevel": 1.0,
+            "good": 3.0,
             "N": 1
         }
     ],
@@ -464,12 +464,12 @@
     "eval_percentiles": {
         "learning": 59.71451229183188,
         "worklevel": 80.57097541633624,
-        "good": 35.60666137985726
+        "good": 37.192704203013484
     },
     "composites": {
-        "beer_points": 2.0410998552821993,
-        "quality_points": 2.533439744612929,
+        "beer_points": 2.06018112766579,
+        "quality_points": 2.5380417335473515,
         "beer_percentiles": 38.93893893893894,
-        "quality_percentiles": 54.95495495495496
+        "quality_percentiles": 55.55555555555556
     }
 }

@@ -252,30 +252,30 @@
     "eval_points": [
         {
             "time": "E-17-13",
-            "learning": 4.153846153846154,
-            "worklevel": 3.230769230769231,
-            "good": 4.0,
+            "learning": 3.1538461538461537,
+            "worklevel": 2.3076923076923075,
+            "good": 3.076923076923077,
             "N": 13
         },
         {
             "time": "E-16-13",
-            "learning": 4.411764705882353,
-            "worklevel": 3.3529411764705883,
-            "good": 4.176470588235294,
+            "learning": 3.411764705882353,
+            "worklevel": 2.3529411764705883,
+            "good": 3.176470588235294,
             "N": 17
         },
         {
             "time": "E-15-13",
-            "learning": 3.12,
-            "worklevel": 3.64,
-            "good": 2.8,
+            "learning": 2.12,
+            "worklevel": 2.64,
+            "good": 1.8,
             "N": 25
         },
         {
             "time": "E-14-13",
-            "learning": 3.6,
-            "worklevel": 3.5,
-            "good": 3.8,
+            "learning": 2.6,
+            "worklevel": 2.5,
+            "good": 2.8,
             "N": 10
         }
     ],
@@ -396,13 +396,13 @@
     "grade_percentile": 58.76288659793814,
     "eval_percentiles": {
         "learning": 54.08406026962728,
-        "worklevel": 57.61300555114988,
-        "good": 51.11022997620936
+        "worklevel": 62.450436161776366,
+        "good": 56.54242664551943
     },
     "composites": {
-        "beer_points": 2.2955656981706185,
-        "quality_points": 2.6519982810485607,
-        "beer_percentiles": 56.65665665665666,
-        "quality_percentiles": 62.412412412412415
+        "beer_points": 2.2541030884589173,
+        "quality_points": 2.6444252376836648,
+        "beer_percentiles": 52.6026026026026,
+        "quality_percentiles": 62.112112112112115
     }
 }

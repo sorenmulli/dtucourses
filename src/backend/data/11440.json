@@ -312,37 +312,37 @@
     "eval_points": [
         {
             "time": "E-18-13",
-            "learning": 4.0,
-            "worklevel": 3.0,
-            "good": 3.625,
+            "learning": 3.0,
+            "worklevel": 2.0,
+            "good": 2.625,
             "N": 8
         },
         {
             "time": "E-17-13",
-            "learning": 3.7333333333333334,
-            "worklevel": 2.7333333333333334,
-            "good": 3.6,
+            "learning": 2.7333333333333334,
+            "worklevel": 1.8,
+            "good": 2.6,
             "N": 15
         },
         {
             "time": "E-16-13",
-            "learning": 4.0625,
-            "worklevel": 3.25,
-            "good": 3.8125,
+            "learning": 3.0625,
+            "worklevel": 2.25,
+            "good": 2.8125,
             "N": 16
         },
         {
             "time": "E-15-13",
-            "learning": 3.21875,
-            "worklevel": 3.0625,
-            "good": 3.3125,
+            "learning": 2.21875,
+            "worklevel": 2.0625,
+            "good": 2.3125,
             "N": 32
         },
         {
             "time": "E-14-13",
-            "learning": 3.875,
-            "worklevel": 3.4583333333333335,
-            "good": 3.4166666666666665,
+            "learning": 2.875,
+            "worklevel": 2.4583333333333335,
+            "good": 2.4166666666666665,
             "N": 24
         }
     ],
@@ -526,14 +526,14 @@
     ],
     "grade_percentile": 31.77132146204311,
     "eval_percentiles": {
-        "learning": 42.9817605075337,
-        "worklevel": 35.091197462331486,
-        "good": 31.12609040444092
+        "learning": 42.90245836637589,
+        "worklevel": 34.89294210943695,
+        "good": 30.729579698651865
     },
     "composites": {
-        "beer_points": 2.2016401350699466,
-        "quality_points": 2.223463687150838,
-        "beer_percentiles": 50.0,
+        "beer_points": 2.2222222222222223,
+        "quality_points": 2.2134831460674156,
+        "beer_percentiles": 50.250250250250254,
         "quality_percentiles": 37.93793793793794
     }
 }

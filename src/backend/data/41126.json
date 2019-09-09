@@ -312,37 +312,37 @@
     "eval_points": [
         {
             "time": "F-19-13",
-            "learning": 4.529411764705882,
-            "worklevel": 3.1176470588235294,
-            "good": 4.9411764705882355,
+            "learning": 3.5294117647058822,
+            "worklevel": 2.1176470588235294,
+            "good": 3.9411764705882355,
             "N": 17
         },
         {
             "time": "F-18-13",
-            "learning": 4.75,
-            "worklevel": 3.5,
-            "good": 4.625,
+            "learning": 3.75,
+            "worklevel": 2.5,
+            "good": 3.625,
             "N": 8
         },
         {
             "time": "F-17-13",
-            "learning": 4.666666666666667,
-            "worklevel": 3.0,
-            "good": 4.5,
+            "learning": 3.6666666666666665,
+            "worklevel": 2.0,
+            "good": 3.5,
             "N": 6
         },
         {
             "time": "F-16-13",
-            "learning": 4.9,
-            "worklevel": 3.1,
-            "good": 4.9,
+            "learning": 3.9,
+            "worklevel": 2.1,
+            "good": 3.9,
             "N": 10
         },
         {
             "time": "F-15-13",
-            "learning": 5.0,
-            "worklevel": 3.0,
-            "good": 4.7,
+            "learning": 4.0,
+            "worklevel": 2.0,
+            "good": 3.7,
             "N": 10
         }
     ],
@@ -447,13 +447,13 @@
     "grade_percentile": 29.803186504217432,
     "eval_percentiles": {
         "learning": 80.01586042823156,
-        "worklevel": 48.41395717684377,
+        "worklevel": 48.25535289452815,
         "good": 93.33862014274385
     },
     "composites": {
-        "beer_points": 2.0846854516046647,
-        "quality_points": 2.6600065724613873,
-        "beer_percentiles": 41.74174174174174,
-        "quality_percentiles": 63.06306306306306
+        "beer_points": 2.104174185011428,
+        "quality_points": 2.652478519497687,
+        "beer_percentiles": 41.84184184184184,
+        "quality_percentiles": 62.86286286286286
     }
 }

@@ -432,51 +432,51 @@
     "eval_points": [
         {
             "time": "F-19-13",
-            "learning": 3.0384615384615383,
-            "worklevel": 3.076923076923077,
-            "good": 3.076923076923077,
+            "learning": 2.0384615384615383,
+            "worklevel": 2.076923076923077,
+            "good": 2.076923076923077,
             "N": 26
         },
         {
             "time": "F-18-13",
-            "learning": 4.1923076923076925,
-            "worklevel": 2.6923076923076925,
-            "good": 3.8846153846153846,
+            "learning": 3.1923076923076925,
+            "worklevel": 1.7307692307692308,
+            "good": 2.8846153846153846,
             "N": 26
         },
         {
             "time": "E-17-13",
-            "learning": 4.5,
-            "worklevel": 3.5,
-            "good": 4.5,
+            "learning": 3.5,
+            "worklevel": 2.5,
+            "good": 3.5,
             "N": 4
         },
         {
             "time": "F-17-13",
-            "learning": 4.1,
-            "worklevel": 3.8,
-            "good": 4.0,
+            "learning": 3.1,
+            "worklevel": 2.8,
+            "good": 3.0,
             "N": 10
         },
         {
             "time": "F-16-13",
-            "learning": 3.8461538461538463,
-            "worklevel": 3.0384615384615383,
-            "good": 3.8846153846153846,
+            "learning": 2.8461538461538463,
+            "worklevel": 2.0384615384615383,
+            "good": 2.8846153846153846,
             "N": 26
         },
         {
             "time": "F-15-13",
-            "learning": 4.0,
-            "worklevel": 3.6,
-            "good": 3.6,
+            "learning": 3.0,
+            "worklevel": 2.6,
+            "good": 2.6,
             "N": 5
         },
         {
             "time": "F-14-13",
-            "learning": 4.8,
-            "worklevel": 3.2,
-            "good": 5.0,
+            "learning": 3.8,
+            "worklevel": 2.2,
+            "good": 4.0,
             "N": 5
         }
     ],
@@ -598,14 +598,14 @@
     ],
     "grade_percentile": 97.2352389878163,
     "eval_percentiles": {
-        "learning": 8.326724821570183,
-        "worklevel": 45.12291831879461,
-        "good": 13.481363996827914
+        "learning": 8.24742268041237,
+        "worklevel": 44.96431403647898,
+        "good": 13.164155432196669
     },
     "composites": {
-        "beer_points": 3.046970202975991,
-        "quality_points": 2.9242801890846586,
-        "beer_percentiles": 95.29529529529529,
-        "quality_percentiles": 79.27927927927928
+        "beer_points": 3.0754548791358607,
+        "quality_points": 2.918236819360415,
+        "beer_percentiles": 95.49549549549549,
+        "quality_percentiles": 78.97897897897897
     }
 }

@@ -72,9 +72,9 @@
     "eval_points": [
         {
             "time": "F-18-13",
-            "learning": 5.0,
-            "worklevel": 1.0,
-            "good": 5.0,
+            "learning": 4.0,
+            "worklevel": 0.0,
+            "good": 4.0,
             "N": 1
         }
     ],

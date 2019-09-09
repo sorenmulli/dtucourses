@@ -252,37 +252,37 @@
     "eval_points": [
         {
             "time": "F-18-03JUN",
-            "learning": 5.0,
-            "worklevel": 3.0,
-            "good": 5.0,
-            "N": 3
-        },
-        {
-            "time": "F-17-03JUN",
             "learning": 4.0,
-            "worklevel": 2.6666666666666665,
+            "worklevel": 2.0,
             "good": 4.0,
             "N": 3
         },
         {
+            "time": "F-17-03JUN",
+            "learning": 3.0,
+            "worklevel": 1.6666666666666667,
+            "good": 3.0,
+            "N": 3
+        },
+        {
             "time": "F-16-03JUN",
-            "learning": 4.25,
-            "worklevel": 3.0,
-            "good": 3.75,
+            "learning": 3.25,
+            "worklevel": 2.0,
+            "good": 2.75,
             "N": 4
         },
         {
             "time": "F-16-13",
-            "learning": 3.111111111111111,
-            "worklevel": 2.111111111111111,
-            "good": 2.888888888888889,
+            "learning": 2.111111111111111,
+            "worklevel": 1.1111111111111112,
+            "good": 1.8888888888888888,
             "N": 9
         }
     ],
     "grade_percentile": null,
     "eval_percentiles": {
         "learning": 96.4710547184774,
-        "worklevel": 35.091197462331486,
+        "worklevel": 34.89294210943695,
         "good": 96.70896114195084
     },
     "composites": {

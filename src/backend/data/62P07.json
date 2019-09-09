@@ -612,80 +612,80 @@
     "eval_points": [
         {
             "time": "F-19-13",
-            "learning": 4.5,
-            "worklevel": 3.1666666666666665,
-            "good": 3.5,
+            "learning": 3.5,
+            "worklevel": 2.1666666666666665,
+            "good": 2.5,
             "N": 6
         },
         {
             "time": "E-18-13",
-            "learning": 3.4,
-            "worklevel": 2.8,
-            "good": 3.8,
+            "learning": 2.4,
+            "worklevel": 1.8,
+            "good": 2.8,
             "N": 5
         },
         {
             "time": "F-18-13",
-            "learning": 3.4285714285714284,
-            "worklevel": 3.0,
-            "good": 3.0,
+            "learning": 2.4285714285714284,
+            "worklevel": 2.0,
+            "good": 2.0,
             "N": 7
         },
         {
             "time": "E-17-13",
-            "learning": 3.875,
-            "worklevel": 3.125,
-            "good": 3.875,
+            "learning": 2.875,
+            "worklevel": 2.125,
+            "good": 2.875,
             "N": 8
         },
         {
             "time": "F-17-13",
-            "learning": 3.6666666666666665,
-            "worklevel": 3.0,
-            "good": 3.3333333333333335,
+            "learning": 2.6666666666666665,
+            "worklevel": 2.0,
+            "good": 2.3333333333333335,
             "N": 6
         },
         {
             "time": "E-16-13",
-            "learning": 3.857142857142857,
-            "worklevel": 3.2857142857142856,
-            "good": 3.7142857142857144,
+            "learning": 2.857142857142857,
+            "worklevel": 2.2857142857142856,
+            "good": 2.7142857142857144,
             "N": 7
         },
         {
             "time": "F-16-13",
-            "learning": 2.6,
-            "worklevel": 2.6,
-            "good": 2.4,
+            "learning": 1.6,
+            "worklevel": 1.6,
+            "good": 1.4,
             "N": 5
         },
         {
             "time": "E-15-13",
-            "learning": 4.333333333333333,
-            "worklevel": 3.0,
-            "good": 4.0,
+            "learning": 3.3333333333333335,
+            "worklevel": 2.0,
+            "good": 3.0,
             "N": 3
         },
         {
             "time": "F-15-13",
-            "learning": 4.166666666666667,
-            "worklevel": 3.1666666666666665,
-            "good": 4.0,
+            "learning": 3.1666666666666665,
+            "worklevel": 2.1666666666666665,
+            "good": 3.0,
             "N": 6
         },
         {
             "time": "F-14-13",
-            "learning": 2.6666666666666665,
-            "worklevel": 2.3333333333333335,
-            "good": 3.0,
+            "learning": 1.6666666666666667,
+            "worklevel": 1.3333333333333333,
+            "good": 2.0,
             "N": 3
         }
     ],
     "grade_percentile": null,
     "eval_percentiles": {
         "learning": 77.67644726407613,
-        "worklevel": 52.93417922283901,
-        "good": 26.13005551149881
+        "worklevel": 52.656621728786675,
+        "good": 25.85249801744647
     },
     "composites": {
         "beer_points": null,

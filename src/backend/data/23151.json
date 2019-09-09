@@ -72,17 +72,17 @@
     "eval_points": [
         {
             "time": "E-15-13",
-            "learning": 2.0,
-            "worklevel": 3.0,
-            "good": 2.0,
+            "learning": 1.0,
+            "worklevel": 2.0,
+            "good": 1.0,
             "N": 1
         }
     ],
     "grade_percentile": null,
     "eval_percentiles": {
         "learning": 0.5551149881046789,
-        "worklevel": 35.091197462331486,
-        "good": 1.5860428231562251
+        "worklevel": 34.89294210943695,
+        "good": 1.506740681998414
     },
     "composites": {
         "beer_points": null,

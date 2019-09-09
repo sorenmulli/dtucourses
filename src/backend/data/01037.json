@@ -252,30 +252,30 @@
     "eval_points": [
         {
             "time": "F-18-03AUG",
-            "learning": 4.283950617283951,
-            "worklevel": 3.382716049382716,
-            "good": 3.8395061728395063,
+            "learning": 3.2839506172839505,
+            "worklevel": 2.382716049382716,
+            "good": 2.888888888888889,
             "N": 81
         },
         {
             "time": "F-17-03AUG",
-            "learning": 4.237288135593221,
-            "worklevel": 3.152542372881356,
-            "good": 3.8135593220338984,
+            "learning": 3.23728813559322,
+            "worklevel": 2.152542372881356,
+            "good": 2.8135593220338984,
             "N": 59
         },
         {
             "time": "F-16-03AUG",
-            "learning": 4.217391304347826,
-            "worklevel": 3.608695652173913,
-            "good": 4.043478260869565,
+            "learning": 3.217391304347826,
+            "worklevel": 2.608695652173913,
+            "good": 3.0434782608695654,
             "N": 23
         },
         {
             "time": "F-15-03",
-            "learning": 5.0,
-            "worklevel": 3.0,
-            "good": 5.0,
+            "learning": 4.0,
+            "worklevel": 2.0,
+            "good": 4.0,
             "N": 1
         }
     ],
@@ -349,14 +349,14 @@
     ],
     "grade_percentile": 26.148078725398314,
     "eval_percentiles": {
-        "learning": 62.52973830293418,
-        "worklevel": 69.38937351308485,
-        "good": 41.31641554321967
+        "learning": 62.41078509119746,
+        "worklevel": 69.0721649484536,
+        "good": 42.86280729579698
     },
     "composites": {
-        "beer_points": 1.8266459416483534,
-        "quality_points": 2.1740533829919313,
-        "beer_percentiles": 26.126126126126128,
-        "quality_percentiles": 35.43543543543544
+        "beer_points": 1.84372238632634,
+        "quality_points": 2.177111943404078,
+        "beer_percentiles": 26.226226226226228,
+        "quality_percentiles": 35.73573573573574
     }
 }

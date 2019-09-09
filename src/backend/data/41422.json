@@ -312,37 +312,37 @@
     "eval_points": [
         {
             "time": "E-18-13",
-            "learning": 4.444444444444445,
-            "worklevel": 3.4444444444444446,
-            "good": 4.444444444444445,
+            "learning": 3.4444444444444446,
+            "worklevel": 2.4444444444444446,
+            "good": 3.4444444444444446,
             "N": 9
         },
         {
             "time": "F-17-13",
-            "learning": 4.75,
-            "worklevel": 3.0,
-            "good": 5.0,
+            "learning": 3.75,
+            "worklevel": 2.0,
+            "good": 4.0,
             "N": 4
         },
         {
             "time": "F-16-13",
-            "learning": 4.142857142857143,
-            "worklevel": 3.2857142857142856,
-            "good": 3.857142857142857,
+            "learning": 3.142857142857143,
+            "worklevel": 2.2857142857142856,
+            "good": 2.857142857142857,
             "N": 7
         },
         {
             "time": "F-15-13",
-            "learning": 4.0,
-            "worklevel": 2.8,
-            "good": 4.4,
+            "learning": 3.0,
+            "worklevel": 1.8,
+            "good": 3.4,
             "N": 5
         },
         {
             "time": "F-14-13",
-            "learning": 5.0,
-            "worklevel": 3.5714285714285716,
-            "good": 4.571428571428571,
+            "learning": 4.0,
+            "worklevel": 2.5714285714285716,
+            "good": 3.5714285714285716,
             "N": 7
         }
     ],
@@ -432,12 +432,12 @@
     "grade_percentile": 43.626991565135896,
     "eval_percentiles": {
         "learning": 74.10785091197462,
-        "worklevel": 74.22680412371135,
-        "good": 77.04203013481364
+        "worklevel": 74.06819984139572,
+        "good": 76.96272799365583
     },
     "composites": {
-        "beer_points": 1.9711207589644633,
-        "quality_points": 2.604096834264431,
+        "beer_points": 1.9895478300386273,
+        "quality_points": 2.59625468164794,
         "beer_percentiles": 33.68368368368368,
         "quality_percentiles": 59.95995995995996
     }

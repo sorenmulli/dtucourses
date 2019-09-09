@@ -312,37 +312,37 @@
     "eval_points": [
         {
             "time": "F-18-03AUG",
-            "learning": 4.666666666666667,
-            "worklevel": 3.0,
-            "good": 4.666666666666667,
+            "learning": 3.6666666666666665,
+            "worklevel": 2.0,
+            "good": 3.6666666666666665,
             "N": 3
         },
         {
             "time": "F-17-03AUG",
-            "learning": 4.0,
-            "worklevel": 2.3333333333333335,
-            "good": 4.666666666666667,
+            "learning": 3.0,
+            "worklevel": 1.3333333333333333,
+            "good": 3.6666666666666665,
             "N": 3
         },
         {
             "time": "F-16-03AUG",
-            "learning": 3.6,
-            "worklevel": 3.2,
-            "good": 4.2,
+            "learning": 2.6,
+            "worklevel": 2.2,
+            "good": 3.2,
             "N": 5
         },
         {
             "time": "E-15-03",
-            "learning": 4.0,
-            "worklevel": 3.6666666666666665,
-            "good": 4.0,
+            "learning": 3.0,
+            "worklevel": 2.6666666666666665,
+            "good": 3.0,
             "N": 3
         },
         {
             "time": "F-15-03",
-            "learning": 4.0,
-            "worklevel": 2.0,
-            "good": 5.0,
+            "learning": 3.0,
+            "worklevel": 1.0,
+            "good": 4.0,
             "N": 1
         }
     ],
@@ -367,13 +367,13 @@
     "grade_percentile": 70.75913776944705,
     "eval_percentiles": {
         "learning": 87.27200634417129,
-        "worklevel": 35.091197462331486,
+        "worklevel": 34.89294210943695,
         "good": 88.42188739095955
     },
     "composites": {
-        "beer_points": 2.6122527737578385,
-        "quality_points": 3.1910614525139667,
+        "beer_points": 2.63667348329925,
+        "quality_points": 3.1865168539325843,
         "beer_percentiles": 77.12712712712712,
-        "quality_percentiles": 89.83983983983984
+        "quality_percentiles": 89.7897897897898
     }
 }
