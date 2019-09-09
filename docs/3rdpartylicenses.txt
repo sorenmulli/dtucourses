@@ -87,10 +87,14 @@ THE SOFTWARE.
 
 @angular/material/form-field
 
+@angular/material/icon
+
 @angular/material/tooltip
 
 @angular/platform-browser
 MIT
+
+undefined
 
 @angular/router
 MIT
@@ -119,8 +123,6 @@ THE SOFTWARE.
 
 
 dkfds
-
-undefined
 
 rxjs
 Apache-2.0
