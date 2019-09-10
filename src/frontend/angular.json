@@ -24,7 +24,6 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/dkfds/dist/css/dkfds-virkdk.css",
               "src/styles.css"
             ],
             "scripts": [
