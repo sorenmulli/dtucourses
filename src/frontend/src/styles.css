@@ -1,4 +1,4 @@
-@import "../node_modules/dkfds/dist/css/dkfds-virkdk.css";
+@import "../node_modules/dkfds/dist/css/dkfds-virkdk.min.css";
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 

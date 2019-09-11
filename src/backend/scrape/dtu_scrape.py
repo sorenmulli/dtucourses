@@ -1,6 +1,6 @@
 from os import chdir, getcwd
 from os.path import dirname, realpath
-chdir(realpath(dirname(__file__)) + "/../../..")
+chdir(realpath(dirname(__file__)))
 
 import requests
 from bs4 import BeautifulSoup
@@ -8,6 +8,7 @@ import multiprocessing as mp
 
 from grade_scraper import scrape_all_grades
 from eval_scraper import scrape_all_evals
+chdir(getcwd() + "/../../..")
 
 import json
 import time 
@@ -139,4 +140,4 @@ def scrape_loop(course_list):
 	return course_list
 
 if __name__ == "__main__":
-	scrape_all(N_processes = 16)
+	scrape_all(N_processes = 64)

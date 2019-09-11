@@ -25,7 +25,7 @@ export class CourseService {
 
   get(courseNo: string): Promise<ICourse> {
     return this.httpClient.get<ICourse>(
-      `https://raw.githubusercontent.com/sorenmulli/dtucourses/master/src/backend/data/${courseNo}.json`
+      `https://raw.githubusercontent.com/sorenmulli/dtucourses/master/src/backend/data/courses/${courseNo}.json`
     ).toPromise();
   }
 
@@ -46,7 +46,6 @@ export class CourseService {
           };
         })
         .catch(reason => {
-          console.log(reason);
           this.currentCourse = null;
         });
     }
