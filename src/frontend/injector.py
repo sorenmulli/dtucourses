@@ -7,7 +7,6 @@ os.chdir(realpath(dirname(__file__)))
 with open("../../docs/index.html") as f:
 	content = f.readlines()
 	cssline = content[9]
-	print(cssline)
 	pindex = cssline.index("href=") + 6
 	endindex = cssline[pindex+1:].index('"') + pindex + 1
 	path = "../../docs/%s" % cssline[pindex:endindex]

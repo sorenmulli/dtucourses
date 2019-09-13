@@ -91,6 +91,8 @@ export class CourseService {
   }
 
   getHexColour(percentile: number, invert=false): string {
+    // TODO: Gul ved 50 %
+
     // Beregner en hexfarve baseret på et tal 0-100 fra rød til grøn
     if (invert) percentile = 100 - percentile;
     let p1: string = Math.round(2.55*(100-percentile)).toString(16);
