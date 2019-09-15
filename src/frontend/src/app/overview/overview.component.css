@@ -1,0 +1,16 @@
+table.table thead {
+  white-space: nowrap;
+}
+
+table.table th {
+  text-align: right;
+}
+
+table.table td {
+  text-align: right;
+}
+
+th a {
+  color: black;
+  text-decoration: none;
+}

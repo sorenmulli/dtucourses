@@ -9,7 +9,10 @@
           <th>Værdi</th>
           <th>
             Percentil
-            <mat-icon class="js-tooltip" title="Fx 40 % betyder, at kurset scorer højere end 40 % af alle andre kurser og lavere end 60 %.">help_outline</mat-icon>
+            <mat-icon class="js-tooltip"
+                      title="Fx 40 % betyder, at kurset scorer højere end 40 % af alle andre kurser og lavere end 60 %.">
+              help_outline
+            </mat-icon>
           </th>
         </tr>
       </thead>
@@ -27,7 +30,10 @@
         <tr>
           <th>
             Indlæring
-            <mat-icon class="js-tooltip" title="Fagligt udbytte fra kurset baseret på {{course.eval_points[0].N}} bedømmelser. (0-4)">help_outline</mat-icon>
+            <mat-icon class="js-tooltip"
+                      title="Fagligt udbytte fra kurset baseret på {{course.eval_points[0].N}} bedømmelser. (0-4)">
+              help_outline
+            </mat-icon>
           </th>
           <td>{{course.eval_points[0].learning | number:"1.0-1"}} / 4</td>
           <td [style.background-color]="bgColours.learning">
@@ -36,7 +42,10 @@
         <tr>
           <th>
             Arbejdsbyrde
-            <mat-icon class="js-tooltip" title="Vurderet arbejdsbyrde i kurset baseret på {{course.eval_points[0].N}} bedømmelser. 2 er normeret arbejdsbyrde. (0-4)">help_outline</mat-icon>
+            <mat-icon class="js-tooltip"
+                      title="Vurderet arbejdsbyrde i kurset baseret på {{course.eval_points[0].N}} bedømmelser. 2 er normeret arbejdsbyrde. (0-4)">
+              help_outline
+            </mat-icon>
           </th>
           <td>{{course.eval_points[0].worklevel | number:"1.0-1"}} / 4</td>
           <td [style.background-color]="bgColours.worklevel">
@@ -46,7 +55,10 @@
         <tr>
           <th>
             Samlet indtryk
-            <mat-icon class="js-tooltip" title="Samlet kursusindtryk baseret på {{course.eval_points[0].N}} bedømmelser. (0-4)">help_outline</mat-icon>
+            <mat-icon class="js-tooltip"
+                      title="Samlet kursusindtryk baseret på {{course.eval_points[0].N}} bedømmelser. (0-4)">
+              help_outline
+            </mat-icon>
           </th>
           <td>{{course.eval_points[0].good | number:"1.0-1"}} / 4</td>
           <td [style.background-color]="bgColours.good">
@@ -56,7 +68,10 @@
         <tr>
           <th>
             Ølscore
-            <mat-icon class="js-tooltip" title="Måler karaktergennemsnittet i forhold til arbejdsbyrden. (0-4)">help_outline</mat-icon>
+            <mat-icon class="js-tooltip"
+                      title="Måler karaktergennemsnittet i forhold til arbejdsbyrden. (0-4)">
+              help_outline
+            </mat-icon>
           </th>
           <td>{{course.composites.beer_points | number:"1.0-1"}} / 4</td>
           <td [style.background-color]="bgColours.beer">
@@ -66,7 +81,10 @@
         <tr>
           <th>
             Kvalitet
-            <mat-icon class="js-tooltip" title="Samlet kursuskvalitet, der tager højde for karakterer, indlæring, arbejdsbyrde og samlet indtryk. (0-4)">help_outline</mat-icon>
+            <mat-icon class="js-tooltip"
+                      title="Samlet kursuskvalitet, der tager højde for karakterer, indlæring, arbejdsbyrde og samlet indtryk. (0-4)">
+              help_outline
+            </mat-icon>
           </th>
           <td>{{course.composites.quality_points | number:"1.0-1"}} / 4</td>
           <td

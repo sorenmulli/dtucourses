@@ -37,12 +37,12 @@ export class CourseService {
         .then(value => {
           this.currentCourse = value;
           this.bgColours = {
-            grade: this.getHexColour(this.currentCourse.grade_percentile),
-            learning: this.getHexColour(this.currentCourse.eval_percentiles.learning),
-            worklevel: this.getHexColour(this.currentCourse.eval_percentiles.worklevel, true),
-            good: this.getHexColour(this.currentCourse.eval_percentiles.good),
-            beer: this.getHexColour(this.currentCourse.composites.beer_percentiles),
-            quality: this.getHexColour(this.currentCourse.composites.quality_percentiles),
+            grade: this.getHslColour(this.currentCourse.grade_percentile),
+            learning: this.getHslColour(this.currentCourse.eval_percentiles.learning),
+            worklevel: this.getHslColour(this.currentCourse.eval_percentiles.worklevel, true),
+            good: this.getHslColour(this.currentCourse.eval_percentiles.good),
+            beer: this.getHslColour(this.currentCourse.composites.beer_percentiles),
+            quality: this.getHslColour(this.currentCourse.composites.quality_percentiles),
           };
         })
         .catch(reason => {
@@ -90,15 +90,11 @@ export class CourseService {
     return newObject
   }
 
-  getHexColour(percentile: number, invert=false): string {
-    // TODO: Gul ved 50 %
+  getHslColour(percentile: number, invert=false): string {
 
-    // Beregner en hexfarve baseret på et tal 0-100 fra rød til grøn
+    // Beregner en hsl-farve (hue, saturation, lightness) baseret på et tal 0-100
     if (invert) percentile = 100 - percentile;
-    let p1: string = Math.round(2.55*(100-percentile)).toString(16);
-    let p2: string = Math.round(2.55*percentile).toString(16);
-    p1 = p1.length === 1 ? "0" + p1 : p1;
-    p2 = p2.length === 1 ? "0" + p2 : p2;
-    return "#" + p1 + p2 + "00";
+    percentile *= 1.2;
+    return `hsl(${percentile}, 100%, 50%)`
   }
 }

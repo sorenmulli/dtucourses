@@ -1,15 +1,61 @@
-<table class="table table--zebra">
-  <thead>
-    <th>Kursusnr.</th>
-    <th>Navn</th>
-    <th>Gennemsnit</th>
-    <th>Vurdering</th>
-    <th>Arbejdsbyrde</th>
-    <th>Ølscore</th>
-    <th>Kvalitet</th>
-  </thead>
-  <tbody>
-    
-  </tbody>
-</table>
-{{courses|json}}
+<div *ngIf="errorMsg" class="alert alert-error">
+  {{errorMsg}}
+</div>
+<div class="table--responsive-scroll">
+  <table *ngIf="courses" class="table table--compact table--zebra">
+    <thead>
+      <th style="text-align: left">
+        <a href="javascript:void(0)" (click)="sortCourses('course_no')">
+          Nr.<mat-icon>swap_vert</mat-icon>
+        </a>
+      </th>
+      <th style="text-align: left">
+        <a href="javascript:void(0)" (click)="sortCourses('name')">
+          Navn<mat-icon>swap_vert</mat-icon>
+        </a>
+      </th>
+      <th>
+        <a href="javascript:void(0)" (click)="sortCourses('ECTS')">
+          ECTS<mat-icon>swap_vert</mat-icon>
+        </a>
+      </th>
+      <th>
+        <a href="javascript:void(0)" (click)="sortCourses('exam_avg')">
+          Gennemsnit<mat-icon>swap_vert</mat-icon>
+        </a>
+      </th>
+      <th>
+        <a href="javascript:void(0)" (click)="sortCourses('good')">
+          Vurdering<mat-icon>swap_vert</mat-icon>
+        </a>
+      </th>
+      <th>
+        <a href="javascript:void(0)" (click)="sortCourses('worklevel')">
+          Arbejdsbyrde<mat-icon>swap_vert</mat-icon>
+        </a>
+      </th>
+      <th>
+        <a href="javascript:void(0)" (click)="sortCourses('beer')">
+          Ølscore<mat-icon>swap_vert</mat-icon>
+        </a>
+      </th>
+      <th>
+        <a href="javascript:void(0)" (click)="sortCourses('quality')">
+          Kvalitet<mat-icon>swap_vert</mat-icon>
+        </a>
+      </th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let course of courses">
+        <td style="text-align: left"><a [routerLink]="['/course', course.course_no]">{{course.course_no}}</a></td>
+        <td style="text-align: left; max-width: 200px;">{{course.name}}</td>
+        <td>{{course.ECTS | number:"1.0-1"}}</td>
+        <td>{{course.exam_avg | number:"1.2-2"}}</td>
+        <td>{{course.good | number:"1.2-2"}}</td>
+        <td>{{course.worklevel | number:"1.2-2"}}</td>
+        <td>{{course.beer | number:"1.2-2"}}</td>
+        <td>{{course.quality | number:"1.2-2"}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
