@@ -207,27 +207,28 @@ def create_course_expand():
 
 	with open("src/backend/data/db.json") as f:
 		courses = json.load(f)["courses"]
-		course_expand = {}
+		courses_expand = []
 		for course_no in courses:
 			course = courses[course_no]
-			course_expand[course_no] = course["info"]
+			course_expand = course["info"]
 			try:
-				course_expand[course_no]["exam_avg"] = course["grades"][0]["exam_avg"]
+				course_expand["exam_avg"] = course["grades"][0]["exam_avg"]
 			except (KeyError, IndexError):
-				course_expand[course_no]["exam_avg"] = None
+				course_expand["exam_avg"] = None
 			try:
-				course_expand[course_no]["good"] = course["eval_points"][0]["good"]
+				course_expand["good"] = course["eval_points"][0]["good"]
 			except (KeyError, IndexError):
-				course_expand[course_no]["good"] = None
+				course_expand["good"] = None
 			try:
-				course_expand[course_no]["worklevel"] = course["eval_points"][0]["worklevel"]
+				course_expand["worklevel"] = course["eval_points"][0]["worklevel"]
 			except (KeyError, IndexError):
-				course_expand[course_no]["worklevel"] = None
-			course_expand[course_no]["beer"] = course["composites"]["beer_points"]
-			course_expand[course_no]["quality"] = course["composites"]["quality_points"]
+				course_expand["worklevel"] = None
+			course_expand["beer"] = course["composites"]["beer_points"]
+			course_expand["quality"] = course["composites"]["quality_points"]
+			courses_expand.append(course_expand)
 	
-	with open("src/backend/data/course_expand.json", "w") as f:
-		json.dump(course_expand, f, indent=4)
+	with open("src/backend/data/courses_expand.json", "w") as f:
+		json.dump(courses_expand, f, indent=4)
 
 
 if __name__ == "__main__":

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { ICourseExpand } from './overview';
 
 @Component({
   selector: 'app-overview',
@@ -8,14 +9,15 @@ import { HttpClient } from '@angular/common/http';
 })
 export class OverviewComponent implements OnInit {
 
+  courses: any;//ICourseExpand[];
+
   constructor(private httpClient: HttpClient) { }
 
   async loadData() {
     try {
-      const dat = await this.httpClient.get(
-        "https://raw.githubusercontent.com/sorenmulli/dtucourses/master/src/backend/data/course_expand.json"
+      this.courses = await this.httpClient.get(
+        "https://raw.githubusercontent.com/sorenmulli/dtucourses/master/src/backend/data/courses_expand.json"
       ).toPromise();
-      console.log(dat);
     } catch(error) {
       console.log(error);
     };
