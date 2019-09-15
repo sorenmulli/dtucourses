@@ -192,47 +192,44 @@ def course_compare(file):
 
 def create_course_min():
 	# expand for more details, used for course overview
-	with open("src/backend/data/complete_raw_data.json") as f:
+	with open("src/backend/data/db.json") as f:
 		course_dict = json.load(f)
 		course_min = {"time": course_dict["time"], "courses": {}}
 		for kw in course_dict["courses"]:
 			course_min["courses"][kw] = course_dict["courses"][kw]["info"]
-		course_expand = copy(course_min)
-	# TODO: course_expand
-	for f in os.listdir(os.getcwd()):
-		course_no = f.split(".")[0]
-		with open("src/backend/data/courses/%s" % f):
-		try:
-			print(course_dict["courses"][kw]["grades"])
-			breakpoint()
-			course_expand["courses"][course_no]["grade_avg"] = course_dict["courses"][course_no]["grades"][0]["exam_avg"]
-		except KeyError:
-			course_expand["courses"][course_no]["grade_avg"] = None
-		try:
-			course_expand["courses"][course_no]["worklevel"] = course_dict["courses"][course_no]["eval_points"][0]["worklevel"]
-		except KeyError:
-			course_expand["courses"][course_no]["worklevel"] = None
-		try:
-			course_expand["courses"][course_no]["good"] = course_dict["courses"][course_no]["eval_points"][0]["good"]
-		except KeyError:
-			course_expand["courses"][course_no]["good"] = None
-		try:
-			course_expand["courses"][course_no]["quality"] = course_dict["courses"][course_no]["composites"]["quality_points"]
-		except KeyError:
-			course_expand["courses"][course_no]["quality"] = None
 			
-
-			
-			
-	with open("src/backend/data/course_min.json", "w") as m, open("src/backend/data/course_expand.json", "w") as e:
-		json.dump(course_min, m, indent=4)
-		json.dump(course_expand, e, indent=4)
+	with open("src/backend/data/course_min.json", "w") as m:
+		json.dump(course_min, m)
 	with open("src/frontend/src/assets/course_min.json", "w") as f:
-		json.dump(course_min, f, indent=4)
+		json.dump(course_min, f)
 
+def create_course_expand():
 
+	with open("src/backend/data/db.json") as f:
+		courses = json.load(f)["courses"]
+		course_expand = {}
+		for course_no in courses:
+			course = courses[course_no]
+			course_expand[course_no] = course["info"]
+			try:
+				course_expand[course_no]["exam_avg"] = course["grades"][0]["exam_avg"]
+			except (KeyError, IndexError):
+				course_expand[course_no]["exam_avg"] = None
+			try:
+				course_expand[course_no]["good"] = course["eval_points"][0]["good"]
+			except (KeyError, IndexError):
+				course_expand[course_no]["good"] = None
+			try:
+				course_expand[course_no]["worklevel"] = course["eval_points"][0]["worklevel"]
+			except (KeyError, IndexError):
+				course_expand[course_no]["worklevel"] = None
+			course_expand[course_no]["beer"] = course["composites"]["beer_points"]
+			course_expand[course_no]["quality"] = course["composites"]["quality_points"]
+	
+	with open("src/backend/data/course_expand.json", "w") as f:
+		json.dump(course_expand, f, indent=4)
 
 
 if __name__ == "__main__":
-	create_course_min()
+	create_course_expand()
 	# course_compare(newest_file)
