@@ -54,14 +54,12 @@ export class OverviewComponent implements OnInit {
       }
     );
     for (let key of Object.keys(this.reverseSort)) {
-      if (key == by) {
-        console.log(1);
+      if (key === by) {
         this.reverseSort[key] = !this.reverseSort[key];
       } else {
         this.reverseSort[key] = false;
       };
     }
-    this.reverseSort[by] = !this.reverseSort[by];
   }
 
 }
