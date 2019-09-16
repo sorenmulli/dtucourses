@@ -1,7 +1,6 @@
 iframe.studieplan {
-	width: 1150px;
 	height: 600px;
-	margin-left:-10%;
+	width: 100%;
 }
 
 table.data-table {

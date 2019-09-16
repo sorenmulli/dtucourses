@@ -1,2 +1,26 @@
-<p>Denne side er stadig under udvikling. I mellemtiden kan du nyde denne smukke Playboy-model.</p>
-<img src="../../assets/Mike1.webp">
+<h3 style="margin-top: 0">Motivation</h3>
+<p>
+    Denne hjemmeside er inspireret af den fantastiske <a target="\_blank" href="https://github.com/OskarNS/dtu-course-analyzer">DTU Course Analyzer</a>.
+    Vi følte dog, at den kunne bruge nogle tilføjelser som fx et samlet mål for kursers kvalitet,
+    og vi ville også gerne prøve at se på nogle statistikker på tværs af kurser, hvilket ikke er muligt med DTU Course Analyzer.
+    Derudover er DTU ikke blevet opdateret i noget tid og mangler derfor nogle kurser samt de nyeste karakterer og evalueringer.
+</p>
+<h3>Teknologier</h3>
+<p>
+    Alle kursusdata blev scrapet fra DTU Kursusbasen med Python 3.7.
+    Python blev også brugt til at beregne sammensatte scorer og statistikker på tværs af kurser.
+    Hjemmesiden er lavet i Angular 8 og hostet på GitHub Pages.
+    Den fulde kildekode er tilgængelig på <a target="\_blank" href="https://github.com/sorenmulli/dtucourses">GitHub</a>.
+</p>
+<h3>Uddybende forklaring af scorer</h3>
+<p>
+    Alle karaktergennemsnit er taget fra den senest tilgængelige eksamen.
+    Det samme gælder evalueringer, der ligger til grund for de resterende kernetal givet til kurser.
+    Disse er standardiseret, så de fordeler sig mellem 0 og 4,
+    hvilket også gør sig gældende for karaktergennemsnittene til beregning af sammensatte scorer, så den er sammenlignelig.
+</p>
+<p>
+    Ølscoren er givet ved karaktergennemsnittet minus arbejdsbyrde.
+    Kvalitet er ølscore plus indlæring plus samlet indtryk.
+    Disse blev efter beregning igen standardiseret, så de fordeler sig mellem 0 og 4.
+</p>
