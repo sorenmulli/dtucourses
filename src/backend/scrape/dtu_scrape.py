@@ -123,6 +123,7 @@ def scrape_loop(course_list):
 			grade_info = scrape_all_grades(number)
 			course["grades"] = grade_info
 		except Exception as e:
+			course["grades"] = {}
 			error = 1
 			print("\tGrade error", number, e)
 			
