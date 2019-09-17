@@ -33,7 +33,8 @@ def course_compare(file):
 	with open('src/backend/data/' + file, 'r+') as fp:
 		data = json.load(fp)
 	
-	raw_courses_dict = data["courses"]
+	raw_courses_dict = copy(data)
+	del raw_courses_dict["time"]
 
 	courses = dict()
 
@@ -184,11 +185,11 @@ def course_compare(file):
 	finished_database = {"time": data["time"], "courses": courses}
 	for course_no in finished_database["courses"]:
 		with open("src/backend/data/courses/%s.json" % course_no, "w") as f:
-			json.dump(finished_database["courses"][course_no], f, indent=4)
+			json.dump(finished_database["courses"][course_no], f)
 
 	#Serialize new db
 	with open('src/backend/data/db.json', 'w+') as fp:
-		json.dump(finished_database, fp, indent=4)
+		json.dump(finished_database, fp)
 
 def create_course_min():
 	# expand for more details, used for course overview
@@ -228,9 +229,11 @@ def create_course_expand():
 			courses_expand.append(course_expand)
 	
 	with open("src/backend/data/courses_expand.json", "w") as f:
-		json.dump(courses_expand, f, indent=4)
+		json.dump(courses_expand, f)
 
 
 if __name__ == "__main__":
+
+	create_course_min()
 	create_course_expand()
-	# course_compare(newest_file)
+	course_compare(newest_file)
