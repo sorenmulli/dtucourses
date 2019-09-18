@@ -58,7 +58,7 @@ def get_course_information():
 		info["level"] = course.contents[5].string.strip()
 
 		#Course name
-		course_name = course.a.string.split('-')[1]
+		course_name = course.a.string[course.a.string.index("-")+1:]
 		info["name"] = course_name.strip()
 
 		#Course number
