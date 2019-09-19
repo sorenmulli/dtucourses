@@ -1,8 +1,10 @@
 import { Injectable, OnInit, OnDestroy } from '@angular/core';
 
+// tslint:disable-next-line: quotemark
 import { ICourse, ICourseMin, BgColours } from "./course";
 import { HttpClient } from '@angular/common/http';
 
+// tslint:disable-next-line: quotemark
 import * as data from "../../assets/course_min.json";
 
 function parseData() {
@@ -53,6 +55,7 @@ export class CourseService {
 
   loadData(force=false): void {
     // Henter data, hvis ikke allerede hentet
+    // tslint:disable-next-line: curly
     if (this.courses && !force) return;
     this.time = new Date(data.time);
     this.courses = data.courses;
@@ -71,7 +74,7 @@ export class CourseService {
         matches[this.courseNos[i]] = this.courses[this.courseNos[i]];
       }
     }
-    return this.getNFirst(matches)
+    return this.getNFirst(matches);
   }
 
   getNFirst(object: {[key: string]: ICourseMin}, n=0): {[key: string]: ICourseMin} {
@@ -87,7 +90,7 @@ export class CourseService {
         break;
       }
     }
-    return newObject
+    return newObject;
   }
 
   getHslColour(percentile: number, invert=false): string {
