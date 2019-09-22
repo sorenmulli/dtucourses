@@ -234,6 +234,6 @@ def create_course_expand():
 
 if __name__ == "__main__":
 
+	course_compare(newest_file)
 	create_course_min()
 	create_course_expand()
-	course_compare(newest_file)
