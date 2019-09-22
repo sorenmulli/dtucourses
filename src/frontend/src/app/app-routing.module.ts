@@ -13,6 +13,7 @@ const routes: Routes = [
   {path: "statistics", component: StatisticsComponent},
   {path: "overview", component: OverviewComponent},
   {path: "docs", component: DocsComponent},
+  {path: "dtucourses", redirectTo: "course"},
   {path: "**", component: CourseComponent}
 ];
 
