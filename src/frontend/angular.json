@@ -27,7 +27,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/plotly.min.js"
+              "node_modules/dkfds/dist/js/dkfds.min.js"
             ]
           },
           "configurations": {

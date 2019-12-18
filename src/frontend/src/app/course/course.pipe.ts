@@ -1,7 +1,7 @@
 import { Pipe, PipeTransform } from "@angular/core";
 import { DomSanitizer } from '@angular/platform-browser';
 
-@Pipe({ name: 'keys',  pure: false })
+@Pipe({ name: 'keys' })
 export class KeysPipe implements PipeTransform {
     transform(value: any, args: any[] = null): any {
         return Object.keys(value).sort()

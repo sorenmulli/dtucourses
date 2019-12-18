@@ -29,9 +29,7 @@ export class CourseComponent implements OnInit {
 
     this.route.params.subscribe(params => {
       this.courseService.set(params.id);
-    })
-
-
+    });
   }
 
   setCourse(courseNo: string) {
@@ -51,7 +49,7 @@ export class CourseComponent implements OnInit {
     sessionStorage.setItem("queue", queue);
     queue = queue.toLowerCase();
     this.courseService.set(null);
-    this.searchResults = this.courseService.search(queue, /^[0-9]+$/.test(queue))
+    this.searchResults = this.courseService.search(queue, /^[0-9]+$/.test(queue));
   }
 
 }
