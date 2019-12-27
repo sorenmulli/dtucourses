@@ -1,50 +1,50 @@
-<!-- Søgefunktionalitet -->
-<div class="row">
-	<div class="col-xs-12 col-md-6">
-		<label for="course-search"><h5>Søg efter kurser:</h5></label>
-		<mat-form-field>
-			<form (ngSubmit)="setTopCourse()"
-				[formGroup]="courseSearchForm">
-				<input id="course-search"
-						matInput
-						formControlName="searchBar"
-						(input)="updateSearchResults($event.target.value, $event.data)"
-						placeholder="Kursusnr. eller -navn">
-			</form>
-		</mat-form-field>
-	</div>
+<div *ngIf="show === 'loading'" class="spinner">
+	<div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 </div>
 
-<!-- Viser kursusinfo -->
-<course-info [course]="courseService.currentCourse" [bgColours]="courseService.bgColours" *ngIf="courseService.currentCourse"></course-info>
+<div *ngIf="show === 'error'" class="alert alert-error">
 
-<!-- Viser søgeresultater -->
-<div *ngIf="!courseService.currentCourse" class="table--responsive-scroll">
-	<table class="table table--zebra">
-		<thead>
-			<tr>
-				<th>Nummer</th>
-				<th>Navn</th>
-				<th style="text-align: right">ECTS</th>
-				<th>Sprog</th>
-				<th>Niveau</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr *ngFor="let courseNo of courseService.getNFirst(searchResults, showAll ? 0 : 10) | keys">
-				<td>
-					<a href="javascript:void(0)" (click)="setCourse(courseNo)">{{courseNo}}</a>
-				</td>
-				<td>{{courseService.courses[courseNo].name}}</td>
-				<td><div style="text-align: right">{{courseService.courses[courseNo].ECTS | number:"1.0-1"}}</div></td>
-				<td>{{courseService.courses[courseNo].language}}</td>
-				<td>{{courseService.courses[courseNo].level}}</td>
-			</tr>
-			<tr>
-				<td colspan="6"><a (click)="showAll=!showAll">Vis {{showAll ? "færre" : "alle"}} søgeresultater</a></td>
-			</tr>
-		</tbody>
-	</table>
+</div>
+
+<div *ngIf="show === 'courses'">
+	<!-- Søgefunktionalitet -->
+	<div class="form-group my-4">
+		<label class="form-label" for="course-search">Søg efter kurser</label>
+		<span class="form-hint">Søg på kursusnummer eller -navn</span>
+		<input id="course-search" class="form-input" [(ngModel)]="search" autofocus>
+	</div>
+	
+	<!-- Viser kursusinfo -->
+	<course-info [course]="courseService.currentCourse" [bgColours]="courseService.bgColours" *ngIf="courseService.currentCourse"></course-info>
+	
+	<!-- Viser søgeresultater -->
+	<div *ngIf="!courseService.currentCourse" class="table--responsive-scroll">
+		<table class="table table--zebra">
+			<thead>
+				<tr>
+					<th>Nummer</th>
+					<th>Navn</th>
+					<th style="text-align: right">ECTS</th>
+					<th>Sprog</th>
+					<th>Niveau</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr *ngFor="let course of courses">
+					<td>
+						<a href="javascript:void(0)" (click)="setCourse(course.course_no)">{{course.course_no}}</a>
+					</td>
+					<td>{{course.name}}</td>
+					<td><div style="text-align: right">{{course.ECTS | number:"1.0-1"}}</div></td>
+					<td>{{course.language}}</td>
+					<td>{{course.level}}</td>
+				</tr>
+				<tr>
+					<td colspan="6"><a (click)="showAll=!showAll">Vis {{showAll ? "færre" : "alle"}} søgeresultater</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 </div>
   
 

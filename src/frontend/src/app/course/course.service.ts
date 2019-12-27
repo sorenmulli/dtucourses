@@ -5,7 +5,7 @@ import { ICourse, ICourseMin, BgColours } from "./course";
 import { HttpClient } from '@angular/common/http';
 
 // tslint:disable-next-line: quotemark
-import * as data from "../../assets/course_min.json";
+// import * as data from "../../assets/course_min.json";
 
 function parseData() {
   return JSON.parse(this.responseText);
@@ -16,8 +16,8 @@ function parseData() {
 })
 export class CourseService {
 
-  public time: Date = new Date();
-  public courses: {[key: string]: ICourseMin};
+  public time: Date;
+  public courses: ICourseMin[];
   public courseNos: string[] = [];
   public courseNames: string[] = [];
   public currentCourse: ICourse | null;
@@ -25,7 +25,7 @@ export class CourseService {
 
   constructor(private httpClient: HttpClient) { }
 
-  get(courseNo: string): Promise<ICourse> {
+  getCourse(courseNo: string): Promise<ICourse> {
     return this.httpClient.get<ICourse>(
       `https://raw.githubusercontent.com/sorenmulli/dtucourses/master/src/backend/data/courses/${courseNo}.json`
     ).toPromise();
@@ -35,7 +35,7 @@ export class CourseService {
     if (courseNo === null) {
       this.currentCourse = null;
     } else {
-      this.get(courseNo)
+      this.getCourse(courseNo)
         .then(value => {
           this.currentCourse = value;
           this.bgColours = {
@@ -53,17 +53,17 @@ export class CourseService {
     }
   }
 
-  loadData(force=false): void {
-    // Henter data, hvis ikke allerede hentet
-    // tslint:disable-next-line: curly
-    if (this.courses && !force) return;
-    this.time = new Date(data.time);
-    this.courses = data.courses;
-    this.courseNos = Object.keys(this.courses);
-    for (let courseNo of this.courseNos) {
-      this.courseNames.push(this.courses[courseNo].name.toLowerCase());
-    }
-  }
+  // loadData(force=false): void {
+  //   // Henter data, hvis ikke allerede hentet
+  //   // tslint:disable-next-line: curly
+  //   if (this.courses && !force) return;
+  //   this.time = new Date(data.time);
+  //   this.courses = data.courses;
+  //   this.courseNos = Object.keys(this.courses);
+  //   for (let courseNo of this.courseNos) {
+  //     this.courseNames.push(this.courses[courseNo].name.toLowerCase());
+  //   }
+  // }
 
   search(queue: string, useCourseNo: boolean): {[key: string]: ICourseMin} {
     // Søger blandt alle kurser

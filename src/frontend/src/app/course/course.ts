@@ -8,10 +8,8 @@ export interface BgColours {
 }
 
 export interface ICoursesMin {
-	time: Date,
-	courses: {
-		[key: string]: ICourseMin,
-	},
+	time: Date;
+	courses: ICourseMin[];
 }
 
 export interface ICourseMin {
