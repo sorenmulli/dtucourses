@@ -36,10 +36,7 @@ def course_compare(file):
 	raw_courses_dict = copy(data)
 	del raw_courses_dict["time"]
 
-	courses = dict()
-
-	#Lists of all course values in convenient list format for ranking
-	all_course_numbers = list()
+	courses = list()
 
 	composite_courses = list()
 
@@ -51,7 +48,6 @@ def course_compare(file):
 	
 	for course_no, course_dict in raw_courses_dict.items():
 		print(course_no)
-		all_course_numbers.append(course_no)
 
 		#Dict for all neded info for output JSON file
 		course_information = dict()
@@ -115,9 +111,14 @@ def course_compare(file):
 			current_grade_avgs.append(None)
 			composite = False
 
-		
+		course_information["course_no"] = course_no
 		composite_courses.append(composite)
-		courses[course_no] = course_information	
+		courses.append(course_information)
+	
+	# Sorts courses by course number
+	courses.sort(key = lambda x: x["course_no"])
+	#Lists of all course values in convenient list format for ranking
+	all_course_numbers = tuple(map(lambda x: x["course_no"], courses))
 
 ############### PREPERATION FINISHED ##############################
 	#Convert to np array
@@ -128,9 +129,9 @@ def course_compare(file):
 
 	pure_grade_arr = np.array(current_grade_avgs)
 
-	#Scale grade averages to [0:4]. Complicated syntax is for preserving the Nones
+	#Scale grade averages to [0:100]. Complicated syntax is for preserving the Nones
 	scaled_grade_arr = np.copy(pure_grade_arr)
-	scaled_grade_arr[scaled_grade_arr != None] = (scaled_grade_arr[scaled_grade_arr != None] + 3) * 4 / 15
+	scaled_grade_arr[scaled_grade_arr != None] = (scaled_grade_arr[scaled_grade_arr != None] + 3) * 100 / 15
 
 	
 	#Create composite scores and scale to [0:4]. Complicated initialization and syntax is for preserving Nones
@@ -140,8 +141,8 @@ def course_compare(file):
 	beer_arr[composite_courses] = scaled_grade_arr[composite_courses] - worklevel_arr[composite_courses]
 	quality_arr[composite_courses] = learning_arr[composite_courses]  + good_arr[composite_courses] + pure_grade_arr[composite_courses] - worklevel_arr[composite_courses]
 
-	beer_arr[composite_courses] = (beer_arr[composite_courses] - beer_arr[composite_courses].min())  * 4 / (beer_arr[composite_courses].max() - beer_arr[composite_courses].min())
-	quality_arr[composite_courses] = (quality_arr[composite_courses] - quality_arr[composite_courses].min())  * 4 / (quality_arr[composite_courses].max() - quality_arr[composite_courses].min())
+	beer_arr[composite_courses] = (beer_arr[composite_courses] - beer_arr[composite_courses].min())  * 100 / (beer_arr[composite_courses].max() - beer_arr[composite_courses].min())
+	quality_arr[composite_courses] = (quality_arr[composite_courses] - quality_arr[composite_courses].min())  * 100 / (quality_arr[composite_courses].max() - quality_arr[composite_courses].min())
 
 	#Create percentile versions of all measures
 	learning_percentiles = getpercentiles(learning_arr)
@@ -155,7 +156,7 @@ def course_compare(file):
 	
 	#Save everything in final data base
 	for i, course_no in enumerate(all_course_numbers):
-		courses[course_no]["grade_percentile"] = grade_percentiles[i]
+		courses[i]["grade_percentile"] = grade_percentiles[i]
 	
 		percentiles = {
 			"learning": learning_percentiles[i],
@@ -163,7 +164,7 @@ def course_compare(file):
 			"good": good_percentiles[i]
 		}
 
-		courses[course_no]["eval_percentiles"] = percentiles
+		courses[i]["eval_percentiles"] = percentiles
 
 		composites = {
 			"beer_points": beer_arr[i],
@@ -171,7 +172,7 @@ def course_compare(file):
 			"beer_percentiles": beer_percentiles[i],
 			"quality_percentiles": quality_percentiles[i]
 		}
-		courses[course_no]["composites"] = composites 
+		courses[i]["composites"] = composites 
 			# nowtime
 	# Clears data/courses and saves
 	folder = "src/backend/data/courses"
@@ -183,9 +184,9 @@ def course_compare(file):
 			print("Failed to remove file %s" % f)
 	
 	finished_database = {"time": data["time"], "courses": courses}
-	for course_no in finished_database["courses"]:
+	for i, course_no in enumerate(all_course_numbers):
 		with open("src/backend/data/courses/%s.json" % course_no, "w") as f:
-			json.dump(finished_database["courses"][course_no], f)
+			json.dump(finished_database["courses"][i], f)
 
 	#Serialize new db
 	with open('src/backend/data/db.json', 'w+') as fp:
@@ -194,10 +195,10 @@ def course_compare(file):
 def create_course_min():
 	# expand for more details, used for course overview
 	with open("src/backend/data/db.json") as f:
-		course_dict = json.load(f)
-		course_min = {"time": course_dict["time"], "courses": {}}
-		for kw in course_dict["courses"]:
-			course_min["courses"][kw] = course_dict["courses"][kw]["info"]
+		course_list = json.load(f)
+		course_min = {"time": course_list["time"], "courses": list()}
+		for course in course_list["courses"]:
+			course_min["courses"].append(course["info"])
 			
 	with open("src/backend/data/course_min.json", "w") as m:
 		json.dump(course_min, m)
@@ -209,8 +210,7 @@ def create_course_expand():
 	with open("src/backend/data/db.json") as f:
 		courses = json.load(f)["courses"]
 		courses_expand = []
-		for course_no in courses:
-			course = courses[course_no]
+		for course in courses:
 			course_expand = course["info"]
 			try:
 				course_expand["exam_avg"] = course["grades"][0]["exam_avg"]
