@@ -13,7 +13,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class CourseComponent implements OnInit {
 
-  show: "loading" | "courses" | "error";
+  show: "loading" | "courses" | "error" = "loading";
   courseSearchForm: FormGroup;
   courses: ICourseMin[];
   search: string;
