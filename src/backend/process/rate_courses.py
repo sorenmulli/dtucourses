@@ -8,6 +8,7 @@ import json
 from copy import copy
 
 from scipy.stats import percentileofscore
+
 '''
 My job: I receive the course data downloaded from the DTU website and create meaningful metrics for all courses.
 '''
@@ -62,13 +63,13 @@ def course_compare(file):
 		
 			eval_points = list()	
 
-			#Translate each evaluation into points
+			#Translate each evaluation into points [0:10]
 			for eval_dict in course_information["evals"]:
 				N = eval_dict["N_responses"]
 			
-				learning_points = scores @ eval_dict["learning_answers"] / N
-				worklevel_points = scores @ eval_dict["worklevel_answers"][::-1] / N
-				good_points = scores @ eval_dict["good_answers"] / N
+				learning_points = scores @ eval_dict["learning_answers"] / N * 2.5
+				worklevel_points = scores @ eval_dict["worklevel_answers"][::-1] / N * 2.5
+				good_points = scores @ eval_dict["good_answers"] / N * 2.5
 				
 				points = {
 					"time": eval_dict["time"],
@@ -129,9 +130,9 @@ def course_compare(file):
 
 	pure_grade_arr = np.array(current_grade_avgs)
 
-	#Scale grade averages to [0:100]. Complicated syntax is for preserving the Nones
+	#Scale grade averages to [0:10]. Complicated syntax is for preserving the Nones
 	scaled_grade_arr = np.copy(pure_grade_arr)
-	scaled_grade_arr[scaled_grade_arr != None] = (scaled_grade_arr[scaled_grade_arr != None] + 3) * 100 / 15
+	scaled_grade_arr[scaled_grade_arr != None] = (scaled_grade_arr[scaled_grade_arr != None] + 3) * 10 / 15
 
 	
 	#Create composite scores and scale to [0:4]. Complicated initialization and syntax is for preserving Nones
@@ -141,8 +142,8 @@ def course_compare(file):
 	beer_arr[composite_courses] = scaled_grade_arr[composite_courses] - worklevel_arr[composite_courses]
 	quality_arr[composite_courses] = learning_arr[composite_courses]  + good_arr[composite_courses] + pure_grade_arr[composite_courses] - worklevel_arr[composite_courses]
 
-	beer_arr[composite_courses] = (beer_arr[composite_courses] - beer_arr[composite_courses].min())  * 100 / (beer_arr[composite_courses].max() - beer_arr[composite_courses].min())
-	quality_arr[composite_courses] = (quality_arr[composite_courses] - quality_arr[composite_courses].min())  * 100 / (quality_arr[composite_courses].max() - quality_arr[composite_courses].min())
+	beer_arr[composite_courses] = (beer_arr[composite_courses] - beer_arr[composite_courses].min())  * 10 / (beer_arr[composite_courses].max() - beer_arr[composite_courses].min())
+	quality_arr[composite_courses] = (quality_arr[composite_courses] - quality_arr[composite_courses].min())  * 10 / (quality_arr[composite_courses].max() - quality_arr[composite_courses].min())
 
 	#Create percentile versions of all measures
 	learning_percentiles = getpercentiles(learning_arr)
