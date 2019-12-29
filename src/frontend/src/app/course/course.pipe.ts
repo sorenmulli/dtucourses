@@ -1,10 +1,11 @@
 import { Pipe, PipeTransform } from "@angular/core";
 import { DomSanitizer } from '@angular/platform-browser';
+import { ICourseMin } from './course';
 
-@Pipe({ name: 'keys' })
-export class KeysPipe implements PipeTransform {
-    transform(value: any, args: any[] = null): any {
-        return Object.keys(value).sort()
+@Pipe({ name: 'filterCourses' })
+export class FilterPipe implements PipeTransform {
+    transform(courses: ICourseMin[], search: string): any {
+        return search ? courses.filter(course => course.course_no.indexOf(search.toLowerCase()) > -1 || course.name.toLowerCase().indexOf(search.toLowerCase()) > -1) : courses;
     }
 }
 

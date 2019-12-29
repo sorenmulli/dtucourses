@@ -1,5 +1,5 @@
 <div class="content">
-  <h1>DTU Kursusoversigt</h1>
+  <h1 class="container">DTU Kursusoversigt</h1>
   <div class="row">
     <nav class="nav col-12 col-sm-9">
       <div class="navbar navbar-primary">
@@ -22,13 +22,15 @@
       </div>
     </nav>
     <div class="col-12 col-sm-3" style="float:right">
-      <div  style="text-align: right">
+      <div class="align-text-right container">
         <h5>Senest opdateret</h5>
-        {{courseService.time | date:"longDate"}}
+        {{commonService.time | date:"longDate"}}
       </div>
     </div>
   </div>
-  <router-outlet></router-outlet>
+  <div class="container my-4">
+    <router-outlet></router-outlet>
+  </div>
 </div>
 
 

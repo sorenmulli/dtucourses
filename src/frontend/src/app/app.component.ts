@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CourseService } from './course/course.service';
+import { CommonService } from './common/common.service';
 
 @Component({
   selector: 'app-root',
@@ -9,5 +9,5 @@ import { CourseService } from './course/course.service';
 export class AppComponent {
   title = 'frontend';
 
-  constructor(public courseService: CourseService) {}
+  constructor(public commonService: CommonService) {}
 }

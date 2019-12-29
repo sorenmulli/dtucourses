@@ -11,11 +11,11 @@ import { OverviewComponent } from './overview/overview.component';
 import { DocsComponent } from './docs/docs.component';
 import { FormsModule } from '@angular/forms';
 import { PlotlyComponent } from './plotly/plotly.component';
-import { CourseService } from './course/course.service';
-import { KeysPipe, SafePipe } from './course/course.pipe';
+import { FilterPipe, SafePipe } from './course/course.pipe';
 import { registerLocaleData } from '@angular/common';
 import { HttpClientModule } from "@angular/common/http";
 import { MatIconModule } from "@angular/material";
+import { CommonService } from "src/app/common/common.service";
 
 registerLocaleData(localeDA);
 
@@ -28,7 +28,7 @@ registerLocaleData(localeDA);
     OverviewComponent,
     DocsComponent,
     PlotlyComponent,
-    KeysPipe,
+    FilterPipe,
     SafePipe,
   ],
   imports: [
@@ -40,7 +40,7 @@ registerLocaleData(localeDA);
     MatIconModule,
   ],
   providers: [
-    CourseService,
+    CommonService,
     {provide: LOCALE_ID, useValue: "da"}
   ],
   bootstrap: [AppComponent]
