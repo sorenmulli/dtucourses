@@ -2,7 +2,8 @@
 <div class="form-group my-4" *ngIf="show !== 'error'">
 	<label class="form-label" for="course-search">Søg efter kurser</label>
 	<span class="form-hint">Søg på kursusnummer eller -navn</span>
-	<input id="course-search" class="form-input" [(ngModel)]="search" autofocus>
+	<input id="course-search" class="form-input" [ngModel]="search" (ngModelChange)="onSearchChange($event)" (keyup.enter)="setCourse(getFirstCourse())">
+	<!-- TODO: Autofocus -->
 </div>
 
 <div *ngIf="show === 'loading'">
@@ -19,7 +20,9 @@
 <!-- Viser kursusinfo -->
 <course-info [course]="currentCourse" *ngIf="show === 'course'"></course-info>
 
-<div *ngIf="show === 'courses'" class="table--responsive-scroll mt-4">
+<div *ngIf="show === 'courses'" class="table--responsive-scroll">
+
+	<p>Viser {{getShownCourses()}} af {{getListLength()}} kurser</p>
 	
 	<!-- Viser søgeresultater -->
 	<table class="table table--zebra">
@@ -33,7 +36,7 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr *ngFor="let course of courses | filterCourses:search | slice:0:shownCourses">
+			<tr *ngFor="let course of courses | filterCourses:search | slice:0:maxShown">
 				<td>
 					<a href="javascript:void(0)" (click)="setCourse(course.course_no)">{{course.course_no}}</a>
 				</td>

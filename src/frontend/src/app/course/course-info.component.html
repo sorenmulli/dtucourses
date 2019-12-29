@@ -30,11 +30,11 @@
           <th>
             Indlæring
             <mat-icon class="js-tooltip"
-                      title="Fagligt udbytte fra kurset baseret på {{course.eval_points[0].N}} bedømmelser. (0-4)">
+                      title="Fagligt udbytte fra kurset baseret på {{course.eval_points[0].N}} bedømmelser. (0-10)">
               help_outline
             </mat-icon>
           </th>
-          <td>{{course.eval_points[0].learning | number:"1.0-1"}} / 4</td>
+          <td>{{course.eval_points[0].learning | number:"1.0-1"}} / 10</td>
           <td [style.background-color]="bgColours.learning">
             {{course.eval_percentiles.learning | number:"1.2-2"}} %</td>
         </tr>
@@ -42,11 +42,11 @@
           <th>
             Arbejdsbyrde
             <mat-icon class="js-tooltip"
-                      title="Vurderet arbejdsbyrde i kurset baseret på {{course.eval_points[0].N}} bedømmelser. 2 er normeret arbejdsbyrde. (0-4)">
+                      title="Vurderet arbejdsbyrde i kurset baseret på {{course.eval_points[0].N}} bedømmelser. 2 er normeret arbejdsbyrde. (0-10)">
               help_outline
             </mat-icon>
           </th>
-          <td>{{course.eval_points[0].worklevel | number:"1.0-1"}} / 4</td>
+          <td>{{course.eval_points[0].worklevel | number:"1.0-1"}} / 10</td>
           <td [style.background-color]="bgColours.worklevel">
             {{course.eval_percentiles.worklevel | number:"1.2-2"}} %
           </td>
@@ -55,11 +55,11 @@
           <th>
             Samlet indtryk
             <mat-icon class="js-tooltip"
-                      title="Samlet kursusindtryk baseret på {{course.eval_points[0].N}} bedømmelser. (0-4)">
+                      title="Samlet kursusindtryk baseret på {{course.eval_points[0].N}} bedømmelser. (0-10)">
               help_outline
             </mat-icon>
           </th>
-          <td>{{course.eval_points[0].good | number:"1.0-1"}} / 4</td>
+          <td>{{course.eval_points[0].good | number:"1.0-1"}} / 10</td>
           <td [style.background-color]="bgColours.good">
             {{course.eval_percentiles.good | number:"1.2-2"}} %
           </td>
@@ -68,11 +68,11 @@
           <th>
             Ølscore
             <mat-icon class="js-tooltip"
-                      title="Måler karaktergennemsnittet i forhold til arbejdsbyrden. (0-4)">
+                      title="Måler karaktergennemsnittet i forhold til arbejdsbyrden. (0-10)">
               help_outline
             </mat-icon>
           </th>
-          <td>{{course.composites.beer_points | number:"1.0-1"}} / 4</td>
+          <td>{{course.composites.beer_points | number:"1.0-1"}} / 10</td>
           <td [style.background-color]="bgColours.beer">
             {{course.composites.beer_percentiles | number:"1.2-2"}} %
           </td>
@@ -81,11 +81,11 @@
           <th>
             Kvalitet
             <mat-icon class="js-tooltip"
-                      title="Samlet kursuskvalitet, der tager højde for karakterer, indlæring, arbejdsbyrde og samlet indtryk. (0-4)">
+                      title="Samlet kursuskvalitet, der tager højde for karakterer, indlæring, arbejdsbyrde og samlet indtryk. (0-10)">
               help_outline
             </mat-icon>
           </th>
-          <td>{{course.composites.quality_points | number:"1.0-1"}} / 4</td>
+          <td>{{course.composites.quality_points | number:"1.0-1"}} / 10</td>
           <td
               [style.background-color]="bgColours.quality">
             {{course.composites.quality_percentiles | number:"1.2-2"}} %
@@ -123,14 +123,14 @@
 
 
 <!-- Kursusbeskrivelse -->
-<p><a (click)="showCourseDescription=!showCourseDescription">
+<p><a (click)="showCourseDescription=!showCourseDescription" style="cursor: pointer;">
   {{showCourseDescription ? "Luk" : "Vis"}} kursusbeskrivelse
 </a></p>
 <iframe *ngIf="showCourseDescription"
     [src]="('https://kurser.dtu.dk/course/' + course.info.course_no) | safe"
     style="width:100%;height:500px"></iframe>
 <!-- S -->
-<p><a (click)="showStudieplan=!showStudieplan">
+<p><a (click)="showStudieplan=!showStudieplan" style="cursor: pointer;">
   {{showStudieplan ? "Luk" : "Åbn"}} din studieplan
 </a></p>
 <iframe *ngIf="showStudieplan" class="studieplan" src="https://studieplan.dtu.dk"></iframe>

@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup } from "@angular/forms";
 import { ActivatedRoute, Router } from "@angular/router";
 
 import { ICoursesMin, ICourseMin, ICourse } from './course';
 import { HttpService } from '../common/http.service';
 import { CommonService } from '../common/common.service';
+import { FilterPipe } from './course.pipe';
 
 @Component({
   selector: 'app-course',
@@ -21,11 +21,11 @@ export class CourseComponent implements OnInit {
   errorMsg: string;
   errorCode: string;
 
-  coursesPerPage = 50;
-  shownCourses = this.coursesPerPage;
+  private coursesPerPage = 50;
+  maxShown = this.coursesPerPage;
+  showShowMore = false;
 
-  constructor(private commonService: CommonService, private route: ActivatedRoute,
-              private router: Router, private httpService: HttpService) { }
+  constructor(private commonService: CommonService, private router: Router, private httpService: HttpService, private filterPipe: FilterPipe) { }
 
   ngOnInit() {
     // TODO: Kom med søgeforslag, hvis kurset ikke findes
@@ -33,11 +33,13 @@ export class CourseComponent implements OnInit {
       this.show = "courses";
       this.commonService.time = val.time;
       this.courses = val.courses;
+      this.showShowMore = this.getShownCourses() < this.courses.length;
     }).catch(reason => {
       this.show = "error";
       this.errorMsg = `Der skete en fejl ved hentningen af kurser`;
       this.errorCode = reason.statusText;
     });
+
   }
 
   setCourse(courseNo: string) {
@@ -52,12 +54,28 @@ export class CourseComponent implements OnInit {
     });
   }
 
-  get showShowMore(): boolean {
-    return this.shownCourses < this.courses.length;
+  onSearchChange(search: string) {
+    this.show = "courses";
+    this.search = search;
+    this.showShowMore = this.getShownCourses() < this.getListLength();
+  }
+
+  getShownCourses(): number {
+    return Math.min(this.getListLength(), this.maxShown);
+  }
+
+  getListLength(): number {
+    if (!this.search) return this.courses.length;
+    return this.filterPipe.transform(this.courses, this.search).length;
   }
 
   showMore() {
-    this.shownCourses += this.coursesPerPage;
-    this.shownCourses = Math.min(this.shownCourses, this.courses.length);
+    this.maxShown += this.coursesPerPage;
+    this.maxShown = Math.min(this.maxShown, this.courses.length);
+    this.onSearchChange(this.search);
+  }
+
+  getFirstCourse() {
+    return this.filterPipe.transform(this.courses, this.search);
   }
 }

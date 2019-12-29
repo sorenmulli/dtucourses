@@ -27,12 +27,12 @@ export class CourseInfoComponent implements OnInit {
 
   ngOnInit() {
     this.bgColours = {
-      grade: this.getHslColour(this.course.grades[0].exam_avg),
-      learning: this.getHslColour(this.course.eval_points[0].learning),
-      worklevel: this.getHslColour(this.course.eval_points[0].worklevel, true),
-      good: this.getHslColour(this.course.eval_points[0].good),
-      beer: this.getHslColour(this.course.composites.beer_points),
-      quality: this.getHslColour(this.course.composites.quality_points),
+      grade: this.getHslColour(this.course.grade_percentile),
+      learning: this.getHslColour(this.course.eval_percentiles.learning),
+      worklevel: this.getHslColour(this.course.eval_percentiles.worklevel, true),
+      good: this.getHslColour(this.course.eval_percentiles.good),
+      beer: this.getHslColour(this.course.composites.beer_percentiles),
+      quality: this.getHslColour(this.course.composites.quality_percentiles),
     };
   }
 

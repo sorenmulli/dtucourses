@@ -41,6 +41,7 @@ registerLocaleData(localeDA);
   ],
   providers: [
     CommonService,
+    FilterPipe,
     {provide: LOCALE_ID, useValue: "da"}
   ],
   bootstrap: [AppComponent]
