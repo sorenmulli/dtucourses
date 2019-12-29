@@ -1,4 +1,4 @@
-export interface BgColours {
+export interface IBgColours {
 	grade: string,
 	learning: string,
 	worklevel: string,

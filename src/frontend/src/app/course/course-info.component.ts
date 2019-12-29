@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
-
-import { ICourse, BgColours } from './course';
+import { ICourse, IBgColours } from './course';
+import MicroModal from "micromodal";
 
 
 @Component({
@@ -14,15 +14,7 @@ export class CourseInfoComponent implements OnInit {
   showStudieplan: boolean = false
 
   @Input() course: ICourse;
-  bgColours: {
-    grade: string;
-    learning: string;
-    worklevel: string;
-    good: string;
-    beer: string;
-    quality: string;
-  }
-
+  bgColours: IBgColours;
   constructor() { }
 
   ngOnInit() {
@@ -34,6 +26,16 @@ export class CourseInfoComponent implements OnInit {
       beer: this.getHslColour(this.course.composites.beer_percentiles),
       quality: this.getHslColour(this.course.composites.quality_percentiles),
     };
+
+    MicroModal.init();
+  }
+
+  openModal(id: string) {
+    MicroModal.show(id);
+  }
+
+  closeModal() {
+    MicroModal.close();
   }
 
   getHslColour(percentile: number, invert=false): string {
@@ -44,3 +46,5 @@ export class CourseInfoComponent implements OnInit {
     return `hsl(${percentile}, 100%, 50%)`
   }
 }
+
+
