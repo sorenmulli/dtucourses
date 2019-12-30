@@ -60,9 +60,7 @@ export class PlotlyComponent implements OnInit {
       }
     }
     // Dernæst sammenkøres de
-    console.log(this.layout);
     this.layout = {...this.layoutDefaults, ...this.layout};
-    console.log(this.layout);
     
     this.graph = Plotly.newPlot( 
       this.graph.nativeElement, 
