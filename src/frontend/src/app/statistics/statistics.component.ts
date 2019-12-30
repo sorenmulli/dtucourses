@@ -51,6 +51,7 @@ export class StatisticsComponent implements OnInit {
         },
       }
     }).catch(reason => {
+      console.log(reason);
       this.show = "error";
       this.errorMsg = reason.status + " " + reason.statusText;
     })

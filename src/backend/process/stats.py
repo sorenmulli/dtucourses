@@ -32,6 +32,9 @@ def mean_hist():
 		period, dist = pd["period"], pd["dist"]
 		avgs[period] = sum([x * y for x, y in zip(grades, dist)])
 		avgs[period] /= sum(dist)
+	avgs_list = list()
+	for period, avg in avgs.items():
+		avgs_list.append({"period": period, "avg": avg})
 	return avgs
 
 
