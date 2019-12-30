@@ -17,6 +17,10 @@ table.data-table td {
 	white-space: nowrap;
 }
 
+.modal__close {
+	width: unset;
+}
+
 @media only screen and (max-width: 1350px) {
 	iframe {
 		width: 100%;

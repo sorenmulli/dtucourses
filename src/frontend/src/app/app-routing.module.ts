@@ -9,6 +9,7 @@ import { DocsComponent } from './docs/docs.component';
 
 const routes: Routes = [
   {path: "", redirectTo: "course", pathMatch: "full"},
+  {path: "course", component: CourseComponent},
   {path: "course/:id", component: CourseComponent},
   {path: "statistics", component: StatisticsComponent},
   {path: "overview", component: OverviewComponent},

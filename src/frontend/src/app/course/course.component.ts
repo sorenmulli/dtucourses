@@ -45,6 +45,7 @@ export class CourseComponent implements OnInit {
   setCourse(courseNo: string) {
     this.show = "loading";
     this.httpService.getCourse(courseNo).then((course) => {
+      // this.router.navigateByUrl(`/${courseNo}`);
       this.show = "course";
       this.currentCourse = course;
     }).catch((reason) => {
@@ -55,6 +56,7 @@ export class CourseComponent implements OnInit {
   }
 
   onSearchChange(search: string) {
+    // this.router.navigateByUrl("course");
     this.show = "courses";
     this.search = search;
     this.showShowMore = this.getShownCourses() < this.getListLength();
