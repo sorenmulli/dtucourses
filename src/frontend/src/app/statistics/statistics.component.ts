@@ -25,7 +25,6 @@ export class StatisticsComponent implements OnInit {
 
   ngOnInit() {
     this.httpService.getStats().then(stats => {
-      console.log(stats);
       this.show = "plots";
       this.avgHist = {
         data: {
@@ -44,7 +43,6 @@ export class StatisticsComponent implements OnInit {
       }
     }).catch(reason => {
       this.show = "error";
-      console.log(reason);
       this.errorMsg = reason.status + " " + reason.statusText;
     })
   }

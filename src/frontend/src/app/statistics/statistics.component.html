@@ -14,11 +14,13 @@
 </div>
 
 <p>Nedenfor er en række statistikker om kurserne på DTU.</p>
-<div class="row" *ngIf="show === 'plot'">
+<div class="row" *ngIf="show === 'plots'">
 	<div class="col-12 col-md-6 container my-4">
+		hej1
 		<plotly [data]="avgHist.data" [layout]="avgHist.layout"></plotly>
 	</div>
 	<div class="col-12 col-md-6 container my-4">
-		<plotly [data]="gradeDist.data" [layout]="gradeDist.layout"></plotly>
+		hej2
+		<!-- <plotly [data]="gradeDist.data" [layout]="gradeDist.layout"></plotly> -->
 	</div>
 </div>
