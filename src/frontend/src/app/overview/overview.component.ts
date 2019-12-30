@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ICourseExpand } from './overview';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-overview',
@@ -21,18 +22,21 @@ export class OverviewComponent implements OnInit {
     beer: false,
     quality: false,
   };
+  show: "loading" | "error" | "courses" = "loading";
 
-  constructor(private httpClient: HttpClient) { }
+  constructor(private httpClient: HttpClient, private router: Router) { }
 
   async loadData() {
     try {
       this.courses = await this.httpClient.get<ICourseExpand[]>(
         "https://raw.githubusercontent.com/sorenmulli/dtucourses/master/src/backend/data/courses_expand.json"
       ).toPromise();
+      this.show = "courses";
       this.errorMsg = null;
     } catch(error) {
       this.courses = null;
-      this.errorMsg = error.status + ": " + error.statusText;
+      this.errorMsg = error.status + " " + error.statusText;
+      this.show = "error";
     };
   }
 
@@ -41,8 +45,7 @@ export class OverviewComponent implements OnInit {
   }
 
   sortCourses(by: string) {
-    console.log(this.reverseSort);
-    this.courses = this.courses.sort(
+    this.courses.sort(
       (a, b) => {
         let toReturn: number;
         if (a[by] === null) return 1;
@@ -61,5 +64,4 @@ export class OverviewComponent implements OnInit {
       };
     }
   }
-
 }

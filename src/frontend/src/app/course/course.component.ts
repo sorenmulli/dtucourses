@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute, Router } from "@angular/router";
 
 import { ICoursesMin, ICourseMin, ICourse } from './course';
@@ -28,12 +28,16 @@ export class CourseComponent implements OnInit {
   constructor(private commonService: CommonService, private router: Router, private httpService: HttpService, private filterPipe: FilterPipe) { }
 
   ngOnInit() {
+
     // TODO: Kom med søgeforslag, hvis kurset ikke findes
     this.httpService.getCoursesMin().then(val => {
       this.show = "courses";
       this.commonService.time = val.time;
       this.courses = val.courses;
       this.showShowMore = this.getShownCourses() < this.courses.length;
+      if (window.history.state.courseNo) {
+        this.setCourse(window.history.state.courseNo);
+      }
     }).catch(reason => {
       this.show = "error";
       this.errorMsg = `Der skete en fejl ved hentningen af kurser`;
@@ -51,7 +55,7 @@ export class CourseComponent implements OnInit {
       this.currentCourse = course;
     }).catch((reason) => {
       this.errorMsg = `Der skete en fejl ved hentningen af data om kursus ${courseNo}`;
-      this.errorCode = reason.statusText;
+      this.errorCode = reason.status + " " + reason.statusText;
       this.show = "error";
     });
   }
