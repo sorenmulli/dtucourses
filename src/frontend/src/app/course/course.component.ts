@@ -43,6 +43,7 @@ export class CourseComponent implements OnInit {
   }
 
   setCourse(courseNo: string) {
+    if (courseNo === null) return;
     this.show = "loading";
     this.httpService.getCourse(courseNo).then((course) => {
       // this.router.navigateByUrl(`/${courseNo}`);
@@ -77,7 +78,8 @@ export class CourseComponent implements OnInit {
     this.onSearchChange(this.search);
   }
 
-  getFirstCourse() {
-    return this.filterPipe.transform(this.courses, this.search);
+  getFirstCourse(): string {
+    const filtered = this.filterPipe.transform(this.courses, this.search)
+    return filtered ? filtered[0].course_no : null;
   }
 }
