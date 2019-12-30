@@ -7,7 +7,7 @@ import json
 with open("../data/complete_raw_data.json") as f:
 	crd = json.load(f)
 
-def avg_mean():
+def mean_hist():
 	grades = {}
 	for course_no, course in crd.items():
 		if course_no == "time":
@@ -46,7 +46,7 @@ def grade_dist():
 
 if __name__ == "__main__":
 	stats = {
-		"avg_mean": avg_mean(),
+		"mean_hist": mean_hist(),
 		"grade_dist": grade_dist(),
 	}
 	with open("../data/stats.json", "w", encoding="utf-8") as f:

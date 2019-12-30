@@ -25,7 +25,7 @@
 	<p>Viser {{getShownCourses()}} af {{getListLength()}} kurser</p>
 	
 	<!-- Viser søgeresultater -->
-	<table class="table table--zebra">
+	<table class="table table--responsive-headers">
 		<thead>
 			<tr>
 				<th>Nummer</th>
@@ -37,13 +37,13 @@
 		</thead>
 		<tbody>
 			<tr *ngFor="let course of courses | filterCourses:search | slice:0:maxShown">
-				<td>
+				<td [attr.data-title]="'Kursusnummer'">
 					<a href="javascript:void(0)" (click)="setCourse(course.course_no)">{{course.course_no}}</a>
 				</td>
-				<td>{{course.name}}</td>
-				<td><div style="text-align: right">{{course.ECTS | number:"1.0-1"}}</div></td>
-				<td>{{course.language}}</td>
-				<td>{{course.level}}</td>
+				<td [attr.data-title]="'Kursusnavn'">{{course.name}}</td>
+				<td [attr.data-title]="'ECTS-point'"><div class="align-text-md-right">{{course.ECTS | number:"1.0-1"}}</div></td>
+				<td [attr.data-title]="'Sprog'">{{course.language}}</td>
+				<td [attr.data-title]="'Niveau'">{{course.level}}</td>
 			</tr>
 		</tbody>
 	</table>

@@ -48,13 +48,12 @@ export class PlotlyComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.data);
 
     // Lægger defaults til modtaget data og layout
     for (let dat of this.data) {
       dat = {...this.dataDefaults, ...dat}
     }
-    // Starter med at kombinere alle layoutting, der objekter
+    // Starter med at kombinere alle layoutting, der er objekter
     for (let key of Object.keys(this.layout)) {
       if (typeof this.layout[key] === "object") {
         this.layout[key] = {...this.layoutDefaults[key], ...this.layout[key]}
