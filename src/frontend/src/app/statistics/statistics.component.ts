@@ -3,7 +3,7 @@ import { HttpService } from '../common/http.service';
 import { IData, ILayout } from '../plotly/plotly';
 
 interface IPlotInput {
-  data: IData;
+  data: IData[];
   layout: ILayout;
 }
 
@@ -27,19 +27,28 @@ export class StatisticsComponent implements OnInit {
     this.httpService.getStats().then(stats => {
       this.show = "plots";
       this.avgHist = {
-        data: {
+        data: [{
           x: stats.mean_hist.map((val, index) => index + 1),
           y: stats.mean_hist.map(val => val.avg),
+        }],
+        layout: {
+          title: "Karakterfordeling på tværs af alle kurser",
+          xaxis: {...this.getTickLayout(stats.mean_hist.map(val => this.formatPeriod(val.period))), title: "Eksamensperiode"},
+          yaxis: {title: "Karaktergennemsnit"},
         },
-        layout: {xaxis: this.getTickLayout(stats.mean_hist.map(val => this.formatPeriod(val.period)))},
       };
       const latestGradeDist = stats.grade_dist[stats.grade_dist.length-1];
       this.gradeDist = {
-        data: {
+        data: [{
           x: this.grades.map((val, index) => index + 1),
-          y: latestGradeDist.dist,
+          y: latestGradeDist.dist.map((val, index) => latestGradeDist.dist[latestGradeDist.dist.length-index-1]),
+          type: "bar",
+        }],
+        layout: {
+          title: `Karakfordeling for ${this.formatPeriod(latestGradeDist.period)}`,
+          xaxis: {...this.getTickLayout(this.grades), title: "Karakter"},
+          yaxis: {title: "Antal givne karakterer"},
         },
-        layout: {xaxis: this.getTickLayout(this.grades)},
       }
     }).catch(reason => {
       this.show = "error";

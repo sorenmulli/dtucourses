@@ -30,7 +30,8 @@
             ],
             "scripts": [
               "node_modules/dkfds/dist/js/dkfds.min.js",
-              "node_modules/micromodal/dist/micromodal.min.js"
+              "node_modules/micromodal/dist/micromodal.min.js",
+              "src/assets/plotly.min.js"
             ]
           },
           "configurations": {

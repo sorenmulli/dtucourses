@@ -1,6 +1,3 @@
-<p>Denne side er stadig under udvikling. I mellemtiden kan du nyde denne smukke Playboy-model.</p>
-<img src="../../assets/Mike1.webp">
-
 <div *ngIf="show === 'loading'">
 	<div class="lds-spinner m-auto d-block"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 </div>
@@ -13,14 +10,11 @@
 	</div>
 </div>
 
-<p>Nedenfor er en række statistikker om kurserne på DTU.</p>
 <div class="row" *ngIf="show === 'plots'">
-	<div class="col-12 col-md-6 container my-4">
-		hej1
+	<div class="col-12 col-md-6 my-4">
 		<plotly [data]="avgHist.data" [layout]="avgHist.layout"></plotly>
 	</div>
-	<div class="col-12 col-md-6 container my-4">
-		hej2
-		<!-- <plotly [data]="gradeDist.data" [layout]="gradeDist.layout"></plotly> -->
+	<div class="col-12 col-md-6 my-4">
+		<plotly [data]="gradeDist.data" [layout]="gradeDist.layout"></plotly>
 	</div>
 </div>

@@ -49,9 +49,6 @@ export class PlotlyComponent implements OnInit {
 
   ngOnInit() {
 
-    console.log(this.data);
-    console.log(this.layout);
-
     // Lægger defaults til modtaget data og layout
     for (let dat of this.data) {
       dat = {...this.dataDefaults, ...dat}
@@ -63,7 +60,9 @@ export class PlotlyComponent implements OnInit {
       }
     }
     // Dernæst sammenkøres de
+    console.log(this.layout);
     this.layout = {...this.layoutDefaults, ...this.layout};
+    console.log(this.layout);
     
     this.graph = Plotly.newPlot( 
       this.graph.nativeElement, 
