@@ -35,7 +35,7 @@ def mean_hist():
 	avgs_list = list()
 	for period, avg in avgs.items():
 		avgs_list.append({"period": period, "avg": avg})
-	return avgs
+	return avgs_list
 
 
 if __name__ == "__main__":

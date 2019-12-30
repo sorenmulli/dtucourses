@@ -6,6 +6,9 @@
 <div *ngIf="show === 'error'" class="alert alert-error alert--show-icon">
   <div class="alert-body">
     <div class="alert-heading">
+      Der skete desværre en fejl ved hentningen af kurser
+    </div>
+    <div class="alert-text" *ngIf="errorMsg !== 'undefined undefined'">
       {{errorMsg}}
     </div>
   </div>
