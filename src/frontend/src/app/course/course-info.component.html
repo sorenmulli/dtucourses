@@ -128,7 +128,7 @@
         <h3 class="h4">Kursusbeskrivelse for {{course.info.course_no}} {{course.info.name}}</h3>
       </div>
       <div class="modal__content">
-        <iframe [src]="('https://kurser.dtu.dk/course/' + course.info.course_no) | safe" tabindex="0"></iframe>
+        <iframe [src]="('https://kurser.dtu.dk/course/' + course.info.course_no) | safe"></iframe>
       </div>
     </div>
   </div>
@@ -141,7 +141,7 @@
         <h3 class="h4">Studieplanlægger</h3>
       </div>
       <div class="modal__content">
-        <iframe src="https://studieplan.dtu.dk"></iframe>
+        <iframe src="https://studieplan.dtu.dk" tabindex="0"></iframe>
       </div>
       <button class="modal__close button button-secondary" (click)="closeModal()" tabindex="-1">Luk</button>
     </div>
