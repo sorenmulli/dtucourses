@@ -1,5 +1,3 @@
-undefined
-
 @angular-devkit/build-angular
 MIT
 The MIT License
@@ -27,6 +25,12 @@ SOFTWARE.
 
 @angular/animations
 MIT
+
+dkfds
+
+dkfds-plugins
+
+undefined
 
 @angular/cdk
 MIT
@@ -87,11 +91,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-@angular/material/form-field
-
 @angular/material/icon
-
-@angular/material/tooltip
 
 @angular/platform-browser
 MIT
@@ -121,6 +121,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
+
+micromodal
+ISC
 
 regenerator-runtime
 MIT
