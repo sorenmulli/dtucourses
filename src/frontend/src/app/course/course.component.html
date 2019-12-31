@@ -18,7 +18,10 @@
 </div>
 
 <!-- Viser kursusinfo -->
-<course-info [course]="currentCourse" *ngIf="show === 'course'"></course-info>
+<div *ngIf="show === 'course'">
+	<a href="javascript:void(0);" class="back-link" (click)="onSearchChange(search)">Tilbage til kursuslisten</a>
+	<course-info [course]="currentCourse"></course-info>
+</div>
 
 <div *ngIf="show === 'courses'" class="table--responsive-scroll">
 
