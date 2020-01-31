@@ -5,7 +5,7 @@ from datetime import datetime
 def scrape_all_grades(course_n):
 	grade_information = dict()
 
-	for year in range(2019, datetime.now().year):
+	for year in range(2010, datetime.now().year):
 		# Tries winter
 		url = 'http://karakterer.dtu.dk/Histogram/1/%s/Winter-%s' % (course_n, str(year))
 		result = scrape_grades_url(url)
