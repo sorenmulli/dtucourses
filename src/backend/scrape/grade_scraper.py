@@ -1,19 +1,18 @@
 import requests
 from bs4 import BeautifulSoup
-
+from datetime import datetime
 
 def scrape_all_grades(course_n):
 	grade_information = dict()
 
-	for year in range(2010, 2020):
-		#Tries summer of that year (not for 2019)
-		if not year == 2019:
-			url = 'http://karakterer.dtu.dk/Histogram/1/%s/Winter-%s' % (course_n, str(year))
-			result = scrape_grades_url(url)
-			if result:
-				grade_information[str(year) + "winter"] = result
+	for year in range(2019, datetime.now().year):
+		# Tries winter
+		url = 'http://karakterer.dtu.dk/Histogram/1/%s/Winter-%s' % (course_n, str(year))
+		result = scrape_grades_url(url)
+		if result:
+			grade_information[str(year) + "winter"] = result
 
-		#Tries winter of that year
+		#Tries summer
 		url = 'http://karakterer.dtu.dk/Histogram/1/%s/Summer-%s' % (course_n, str(year))
 		result = scrape_grades_url(url)
 		if result:
