@@ -14,7 +14,7 @@ import { PlotlyComponent } from './plotly/plotly.component';
 import { FilterPipe, SafePipe } from './course/course.pipe';
 import { registerLocaleData } from '@angular/common';
 import { HttpClientModule } from "@angular/common/http";
-import { MatIconModule } from "@angular/material";
+import { MatIconModule } from "@angular/material/icon";
 import { CommonService } from "src/app/common/common.service";
 
 registerLocaleData(localeDA);
