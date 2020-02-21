@@ -12,7 +12,7 @@ rm -rf ../../docs
 mkdir ../../docs
 # rm -rf !(.git|.gitignore|src|docs)
 
-ng build --prod
+npm run-script build-prod
 yes | cp -r dist/frontend/* ../../docs
 python injector.py
 
