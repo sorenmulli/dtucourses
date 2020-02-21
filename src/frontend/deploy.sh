@@ -14,7 +14,7 @@ mkdir ../../docs
 
 npm run-script build-prod
 yes | cp -r dist/frontend/* ../../docs
-python injector.py
+# python injector.py
 
 git add -A
 git commit -m"${1:-Nyt build}"
