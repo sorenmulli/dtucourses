@@ -45,4 +45,4 @@ if __name__ == "__main__":
 	}
 	with open("../data/stats.json", "w", encoding="utf-8") as f:
 		json.dump(stats, f)
-	
+

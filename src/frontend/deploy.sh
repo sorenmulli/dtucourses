@@ -13,6 +13,7 @@ mkdir ../../docs
 # rm -rf !(.git|.gitignore|src|docs)
 
 npm run-script build-prod
+cp dist/frontend/index.html dist/frontend/404.html
 yes | cp -r dist/frontend/* ../../docs
 # python injector.py
 

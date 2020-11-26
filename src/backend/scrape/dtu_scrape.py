@@ -100,25 +100,19 @@ def scrape_all(N_processes = 12):
 
 #	course_list = scrape_loop(course_list)
 	for course in course_list:
-		course_dict[course["info"]["course_no"]] = course 
-		# with open("src/backend/data/%s.json" % course, "w") as f:
-		# 	json.dump(course, f, indent=4)
+		course_dict[course["info"]["course_no"]] = course
 
 	print("N found courses:", len(course_list))
 
 	with open('src/backend/data/complete_raw_data.json', 'w+') as fp:
 		json.dump(course_dict, fp, indent=4)
-	# with open("src/frontend/src/assets/complete_raw_data.json", "w") as fp:
-	# 	json.dump(raw_database, fp, indent=4, sort_keys=True)
 
 def scrape_loop(course_list):
 	N = len(course_list)
 
 	for i, course in enumerate(course_list):
-		number = course["info"]["course_no"]
-
 		error = 0
-		
+		number = course["info"]["course_no"]
 		try:
 			grade_info = scrape_all_grades(number)
 			course["grades"] = grade_info
@@ -126,7 +120,7 @@ def scrape_loop(course_list):
 			course["grades"] = {}
 			error = 1
 			print("\tGrade error", number, e)
-			
+
 		try:
 			eval_info = scrape_all_evals(number)
 			course["evals"] = eval_info
