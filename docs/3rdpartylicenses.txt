@@ -144,6 +144,9 @@ dkfds
 
 dkfds-plugins
 
+micromodal
+ISC
+
 regenerator-runtime
 MIT
 MIT License
