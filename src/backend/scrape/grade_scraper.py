@@ -5,20 +5,25 @@ from datetime import datetime
 def scrape_all_grades(course_n):
 	grade_information = dict()
 
+	winter_lim = datetime(datetime.now().year+1, 1, 1)
+	summer_lim = datetime(datetime.now().year, 6, 1)
+
 	for year in range(2010, datetime.now().year+1):
+
+		# Tries summer
+		if year < datetime.now().year or datetime.now() > summer_lim:
+			url = 'http://karakterer.dtu.dk/Histogram/1/%s/Summer-%s' % (course_n, str(year))
+			result = scrape_grades_url(url)
+			if result:
+				grade_information[str(year) + "summer"] = result
+
 		# Tries winter
-		url = 'http://karakterer.dtu.dk/Histogram/1/%s/Winter-%s' % (course_n, str(year))
-		result = scrape_grades_url(url)
-		if result:
-			grade_information[str(year) + "winter"] = result
+		if year < datetime.now().year or datetime.now() > winter_lim:
+			url = 'http://karakterer.dtu.dk/Histogram/1/%s/Winter-%s' % (course_n, str(year))
+			result = scrape_grades_url(url)
+			if result and (year == datetime.now().year and datetime.now() >= winter_lim):
+				grade_information[str(year) + "winter"] = result
 
-		#Tries summer
-		url = 'http://karakterer.dtu.dk/Histogram/1/%s/Summer-%s' % (course_n, str(year))
-		result = scrape_grades_url(url)
-		if result:
-			grade_information[str(year) + "summer"] = result
-
-	
 	return grade_information
 
 

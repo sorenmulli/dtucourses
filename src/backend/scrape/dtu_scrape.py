@@ -29,9 +29,9 @@ def get_full_course_list_html() -> str:
 	browser = webdriver.Firefox(options = options)
 	print("Getting list of all courses")
 	browser.get(URL)
-	time.sleep(5)
+	time.sleep(10)
 	browser.execute_script("javascript:setLanguage('da-DK')")
-	time.sleep(5)
+	time.sleep(10)
 	return browser.page_source
 
 def get_course_information():
@@ -147,4 +147,4 @@ def scrape_loop(course_list):
 	return course_list
 
 if __name__ == "__main__":
-	scrape_all(N_processes = 16)
+	scrape_all(N_processes = 32)

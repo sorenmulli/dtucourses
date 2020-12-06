@@ -5,22 +5,20 @@ import json
 def scrape_all_evals(course_n):
 	eval_information = dict()
 
-	#Establish connection to CourseSearch
-	page = requests.post('https://evaluering.dtu.dk/CourseSearch', data = 
-		{"courseNumber":course_n,
-		"termUid":"",
-		"SearchButton":"Søg"}
-	)
+	# Establish connection to CourseSearch
+	page = requests.post('https://evaluering.dtu.dk/CourseSearch', data = {
+		"courseNumber": course_n,
+		"termUid":      "",
+		"SearchButton": "Søg"
+	})
 
 	if page.status_code != 200:
-		print("Course eval page could not be reached, code: %s, course: %s" % (page.status_code, course_n)) 
+		print("Course eval page could not be reached, code: %s, course: %s" % (page.status_code, course_n))
 		raise ValueError
 
 	soup = BeautifulSoup(page.text, 'html.parser')
-#	with open("src/backend/scrape/ex.html", 'r+') as outfile:
-#		outfile.write(soup.prettify())
-	
-	#Get all evaluation results from courseSearch
+
+	# Get all evaluation results from courseSearch
 	result_list = soup.find('div', id = 'CourseList')
 	try:
 		all_results = result_list.find_all('div', class_ = 'ResultsPublicRow')
