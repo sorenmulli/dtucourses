@@ -15,14 +15,14 @@ def scrape_all_grades(course_n):
 			url = 'http://karakterer.dtu.dk/Histogram/1/%s/Summer-%s' % (course_n, str(year))
 			result = scrape_grades_url(url)
 			if result:
-				grade_information[str(year) + "summer"] = result
+				grade_information["%isummer" % year] = result
 
 		# Tries winter
 		if year < datetime.now().year or datetime.now() > winter_lim:
 			url = 'http://karakterer.dtu.dk/Histogram/1/%s/Winter-%s' % (course_n, str(year))
 			result = scrape_grades_url(url)
-			if result and (year == datetime.now().year and datetime.now() >= winter_lim):
-				grade_information[str(year) + "winter"] = result
+			if result:
+				grade_information["%iwinter" % year] = result
 
 	return grade_information
 

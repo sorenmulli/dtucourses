@@ -147,4 +147,4 @@ def scrape_loop(course_list):
 	return course_list
 
 if __name__ == "__main__":
-	scrape_all(N_processes = 32)
+	scrape_all(N_processes = 4 * mp.cpu_count())
