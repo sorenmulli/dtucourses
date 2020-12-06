@@ -18,32 +18,6 @@ yes | cp -r dist/frontend/* ../../docs
 # python injector.py
 
 git add -A
-git commit -m"${1:-Nyt build}"
+git commit -m"${1:-New build}"
 git pull
 git push
-
-
-
-
-# Pusher til gh-pages
-# git add -A
-# git commit -m"${1:-Påbegynder deploy}"
-# git pull
-# git push
-
-# git branch gh-pages
-# git checkout gh-pages
-
-# ng build --prod
-# yes | cp -rf dist/frontend/* ../..
-# rm -rf dist
-
-# git add -A
-# git commit -m"${1:-Nyt build}"
-# git push origin gh-pages -f
-# git checkout master
-# git branch -D gh-pages
-
-
-
-

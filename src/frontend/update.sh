@@ -6,5 +6,5 @@ cd "$(dirname "$0")"
 /usr/local/bin/python3 ../backend/process/rate_courses.py
 /usr/local/bin/python3 ../backend/process/stats.py
 
-./deploy.sh "Opdateret kursusdatabase"
+./deploy.sh "Update course database"
 

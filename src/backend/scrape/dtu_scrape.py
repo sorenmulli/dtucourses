@@ -2,7 +2,6 @@ from os import chdir, getcwd
 from os.path import dirname, realpath
 chdir(realpath(dirname(__file__)))
 
-import requests
 from bs4 import BeautifulSoup
 import multiprocessing as mp
 
@@ -11,65 +10,78 @@ from eval_scraper import scrape_all_evals
 chdir(getcwd() + "/../../..")
 
 import json
-import time 
+import time
 import sys
-'''
-	Requires manually downloaded HTML-page (complete webpage) called dtucourses.html located in scrape downloaded from
-	http://kurser.dtu.dk/search?CourseCode=&SearchKeyword=&Department=1&Department=10&Department=11&Department=12&Department=13&Department=22&Department=23&Department=24&Department=25&Department=26&Department=27&Department=28&Department=29&Department=30&Department=31&Department=33&Department=34&Department=36&Department=38&Department=41&Department=42&Department=46&Department=47&Department=59&Department=IHK&Department=83&CourseType=&TeachingLanguage=
-'''
+from selenium import webdriver
+
+URL = "http://kurser.dtu.dk/search?CourseCode=&SearchKeyword=&Department=1&Department=10&Department=11&Department=12&Department=13&Department=22&Department=23&Department=24&Department=25&Department=26&Department=27&Department=28&Department=29&Department=30&Department=31&Department=33&Department=34&Department=36&Department=38&Department=41&Department=42&Department=46&Department=47&Department=59&Department=IHK&Department=83&CourseType=&TeachingLanguage="
 
 sys.setrecursionlimit(25000)
 
+def get_full_course_list_html() -> str:
+	"""
+	Get list of all courses as html page. HTML when going to URL
+	Requires geckodriver to work (install on arch with sudo pacman -S geckodriver)
+	"""
+	print("Starting Firefox in headless mode")
+	options = webdriver.FirefoxOptions()
+	options.add_argument("--headless")
+	browser = webdriver.Firefox(options = options)
+	print("Getting list of all courses")
+	browser.get(URL)
+	time.sleep(5)
+	browser.execute_script("javascript:setLanguage('da-DK')")
+	time.sleep(5)
+	return browser.page_source
+
 def get_course_information():
-	'''
-	'''
 	courses = list()
 
-	soup =  BeautifulSoup(open("src/backend/scrape/dtucourses.html"), "html.parser")
-	
+	soup =  BeautifulSoup(get_full_course_list_html(), "html.parser")
+
 	result = soup.find(class_ = "panel panel-default")
 	course_objects = result.table.tbody.find_all("tr")
 
 	for course in course_objects:
-		#skip headers
+		# Skip headers
 		if len(course.contents) < 4:
 			continue
-		
+
 		info = dict()
 
-		#Using leftmost course information 
+		# Using leftmost course information
 		course.contents[3].small
 		info_string = course.contents[3].small.contents[0]
 		info_list = info_string.split("|")
 
-		#Course language and ECTS
+		# Course language and ECTS
 		info["language"] = info_list[0].strip()
 		ects_str = info_list[1].split()[0]
 		try:
 			info["ECTS"] = int(ects_str)
 		except ValueError:
 			info["ECTS"] = float(ects_str)
-		
-		#Course time
+
+		# Course time
 		time_data = course.contents[3].small.contents[3:]
 		info["time"] = " ".join([str(td.string).strip() if td.string is not None else "" for td in time_data]).strip()
 
-		#Course level
+		# Course level
 		info["level"] = course.contents[5].string.strip()
 
-		#Course name
+		# Course name
 		course_name = course.a.string[course.a.string.index("-")+1:]
 		info["name"] = course_name.strip()
 
-		#Course number
+		# Course number
 		course_link = course.a["href"]
 		course_n = course_link.split("/")[-1]
 		info["course_no"] = course_n
-		
+
 		courses.append(
 			{"info": info}
 		)
-	return courses 
+	return courses
 
 def chunks(l, n):
     """Yield successive n-sized chunks from l."""
@@ -78,9 +90,9 @@ def chunks(l, n):
 
 def scrape_all(N_processes = 12):
 	'''
-	Scrapes all course information, grades, evaluations for each course. 
+	Scrapes all course information, grades, evaluations for each course.
 	'''
-	nowtime = time.strftime('%Y-%m-%dT%H%M%S', time.localtime()) 
+	nowtime = time.strftime('%Y-%m-%dT%H%M%S', time.localtime())
 	cleantime = nowtime.split('T')[0]
 	course_dict = dict()
 
@@ -92,7 +104,7 @@ def scrape_all(N_processes = 12):
 	course_list = get_course_information()
 
 	print("Beginning scrape of %s courses ... " % len(course_list))
-	
+
 	#multiprocessing of course downloads
 	with mp.Pool(processes = N_processes) as p:
 		mushed_course_list = p.map(scrape_loop, chunks(course_list, len(course_list) // N_processes))
@@ -131,8 +143,8 @@ def scrape_loop(course_list):
 
 		if not error:
 			print("Completely scraped %s (%s/%s)" %(number, i+1, N))
-	
+
 	return course_list
 
 if __name__ == "__main__":
-	scrape_all(N_processes = 64)
+	scrape_all(N_processes = 16)
