@@ -1,6 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ICourse, IBgColours } from './course';
-import MicroModal from "micromodal";
 
 
 @Component({
@@ -26,16 +25,6 @@ export class CourseInfoComponent implements OnInit {
       beer: this.getHslColour(this.course.composites.beer_percentiles),
       quality: this.getHslColour(this.course.composites.quality_percentiles),
     };
-
-    MicroModal.init();
-  }
-
-  openModal(id: string) {
-    MicroModal.show(id);
-  }
-
-  closeModal() {
-    MicroModal.close();
   }
 
   getHslColour(percentile: number, invert=false): string {

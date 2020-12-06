@@ -25,7 +25,7 @@ export class CourseComponent implements OnInit {
   maxShown = this.coursesPerPage;
   showShowMore = false;
 
-  constructor(private commonService: CommonService, private router: Router, private httpService: HttpService, private filterPipe: FilterPipe) { }
+  constructor(private commonService: CommonService, private httpService: HttpService, private filterPipe: FilterPipe) { }
 
   ngOnInit() {
 
