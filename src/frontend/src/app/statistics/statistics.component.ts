@@ -45,7 +45,7 @@ export class StatisticsComponent implements OnInit {
           type: "bar",
         }],
         layout: {
-          title: `Karakfordeling for ${this.formatPeriod(latestGradeDist.period)}`,
+          title: `Karakterfordeling for ${this.formatPeriod(latestGradeDist.period)}`,
           xaxis: {...this.getTickLayout(this.grades), title: "Karakter"},
           yaxis: {title: "Antal givne karakterer"},
         },
